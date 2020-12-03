@@ -1,6 +1,10 @@
 # Tutoring
 Repository per condivisione di materiale utile al tutoring.
 
+## Appunti
+- Materiale condiviso: [Link](https://drive.google.com/drive/folders/1vMPaJSkE37-_iz1-Z7v2Vb4CY0NSxGL_?usp=sharing)
+
+
 ## Tools
 
 ### Generici
