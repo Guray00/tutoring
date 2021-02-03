@@ -1,0 +1,2 @@
+language = "java10"
+run = "javac tutoring/Java/Esercizi/Albergo/EsAlbergo.java"
