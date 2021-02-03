@@ -7,7 +7,7 @@ public class Prenotazione {
     private Camera camera;
 
     // costruttore di default
-    public Prenotazione(){
+    public Prenotazione() {
         dataInizio = null;
         dataFine = null;
         nomeCliente = "";
@@ -15,7 +15,7 @@ public class Prenotazione {
     }
 
     // costruttore con parametri
-    public Prenotazione(GregorianCalendar dataInizio, GregorianCalendar dataFine, String nomeCliente, Camera camera){
+    public Prenotazione(GregorianCalendar dataInizio, GregorianCalendar dataFine, String nomeCliente, Camera camera) {
         this.dataInizio = dataInizio;
         this.dataFine = dataFine;
         this.nomeCliente = nomeCliente;
@@ -23,7 +23,7 @@ public class Prenotazione {
     }
 
     // costruttore di copia
-    public Prenotazione(Prenotazione c){
+    public Prenotazione(Prenotazione c) {
         this.dataInizio = c.dataInizio;
         this.dataFine = c.dataFine;
         this.nomeCliente = c.nomeCliente;
@@ -62,10 +62,8 @@ public class Prenotazione {
         return camera;
     }
 
-    /* Prenotazione
-      * --> DataInizio: GregorianCalendar
-      * --> DataFine:   GregorianCalendar
-      * --> NomeCliente: String
-      * --> camera: Camera
-      */
+    /*
+     * Prenotazione --> DataInizio: GregorianCalendar --> DataFine:
+     * GregorianCalendar --> NomeCliente: String --> camera: Camera
+     */
 }
