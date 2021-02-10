@@ -17,7 +17,7 @@ public class ViaggioPerSingoli extends Viaggio{
         String tmp ="Titolo: " + this.getTitolo() + " Costo: " +this.calcoloCosto() + " Quota Fissa: " + this.getQuotaFissa() + "\n";
 
         for (int i = 0; i < getLista().size(); i++){
-            tmp += "\t(" + getLista().get(i).getLuogo() + " " + getLista().get(i).getDescrizione()+ ")\n";
+           tmp += "\t(" + getLista().get(i).toString() + ")\n";
         }
 
         return tmp;

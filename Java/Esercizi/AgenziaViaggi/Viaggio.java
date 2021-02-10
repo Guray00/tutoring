@@ -22,7 +22,7 @@ public abstract class Viaggio {
     }
 
     public abstract float  calcoloCosto(); // metodo astratto, non può essere richia
-    public abstract String  toString(); // metodo astratto, non può essere richia
+    public abstract String  toString();    // metodo astratto, non può essere richia
 
     public void rimozioneGiorno(Giorno g){
         for(int i = 0; i < lista.size(); i++){

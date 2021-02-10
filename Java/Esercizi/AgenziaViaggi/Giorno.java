@@ -50,4 +50,8 @@ public class Giorno {
     public String getDescrizione() {
         return descrizione;
     }
+
+	public String toString(){
+		return "luogo: " + getLuogo() + " descrizione: " + getDescrizione();
+	}
 }

@@ -1,4 +1,4 @@
-import java.lang.reflect.Array;
+  import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class AgenziaViaggi {
@@ -41,11 +41,14 @@ public class AgenziaViaggi {
 
         //ArrayList<Viaggio> test = a.viaggiCostoInferiore(800);
 
-        ArrayList<ViaggioPerGruppi> test = a.giorniSuperati(1);
+        /*ArrayList<ViaggioPerGruppi> test = a.giorniSuperati(1);
         for (int i = 0; i < test.size(); i++){
             System.out.println(test.get(i).toString());
-        }
+        }*/
 
-
+		ViaggioPerSingoli test = a.piuCostosoSingoli();
+        
+            System.out.println(test.toString());
+        
     }
 }

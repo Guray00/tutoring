@@ -208,6 +208,103 @@ public class Agenzia {
     public ArrayList<Viaggio> getViaggi() {
         return viaggi;
     }
+
+	// ========================================
+	//				CONTINUO
+	// ========================================
+	 
+    /*public Viaggio piuCostoso(){
+        float max = viaggi.get(0).getCosto();
+        int pos = 0;
+        
+        for(int i = 1; i < viaggi.size(); i++){
+          if(max < viaggi.get(i).getCosto()){
+            max = viaggi.get(i).getCosto();
+            pos = i;
+          }
+        }
+
+        return viaggi.get(pos);
+    }*/
+
+
+
+    private Viaggio piuCostosoUtility(int t){
+        
+        // valore più grande: 100
+        // posizione: 4
+
+        //  10 50 60 23 100
+
+        float max = 0;
+        int pos = -1;
+        
+        for(int i = 0; i < viaggi.size(); i++){
+
+          if(max < viaggi.get(i).getCosto()){
+			  // controllo tutti
+			  if (t == 0){
+					max = viaggi.get(i).getCosto();
+            		pos = i;
+			  }
+
+			  // controllo solo i singoli
+			  else if (t == 1){
+				  if (viaggi.get(i) instanceof ViaggioPerSingoli){
+					max = viaggi.get(i).getCosto();
+            		pos = i;
+				  }
+			  }
+
+			  // controllo solo i gruppi
+			  else if (t == 2){
+				  if (viaggi.get(i) instanceof ViaggioPerGruppi){
+					max = viaggi.get(i).getCosto();
+            		pos = i;
+				  }
+			  }
+           
+          }
+
+        }
+
+		if (pos == -1){
+			return null;
+		}
+		
+		else{
+        	return viaggi.get(pos);
+		}
+    }
+
+	public Viaggio piuCostoso(){
+		return piuCostosoUtility(0);
+	}
+
+	public ViaggioPerSingoli piuCostosoSingoli(){
+		return (ViaggioPerSingoli) piuCostosoUtility(1);
+	}
+
+	public ViaggioPerGruppi piuCostosoGruppi(){
+		return (ViaggioPerGruppi) piuCostosoUtility(2);
+	}
+
+	// Dato un giorno, restituire tutti i viaggi che hanno in comune tale giorno
+    public ArrayList<Viaggio> viaggiInComune(Giorno g){
+      ArrayList<Viaggio> tmp = new ArrayList<Viaggio>();
+
+      for(int i = 0; i < viaggi.size(); i++){
+        for(int j = 0; j < viaggi.get(i).getLista().size(); j++){
+		  if(viaggi.get(i).getLista().get(j).equals(g)){
+            tmp.add(viaggi.get(i));
+          }
+        }
+      }
+	  
+      return tmp;
+    }
+
+	
 }
 
 

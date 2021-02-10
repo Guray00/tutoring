@@ -50,8 +50,13 @@ public class ViaggioPerGruppi extends Viaggio{
     public String toString(){
         String tmp ="Titolo: " + this.getTitolo() + " Costo: " +this.calcoloCosto() + " Quota Fissa: " + this.getQuotaFissa() + " Max Partecipanti: "+ getMaxPartecipanti() + " Min Partecipanti: "+ getMinPartecipanti() + "\n";
 
+
+		// viaggio
+			// lista -> elenco di giorni
+
         for (int i = 0; i < getLista().size(); i++){
-            tmp += "\t(" + getLista().get(i).getLuogo() + " " + getLista().get(i).getDescrizione()+ ")\n";
+			// aggiungo una tabulazione + informazioni del giorno + a capo
+            tmp += "\t(" + getLista().get(i).toString() + ")\n";
         }
 
         return tmp;
