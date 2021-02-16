@@ -10,7 +10,7 @@ public class Cocktail {
     return nome;
   }
 
-  public voi setComponenti(Componente componenti){
+  public void setComponenti(Componente componenti){
     
   }
 
