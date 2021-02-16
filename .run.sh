@@ -1,7 +1,7 @@
 
 # =============================================
-			MAIN="AgenziaViaggi"
-			FOLDER="AgenziaViaggi"
+			MAIN="EsercizioCocktail"
+			FOLDER="Cocktail"
 			LANGUAGE="Java"
 # =============================================
 

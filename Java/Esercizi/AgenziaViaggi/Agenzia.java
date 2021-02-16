@@ -15,7 +15,7 @@ public class Agenzia {
             if (viaggi.get(i).calcoloCosto() <= costo){
                 // dobbiamo inserire il viaggio
 
-                // 325 -> 270  300  320  325  350  370
+                // ESEMPIO: 325 -> 270  300  320  325  350  370
 
                 int j = 0;
                 while (j < viaggiInferiore.size() && viaggi.get(i).calcoloCosto() < viaggiInferiore.get(j).calcoloCosto()){
@@ -25,14 +25,13 @@ public class Agenzia {
                 viaggiInferiore.add(j, viaggi.get(i));
             }
 
-            else{
-                // non inseriamo il viaggio
-            }
-
+            else{ /* non inseriamo il viaggio*/}
         }
 
         return viaggiInferiore;
     }
+
+	// RAGIONAMENTO
     // add(intero, elemento);
     /* scorriamo la lista dei viaggi
           costa meno di costo?
@@ -44,8 +43,10 @@ public class Agenzia {
     */
 
 
+	// CENNO TEORICO
     // instance of consente di verificare all'interno di una lista della classe base "Viaggio"
     // se gli elementi presenti, istanze di tipo classe derivato, sono di un tipo piuttosto che un altro
+
 
     // metodo n. 7
     public ArrayList<Viaggio> viaggioSingoli(String luogo){
@@ -81,7 +82,6 @@ public class Agenzia {
 
                     viaggioSingoli.add(k, viaggi.get(i));
                 }
-
             }
         }
 
@@ -105,22 +105,7 @@ public class Agenzia {
 
                     int j = 0;
 
-                    // 13-> 5 6 10 12 --
-
-                    /*
-                      AND
-                    * V V V
-                    * V F F
-                    * F V F
-                    * F F F
-
-                      OR
-                      V V V
-                      F V V
-                      V F V
-                      F F F
-                    */
-
+                    // ESEMPIO: 13 => 5 6 10 12 
 
                     while(j < viaggiPartecipanti.size() && viaggi.get(i).getLista().size() > viaggiPartecipanti.get(j).getLista().size()){
                         j++;
@@ -210,7 +195,7 @@ public class Agenzia {
     }
 
 	// ========================================
-	//				CONTINUO
+	//				CONTINUO ES 16
 	// ========================================
 	 
     /*public Viaggio piuCostoso(){
@@ -231,9 +216,9 @@ public class Agenzia {
 
     private Viaggio piuCostosoUtility(int t){
         
+		// ESEMPIO
         // valore più grande: 100
         // posizione: 4
-
         //  10 50 60 23 100
 
         float max = 0;
@@ -304,8 +289,72 @@ public class Agenzia {
       return tmp;
     }
 
-	
+	// ========================================
+	//				CONTINUO ES 17
+	// ========================================
+
+	// metodo che restituisce l'elenco dei viaggi per singoli
+	public ArrayList<ViaggioPerSingoli> getViaggioPerSingoli(){
+	ArrayList<ViaggioPerSingoli> viaggiPerSingoli = new ArrayList<ViaggioPerSingoli>();
+
+		for(int i = 0; i < viaggi.size(); i++){
+			if(viaggi.get(i) instanceof ViaggioPerSingoli){
+				viaggiPerSingoli.add(viaggi.get(i));
+			}
+		}
+
+		return viaggiPerSingoli;
+	}
+
+
+
+	// metodo che restituisce l'elenco dei viaggi per gruppi
+	public ArrayList<ViaggioPerGruppi> getViaggioPerGruppi (){
+		ArrayList<ViaggioPerSingoli> tmp = new ArrayList<ViaggioPerSingoli>();
+
+		for(int i = 0; i < viaggi.size(); i++){
+			if(viaggi.get(i) instanceof ViaggioPerGruppi){
+				tmp.add(viaggi.get(i));
+			}
+		}
+
+		return tmp;
+	}
+  
+	// metodo che restituisce il guadagno totale dell'agenzia
+	public float guadagnoAgenzia(){
+		float guadagno = 0;
+
+		for(int i = 0; i < viaggi.size(); i++){
+		guadagno = guadagno + viaggi.get(i).getCosto();
+		}
+
+		return guadagno;
+	}
+
+
+	public float mediaGuadagno(){
+		float mediaGuadagno = 0;
+		mediaGuadagno = guadagnoAgenzia() / viaggi.size(); // viene utilizzata la funzione precedente per evitare di riscrivere codice
+		return mediaGuadagno;
+	}
+
+	public ArrayList<ViaggioPerSingoli> viaggioPerSingoliComuni(Giorno g){
+		ArrayList<ViaggioPerSingoli> tmp = new ArrayLIst<ViaggioPerSingoli>();
+
+		for (int i = 0; i < viaggi.size(); i++){
+			if (viaggi.get(i) instanceof ViaggioPerSingoli){
+
+				for (int j = 0; j < viaggi.get(i).getLista().size(); j++){
+					if (viaggi.get(i).getLista().get(j).equals(g)){
+						tmp.add(viaggi.get(i));
+						break; // esco, so già che il viaggio è 'idoneo'
+					}
+				}
+
+			}
+		}
+
+		return tmp;
+	}
 }
-
-
-

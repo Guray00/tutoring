@@ -9,7 +9,6 @@ public abstract class Viaggio {
     public void aggiuntaGiorno(Giorno g){
 
         boolean tmp = true;
-
         for(int i = 0; i < lista.size(); i++){
             if(lista.get(i).equals(g)){
                 tmp = false;
@@ -21,8 +20,8 @@ public abstract class Viaggio {
         //if (!lista.contains(g)) lista.add(g);
     }
 
-    public abstract float  calcoloCosto(); // metodo astratto, non può essere richia
-    public abstract String  toString();    // metodo astratto, non può essere richia
+    public abstract float  calcoloCosto(); // metodo astratto, non può essere richiamato
+    public abstract String  toString();    // metodo astratto, non può essere richiamato
 
     public void rimozioneGiorno(Giorno g){
         for(int i = 0; i < lista.size(); i++){
@@ -85,6 +84,26 @@ public abstract class Viaggio {
     public ArrayList<Giorno> getLista() {
         return lista;
     }
+
+	//metodo che confronta due viaggi e restituisce 0 se hanno lo stesso numero di giorni, 1 se il viaggio corrente è maggiore, in caso contrario -1
+	
+	/*
+		Viaggio v1 = new Viaggio ...
+		Viaggio v2 = new Viaggio ...
+
+		v1.cofronta(v2); => 0, 1, -1
+	
+	*/
+	
+	public int confronto(Viaggio v){
+    if(this.lista.size() > v.getLista().size()){
+      return 1;
+    }else if(this.lista.size() < v.getLista().size()){
+      return -1;
+    }else{
+      return 0;
+    }
+  }
 }
 // titolo del viaggio, il costo di base e la lista degli oggetti di tipo Giorno di cui
 // si compone
