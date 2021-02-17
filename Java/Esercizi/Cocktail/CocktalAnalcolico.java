@@ -1,3 +1,3 @@
-public class CocktalAnalcolico{
+public class CocktalAnalcolico extends Cocktail {
   
 }

@@ -21,27 +21,27 @@ public class Componente{
     this.costoUnitario = c.costoUnitario;
   }
 
-	public setNome(String n){
+	public void setNome(String n){
 		this.nome = n;
 	}
 
-	public getNome(){
+	public String getNome(){
 		return this.nome;
 	}
 
-	public setQuantita(int q){
+	public void setQuantita(int q){
 		this.quantita = q;
 	}
 
-	public getQuantita(){
+	public int getQuantita(){
 		return quantita;
 	}
 
-	public setCostoUnitario(int c){
+	public void setCostoUnitario(int c){
 		this.costoUnitario = c;
 	}
 
-	public getCostoUnitario(){
+	public float getCostoUnitario(){
 		return this.costoUnitario;
 	}
 

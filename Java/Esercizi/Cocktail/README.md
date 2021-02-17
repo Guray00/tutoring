@@ -10,7 +10,7 @@ derivata in:
 La classe contenitore CocktailBar contiene il nome del locale e l’elenco dei cocktail disponibili con i prezzi
 calcolati sommando il costo unitario di ciascun componente per la quantità; ai cocktail alcolici viene
 applicato un ulteriore costo in base al grado alcolico (si aggiunge cioè una quantità ottenuta moltiplicando il
-grado alcolico per un “fattore costante” definito staticamente in CocktailAncolico).
+grado alcolico per un “fattore costante” definito staticamente in CocktailAlcolico).
 Prevedere tutti i costruttori (default, con parametri e di copia) e i metodi get/set per la gestione degli
 oggetti, oltre ai metodi:
 - per l’aggiunta/rimozione di componenti ai cocktail
