@@ -7,6 +7,7 @@ derivata in:
 - CocktailAnalcolico
 - CocktailAlcolico con il dato relativo alla gradazione alcolica in esso contenuta
 
+## Prima parte
 La classe contenitore CocktailBar contiene il nome del locale e l’elenco dei cocktail disponibili con i prezzi
 calcolati sommando il costo unitario di ciascun componente per la quantità; ai cocktail alcolici viene
 applicato un ulteriore costo in base al grado alcolico (si aggiunge cioè una quantità ottenuta moltiplicando il
@@ -22,3 +23,12 @@ decrescente del grado alcolico
 (inserimento ordinato)
 - per la creazione della lista dei cocktail con prezzo maggiore di una certa cifra, in ordine di prezzo
 (inserimento ordinato)
+
+## Seconda parte
+Implementare i seguenti metodi aggiuntivi:
+- Metodo che restituisce una lista di cocktail alcolici che contengono un determinato componente passato come paramentro.
+- Metodo che restituisce una lista di componenti di un cocktail che hanno un determinato prezzo (il cocktail ed il prezzo sono passati come parametro).
+- Metodo che restitiuisce il valore complessivo di tutti i cocktail disponibili nel bar.
+- Metodo che, passato come parametro un cocktail, restituisce vero se è alcolico e falso se è analicolico.
+- Metodo che restituisce il numero di coctail alcolici disponibili nel bar.
+- Metodo che restituisce il numero di cocktail analcolici disponibili nel bar.

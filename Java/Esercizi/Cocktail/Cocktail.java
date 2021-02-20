@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 
 public class Cocktail {
-	private String nome;
-	private ArrayList<Componente> componenti;
+	public String nome;
+	public ArrayList<Componente> componenti;
 
 	public Cocktail(){
 		this.nome = "";
@@ -31,9 +31,10 @@ public class Cocktail {
 		this.componenti = componenti;
 	}
 
-	public ArrayList<Componente> setComponenti(){
+	public ArrayList<Componente> getComponenti(){
 		return this.componenti;
 	}
+	
 	// =====================================
 	// 			METODI IMPLEMENTATI
 	// =====================================
@@ -61,13 +62,17 @@ public class Cocktail {
 		// ritorniamo il prezzo del cocktail
     	return prezzoCocktail;
 	}
-
 	
 
+	public String toString(){
+		String tmp = nome + "\n";
+		
+		for(int i = 0; i < componenti.size(); i++){
+			tmp+="\t=>"+componenti.get(i).getNome() + " \tQuantita: " + componenti.get(i).getQuantita()+" \tCostoUnitario: "+ componenti.get(i).getCostoUnitario()+"\n";
+		}
+		
+		return tmp; 
 
-	// 5) per la creazione della lista dei cocktail che contengono un certo componente, in ordine alfabetico (inserimento ordinato)
-
-	
-	// 6) per la creazione della lista dei cocktail con prezzo maggiore di una certa cifra, in ordine di prezzo(inserimento ordinato) 
+	}
 	
 }

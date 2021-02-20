@@ -4,14 +4,17 @@ public class CocktailAlcolico extends Cocktail{
 	public static float fattoreAlcolico = 1;
 
 	public CocktailAlcolico(){
+		super();
 		this.gradazioneAlcolica = 0;
 	}
 
-	public CocktailAlcolico(float gradazioneAlcolica){
+	public CocktailAlcolico(String n, ArrayList<Componente> c, float gradazioneAlcolica){
+		super(n, c);
 		this.gradazioneAlcolica = gradazioneAlcolica;
 	}
 
 	public CocktailAlcolico(CocktailAlcolico c){
+		super(c);
 		this.gradazioneAlcolica = c.gradazioneAlcolica;
 	}
 
