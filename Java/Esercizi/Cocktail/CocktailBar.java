@@ -161,12 +161,52 @@ public class CocktailBar {
 	}
 
 	// Metodo che restitiuisce il valore complessivo di tutti i cocktail disponibili nel bar.
+	public float prezzoComplessivo(){
+		float tmp = 0;
+
+		for (int i=0; i < cocktail.size(); i++){
+			tmp += cocktail.get(i).getPrezzo; 
+		}
+
+		return tmp;
+	}
 
 	// Metodo che, passato come parametro un cocktail, restituisce vero se è alcolico e falso se è analicolico.
+	public boolean checkAlcolico(Cocktail c){
+
+		if(c instanceof CocktailAlcolico){
+			return true;
+		}
+
+		return false;
+	}
 
 	// Metodo che restituisce il numero di coctail alcolici disponibili nel bar.
-	
+	public int numeroAlcolici(){
+		int tmp = 0;
+		for (int i = 0; i < cocktail.size(); i++){
+
+			if (cocktail.get(i) instanceof CocktailAlcolico){
+				tmp = tmp + 1;
+			}
+
+		}
+
+		return tmp;
+	}
+
+
 	// Metodo che restituisce il numero di cocktail analcolici disponibili nel bar.
+	public int numeroAnalcolici(){
+		int tmp = 0;
+		for (int i = 0; i < cocktail.size(); i++){
+
+			if (cocktail.get(i) instanceof CocktailAnalcolico){
+				tmp = tmp + 1;
+			}
+
+		}
+
+		return tmp;
+	}
 }
-/*
-*/
