@@ -5,11 +5,6 @@ public class Collezione{
 	private String luogo;
 	private ArrayList<Opera> opere;
 
-	/*
-	• metodo che restituisca una stringa con i dati di tutte le opere della collezione
-	• metodo che restituisce l'elenco delle opere che hanno una quotazione maggiore di un determinato valore passato in input
-	• metodo che restituisce l'elenco delle opere che hanno una quotazione maggiore della quotazione media di tutte le opere
-	*/
 
 	//il nome dell’artista dell’opera più costosa
 	public String operaMaxCosto(){
@@ -118,5 +113,45 @@ public class Collezione{
 
 			}
 		}
+	}
+
+
+	// • metodo che restituisca una stringa con i dati di tutte le opere della collezione
+	public String informazioni(){
+		String tmp = "";
+
+		for (int i = 0; i < opere.size(); i++){
+			tmp+= opere.get(i).toString() + "\n";
+		}
+
+		return tmp;
+	}
+
+	//• metodo che restituisce l'elenco delle opere che hanno una quotazione maggiore di un determinato valore passato in input
+
+	public ArrayList<Opera> opereMaggioreDi (float q){
+		ArrayList<Opera> tmp = new ArrayList<Opera>();
+
+		for (int i = 0; i < opere.size(); i++){
+
+			if (opere.get(i).getCosto() > q){
+				tmp.add(opera.get(i));
+			}
+		}
+
+		return tmp;
+	}
+
+
+	// metodo che restituisce l'elenco delle opere che hanno una quotazione maggiore della quotazione media di tutte le opere
+
+	public ArrayList<Opera> opereMaggioreMedia(){
+		float tmp=0;
+		for (int i = 0; i < opere.size(); i++){
+			tmp+=opere.get(i).getCosto();
+		}
+
+		tmp = tmp/opere.size();
+		return opereMaggioreDi(tmp);
 	}
 }

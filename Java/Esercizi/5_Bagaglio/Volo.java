@@ -97,7 +97,7 @@ public class Volo {
             }
         }
 
-        if (tmp.size == 0) System.out.println("Nessun passeggero trovato con quel nome");
+        if (tmp.size() == 0) System.out.println("Nessun passeggero trovato con quel nome");
 
         else{
             System.out.println("Nome passeggero: " + tmp.get(0).getNomePasseggero());
