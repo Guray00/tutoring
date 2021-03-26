@@ -10,7 +10,7 @@ public class ProdottoPeso extends ProdottoForno{
   }
   
   public float prezzoFinale(){
-    return (prezzoAlKg * pesoAlKg (((prezzoAlKg * pesoAlKg) * iva) / 100));
+    return (prezzoAlKg * pesoAlKg + (((prezzoAlKg * pesoAlKg) * iva) / 100));
   }
 
   public ProdottoPeso(){

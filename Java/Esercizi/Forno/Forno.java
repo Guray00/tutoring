@@ -50,11 +50,11 @@ public class Forno{
   }
 
 	// Metodo che restituisce una lista di prodotti venduti al pezzo con prezzo maggiore di un valore passato come parametro
-  public ArrayList<ProdottoPrezzo> prodottiMaggioriDiUnPrezzo(float p){
-    ArrayList<ProdottoPrezzo> prodottiMaggiori = new ArrayList<ProdottoPrezzo>(); 
+  public ArrayList<ProdottoPezzo> prodottiMaggioriDiUnPrezzo(float p){
+    ArrayList<ProdottoPezzo> prodottiMaggiori = new ArrayList<ProdottoPezzo>(); 
     for(int i = 0; i < prodotti.size(); i++){
-      if(prodotti.get(i).prezzoFinale() > p && prodotti.get(i) instanceof ProdottoPrezzo){
-        prodottiMaggiori.add((ProdottoPrezzo)prodotti.get(i));
+      if(prodotti.get(i).prezzoFinale() > p && prodotti.get(i) instanceof ProdottoPezzo){
+        prodottiMaggiori.add((ProdottoPezzo)prodotti.get(i));
       }
     }
     return prodottiMaggiori;
@@ -62,17 +62,64 @@ public class Forno{
 
 	// Metodo che restituisce il prodotto venduto a peso con la durata maggiore
 	public ProdottoPeso prodottoPesoConLaDurataMaggiore(){
-		int maxDurata = 0;
-		for(int i = 0; i < prodotti.size(); i++){
-		if(prodotti.get(maxDurata).giorniDurata < prodotti.get(i).giorniDurata && prodotti.get(i) instanceof ProdottoPeso){
-			maxDurata = i;
+		int maxDurata = -1;
+
+		for (int i = 0; i < prodotti.size(); i++){
+			if (prodotti.get(i) instanceof ProdottoPeso){
+				maxDurata = i;
+			}
 		}
+
+		if (maxDurata == -1) return null;	
+
+		for(int i = maxDurata+1; i < prodotti.size(); i++){
+			if(prodotti.get(maxDurata).giorniDurata < prodotti.get(i).giorniDurata && prodotti.get(i) instanceof ProdottoPeso){
+				maxDurata = i;
+			}
 		}
-		return prodotto.get(maxDurata);
+
+		return (ProdottoPeso) prodotti.get(maxDurata);
 	}
 
 	// Metodo che restituisce una stringa con tutti i dati dei prodotti del forno
-  
+	public String datiDelForno(){
+		String info = "";
+		for(int i = 0; i < prodotti.size(); i++){
+			info += prodotti.get(i).toString();
+		}
+		return info;
+  	}
 
+	public float prezzoMedio(){
+		float tmp = 0;
 
+		for (int i = 0; i < prodotti.size(); i++){
+			tmp += prodotti.get(i).prezzoFinale();
+		}	
+
+		return (tmp/prodotti.size());
+	}
+
+	// Metodo che restituisce una lista di prodotti con il prezzo maggiore del prezzo medio di tutti i prodotti del forno ordinati in ordine decrescente di durata
+
+	public ArrayList<ProdottoForno> opzionale(){
+		ArrayList<ProdottoForno> tmp = new ArrayList<ProdottoForno>();
+
+		float media = prezzoMedio();
+		for (int i = 0; i < prodotti.size(); i++){
+			if (prodotti.get(i).prezzoFinale() > media){
+				// (2) => 5  3  1  1
+
+				int j = 0;
+				for (j=0; j < tmp.size(); j++){
+				}
+
+				if (prodotti.get(i).getGiorniDurata() > tmp.get(j).giorniDurata){
+						tmp.add(j, prodotti.get(i));
+				}
+			}
+		}
+
+		return tmp;
+	}
 }

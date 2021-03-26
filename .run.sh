@@ -1,7 +1,7 @@
 
 # =============================================
-			MAIN="EsercizioCocktail"
-			FOLDER="Cocktail"
+			MAIN="esForno"
+			FOLDER="Forno"
 			LANGUAGE="Java"
 # =============================================
 
