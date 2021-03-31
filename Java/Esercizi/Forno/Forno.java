@@ -104,19 +104,26 @@ public class Forno{
 
 	public ArrayList<ProdottoForno> opzionale(){
 		ArrayList<ProdottoForno> tmp = new ArrayList<ProdottoForno>();
-
 		float media = prezzoMedio();
+
+
 		for (int i = 0; i < prodotti.size(); i++){
 			if (prodotti.get(i).prezzoFinale() > media){
 				// (2) => 5  3  1  1
 
+				if (tmp.size() == 0 ){
+					tmp.add(prodotti.get(i));
+					continue;
+				}
+				
 				int j = 0;
-				for (j=0; j < tmp.size(); j++){
-				}
-
-				if (prodotti.get(i).getGiorniDurata() > tmp.get(j).giorniDurata){
+				for (j= 0; j < tmp.size(); j++){
+					if (prodotti.get(i).getGiorniDurata() > tmp.get(j).giorniDurata){
 						tmp.add(j, prodotti.get(i));
+						break;
+					}
 				}
+				
 			}
 		}
 

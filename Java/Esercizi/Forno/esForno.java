@@ -39,6 +39,7 @@ public class esForno{
 
 		System.out.println("TESTANDO opzionale =================");
 		ArrayList<ProdottoForno> prodottiM = f1.opzionale();
+		System.out.println(prodottiM.size());
 
 		for (int i = 0; i < prodottiM.size(); i++){
 			System.out.println(prodottiM.get(i).toString());

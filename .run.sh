@@ -1,7 +1,7 @@
 
 # =============================================
-			MAIN="esForno"
-			FOLDER="Forno"
+			MAIN="esAutoMoto"
+			FOLDER="AutoMoto"
 			LANGUAGE="Java"
 # =============================================
 
