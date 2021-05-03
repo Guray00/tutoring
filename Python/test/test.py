@@ -6,17 +6,7 @@ a = [1, 3]
 
 b = 4
 
-# questo è un esempio di if
-#if (a  < b):
-#	print("a e' più piccolo")
 
-#elif (a > b):
-#	print("a è più grande di b")
-
-#else:
-#	print("a e b sono uguali")
-
-# = diverso ==
 
 
 # a[i] => prendiamo l'indice i dalla lista a

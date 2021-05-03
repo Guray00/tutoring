@@ -1,11 +1,11 @@
-# Esecizio 1
+# ESERCIZIO 1 ==============================================================
 # Trova tutti i numeri tra 0 e un milione che sono divisibili per 563 e 756
 
 # stampare a schermo (print) i numeri tra 0 e un milione divisibli per 563 e 756
 # stampare a schermo (print) in un range(0,un milione) divisibli per 563 e 756
 
 
-# RAGIONAMENTO
+# RAGIONAMENTO  ==============================================================
 # scorriamo i numeri da 0 a un milione
 	# il numero è divisibile sia per 563 che per 756?
 		# se si ==> print(numero)

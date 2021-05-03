@@ -1,5 +1,5 @@
 # Tutoring
-Repository per condivisione di materiale utile al tutoring.
+Repository per condivisione di materiale utile al tutoring. Questo viene settimanalmente aggiornato in base alle lezioni tentutesi.
 
 ## Appunti
 - Materiale condiviso: [Link](https://drive.google.com/drive/folders/1vMPaJSkE37-_iz1-Z7v2Vb4CY0NSxGL_?usp=sharing)
@@ -9,7 +9,7 @@ Repository per condivisione di materiale utile al tutoring.
 
 ### Generici
 - piattaforma meeting: 	google meet
-- condivisione lavagna: https://awwapp.com/
+- lavagna virtuale: https://awwapp.com/
 
 ### Java
 - Ambiente di sviluppo (ide): [IntellijIdea](https://www.jetbrains.com/idea/download/download-thanks.html?platform=windows&code=IIC)
