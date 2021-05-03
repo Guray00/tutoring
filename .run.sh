@@ -1,7 +1,7 @@
 
 # =============================================
-			MAIN="cicli"
-			LOCATION="Fondamenti"
+			MAIN="es3"
+			LOCATION="Esercizi"
 			LANGUAGE="Python"
 # =============================================
 
