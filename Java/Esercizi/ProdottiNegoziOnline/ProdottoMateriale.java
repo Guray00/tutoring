@@ -13,8 +13,15 @@ public abstract class ProdottoMateriale extends ProdottoGenerico {
 	protected double profondita;
 	protected double peso;
 
-  	public ProdottoMateriale(double prezzoAcquisto, double prezzoVendita, int iva, String descrizione, double larghezza, double altezza, double profondita, double peso){
-		  // DA FINIRE
+  	public ProdottoMateriale(double prezzoAcquisto, double prezzoVendita, int iva, String descrizione, double larghezza, double altezza, double profondita, double pesoouble larghezza, double altezza, double profondita, double peso){
+		  // DA FINIRE      super(prezzoAcquisto, prezzoVendita, iva, descrizione);
+      if (descrizione.equals("")){
+			descrizione = "prodotto digitale";
+		  }
+      this.larghezza = larghezza;
+		  this.altezza = altezza;
+		  this.profondita = profondita;
+		  this.peso = peso;
   	}
 
 
