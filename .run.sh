@@ -1,14 +1,14 @@
 
-# =============================================
-			MAIN="es3"
-			LOCATION="Esercizi"
-			LANGUAGE="Python"
-# =============================================
+# =======================================================
+			MAIN="Es"
+			LOCATION="Esercizi/ProdottiNegoziOnline"
+			LANGUAGE="Java"
+# =======================================================
 
 # JAVA CASE
 if [ $LANGUAGE = "Java" ]
 then
-	cd /home/runner/tutoring/$LANGUAGE/$LOCATION && javac ./$MAIN.java && java $MAIN
+	cd /home/runner/tutoring/$LANGUAGE/$LOCATION && javac ./$MAIN.java && java $MAIN && rm *.class
 
 # PYTHON CASE
 elif [ $LANGUAGE = "Python" ]
