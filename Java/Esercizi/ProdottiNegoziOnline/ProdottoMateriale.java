@@ -13,15 +13,18 @@ public abstract class ProdottoMateriale extends ProdottoGenerico {
 	protected double profondita;
 	protected double peso;
 
-  	public ProdottoMateriale(double prezzoAcquisto, double prezzoVendita, int iva, String descrizione, double larghezza, double altezza, double profondita, double peso, double larghezza, double altezza, double profondita, double peso){
-		  // DA FINIRE      super(prezzoAcquisto, prezzoVendita, iva, descrizione);
-      if (descrizione.equals("")){
-			descrizione = "prodotto digitale";
-		  }
-      this.larghezza = larghezza;
-		  this.altezza = altezza;
-		  this.profondita = profondita;
-		  this.peso = peso;
+  	public ProdottoMateriale(double prezzoAcquisto, double prezzoVendita, int iva, String descrizione, double larghezza, double altezza, double profondita, double peso){
+		  
+		super(prezzoAcquisto, prezzoVendita, iva, descrizione);
+
+		if (descrizione.equals("")){
+				descrizione = "prodotto materiale";
+		}
+
+		this.larghezza = larghezza;
+		this.altezza = altezza;
+		this.profondita = profondita;
+		this.peso = peso;
   	}
 
 
@@ -43,6 +46,15 @@ public abstract class ProdottoMateriale extends ProdottoGenerico {
 		this.altezza = a;
 		this.profondita = pr;
 		this.peso = p;
+	}
+
+	public ProdottoMateriale(){
+		super();
+		this.larghezza = 0;
+		this.altezza = 0;
+		this.profondita = 0;
+		this.peso = 0;
+		this.descrizione = "prodotto materiale";
 	}
 
 

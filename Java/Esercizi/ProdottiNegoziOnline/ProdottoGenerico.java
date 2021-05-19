@@ -4,12 +4,19 @@ public abstract class ProdottoGenerico {
   protected double prezzoVendita;
   protected static int iva;
   protected String descrizione;
+  protected static int istanze = 0;
+  protected int codiceProdotto;
 
   public ProdottoGenerico(){
     this.prezzoAcquisto = 0;
     this.prezzoVendita = 0;
     this.descrizione = "prodotto generico";
+
+	istanze++;
+	codiceProdotto = istanze;
   }
+
+  public int getCodiceProdotto(){return codiceProdotto;}
   
   public ProdottoGenerico(double prezzoAcquisto, double prezzoVendita, int iva, String descrizione){
     this.prezzoAcquisto = prezzoAcquisto;
@@ -20,6 +27,9 @@ public abstract class ProdottoGenerico {
 	if (descrizione.equals("")){
 			descrizione = "prodotto generico";
 	}
+
+	istanze++;
+	codiceProdotto = istanze;
   }
 
   public ProdottoGenerico(ProdottoGenerico c){
@@ -27,18 +37,26 @@ public abstract class ProdottoGenerico {
     this.prezzoVendita = c.prezzoVendita;
     this.iva = c.iva;
     this.descrizione = c.descrizione;
+
+	istanze++;
+	codiceProdotto = istanze;
   }
 
   public ProdottoGenerico(double pa){
 	  this.prezzoAcquisto = pa;
 	  this.prezzoVendita = 0;
 	  this.descrizione = "prodotto generico";
+
+	  istanze++;
+	  codiceProdotto = istanze;
   }
 
   public ProdottoGenerico(double pa, double pv){
 	  this.prezzoAcquisto = pa;
 	  this.prezzoVendita = pv;
 	  this.descrizione = "prodotto generico";
+	  istanze++;
+	  codiceProdotto = istanze;
   }
 
 	public void setPrezzoAcquisto(double p){this.prezzoAcquisto = p;}
