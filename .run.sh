@@ -1,8 +1,8 @@
 
 # =======================================================
-			MAIN="Es"
-			LOCATION="Esercizi/ProdottiNegoziOnline"
-			LANGUAGE="Java"
+			MAIN="testMain"
+			LOCATION="Esercizi/CodeEPile"
+			LANGUAGE="C"
 # =======================================================
 
 # JAVA CASE
@@ -18,5 +18,5 @@ then
 # C CASE
 elif [ $LANGUAGE = "C" ]
 then
-	cd /home/runner/tutoring/$LANGUAGE/$LOCATION && gcc $MAIN.c -o $MAIN && ./$MAIN && rm $MAIN
+	cd /home/runner/tutoring/$LANGUAGE/$LOCATION && gcc $MAIN.cpp -o $MAIN && ./$MAIN && rm $MAIN
 fi
