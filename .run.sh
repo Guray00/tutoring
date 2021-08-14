@@ -1,8 +1,8 @@
 
 # =======================================================
-			MAIN="26_05_21"
-			LOCATION="Esercizi/CodeEPile"
-			LANGUAGE="C"
+			MAIN="EsAlbergo"
+			LOCATION="albergo_array"
+			LANGUAGE="Java"
 # =======================================================
 
 # JAVA CASE
