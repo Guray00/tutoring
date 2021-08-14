@@ -1,18 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-  /*printf("Inserisci un numero: ");
-  int c;
-  scanf("%d", &c);
-  printf("\nHai inserito %d", c);*/
 
-	// commmento, non viene letto
-	
-	/*
-		commento 
-		multilinea
-		viene ignorato
-	*/
 
 	//int a = 5;
 
