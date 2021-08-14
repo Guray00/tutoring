@@ -1,4 +1,7 @@
 
+# questo script si occupa di far partire diversi script
+# a seconda del linguaggio di riferimento
+
 # =======================================================
 			MAIN="EsAlbergo"
 			LOCATION="albergo_array"
