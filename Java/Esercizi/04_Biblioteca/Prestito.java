@@ -68,6 +68,7 @@ public class Prestito {
     }
 
     public boolean isScaduto(){
+			
         if (this.isPrestito()){
             GregorianCalendar now = new GregorianCalendar(); // tempo attuale
 

@@ -3,8 +3,8 @@
 # a seconda del linguaggio di riferimento
 
 # =======================================================
-			MAIN="EsAlbergo"
-			LOCATION="albergo_array"
+			MAIN="EsempioArrayList"
+			LOCATION="Esempi/ArrayList"
 			LANGUAGE="Java"
 # =======================================================
 
