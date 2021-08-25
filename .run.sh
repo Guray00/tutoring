@@ -3,9 +3,9 @@
 # a seconda del linguaggio di riferimento
 
 # =======================================================
-			MAIN="EsempioArrayList"
-			LOCATION="Esempi/ArrayList"
-			LANGUAGE="Java"
+			MAIN="test1"
+			LOCATION="Esercizi/0TEST"
+			LANGUAGE="C"
 # =======================================================
 
 # JAVA CASE
