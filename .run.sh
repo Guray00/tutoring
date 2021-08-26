@@ -3,8 +3,8 @@
 # a seconda del linguaggio di riferimento
 
 # =======================================================
-			MAIN="test1"
-			LOCATION="Esercizi/0TEST"
+			MAIN="es02.c"
+			LOCATION="Esercizi/0_Eserciziario"
 			LANGUAGE="C"
 # =======================================================
 
@@ -18,8 +18,12 @@ elif [ $LANGUAGE = "Python" ]
 then
 	cd /home/runner/tutoring/$LANGUAGE/$LOCATION && python3 ./$MAIN.py
 
-# C CASE
+# C CASE - SPECIFY FILE EXTENSION 
 elif [ $LANGUAGE = "C" ]
 then
-	cd /home/runner/tutoring/$LANGUAGE/$LOCATION && gcc $MAIN.cpp -o $MAIN && ./$MAIN && rm $MAIN
+	st=""
+	OUT=${MAIN/.cpp/$st}
+	OUT=${OUT/.c/$st}
+
+  cd /home/runner/tutoring/$LANGUAGE/$LOCATION && gcc $MAIN -o $OUT && ./$OUT && rm $OUT
 fi

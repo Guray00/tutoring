@@ -18,11 +18,11 @@ int main(){
 		int b;
 
 		// chiedo a schermo un numero da raddoppiare
-		printf ("inserisci il numero che vuoi raddoppiare");
+		printf ("inserisci il numero che vuoi raddoppiare ");
 		scanf ("%d", &a); // chiedo in input il numero da inserire
 		
 		b= a*2; // raddoppio il valore
-		printf ("%d", b);
+		printf ("\n%d\n", b);
 		
 
 		return 0;
