@@ -3,7 +3,7 @@
 # a seconda del linguaggio di riferimento
 
 # =======================================================
-			MAIN="es02.c"
+			MAIN="es.c"
 			LOCATION="Esercizi/0_Eserciziario"
 			LANGUAGE="C"
 # =======================================================
