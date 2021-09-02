@@ -3,9 +3,9 @@
 # a seconda del linguaggio di riferimento
 
 # =======================================================
-			MAIN="es.c"
-			LOCATION="Esercizi/0_Eserciziario"
-			LANGUAGE="C"
+			MAIN="test.cpp"
+			LOCATION="Test"
+			LANGUAGE="C++"
 # =======================================================
 
 # JAVA CASE
@@ -26,4 +26,13 @@ then
 	OUT=${OUT/.c/$st}
 
   cd /home/runner/tutoring/$LANGUAGE/$LOCATION && gcc $MAIN -o $OUT && ./$OUT && rm $OUT
+
+
+elif [ $LANGUAGE = "C++" ]
+then
+	st=""
+	OUT=${MAIN/.cpp/$st}
+	OUT=${OUT/.c/$st}
+
+  cd /home/runner/tutoring/C/$LOCATION && g++ $MAIN -o $OUT && ./$OUT && rm $OUT
 fi
