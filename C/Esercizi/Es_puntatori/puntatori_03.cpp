@@ -1,6 +1,9 @@
 
 /*
+Argomento: Aritmetica dei puntatori
+
 Scrivere un programma che chieda in input N numeri interi e li memorizzi in un vettore. Calcolare la somma dei numeri interi inseriti usando unicamente l'aritmetica dei puntatori (non tramite v[i]). Stampare in output il valore della somma degli elementi.
+
 */
 #include<string>
 #include <iostream>

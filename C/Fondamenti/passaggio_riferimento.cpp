@@ -8,9 +8,12 @@ void cambia_non_funzionante(int variabile){
 }
 
 // la & significa che è per riferimento!
+// ATTENTO: SOLO NELLA DICHIARAZIONE DEGLI ARGOMENTI
+// int* variabile = &valore; <- &variabile
 void cambia(int &variabile){
 	variabile = variabile * 2;
 }
+
 
 
 int main(){
