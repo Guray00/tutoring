@@ -3,9 +3,9 @@
 # a seconda del linguaggio di riferimento
 
 # =======================================================
-			MAIN="test.cpp"
+			MAIN="test.c"
 			LOCATION="Test"
-			LANGUAGE="C++"
+			LANGUAGE="C"
 # =======================================================
 
 # JAVA CASE
@@ -34,5 +34,5 @@ then
 	OUT=${MAIN/.cpp/$st}
 	OUT=${OUT/.c/$st}
 
-  cd /home/runner/tutoring/C/$LOCATION && g++ $MAIN -o $OUT && ./$OUT && rm $OUT
+  cd /home/runner/tutoring/$LANGUAGE/$LOCATION && g++ $MAIN -o $OUT && ./$OUT && rm $OUT
 fi

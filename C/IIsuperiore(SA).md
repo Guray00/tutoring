@@ -14,7 +14,9 @@ Esempio di programma di una Scuola Superiore Scienze Applicate al secondo Anno.
 
 ## 2. La codifica degli algoritmi
 
-2.1 Scratch: la codifica per gioco 2.2 Dai simboli degli schemi di flusso ai blocchi di scratch (esempi)
+2.1 Scratch: la codifica per gioco 
+
+2.2 Dai simboli degli schemi di flusso ai blocchi di scratch (esempi)
 
 2.3 C language
 

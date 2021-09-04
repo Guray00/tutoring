@@ -20,11 +20,15 @@ int main(){
   int secondi;
   int minuti;
   int ore;
-  printf ("inserisci rispettivamente ore, minuti e secondi" );
+  
+	printf ("inserisci rispettivamente ore, minuti e secondi" );
   scanf ("%d %d %d", &ore, &minuti, &secondi);
-  ore= ore*60*60;
+  
+	ore= ore*60*60;
   minuti= minuti*60;
   secondi= ore+minuti+secondi;
+	
 	printf ("orario in secondi=%d", secondi);
-		return 0;
+	
+	return 0;
 }
