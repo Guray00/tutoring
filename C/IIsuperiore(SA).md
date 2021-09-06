@@ -8,7 +8,9 @@ Esempio di programma di una Scuola Superiore Scienze Applicate al secondo Anno.
 
 1.3 Lo sviluppo dell' algoritmo
 
-1.4 Il concetto di variabile 1.5 Le fasi di simulazione e codifica dell' algoritmo
+1.4 Il concetto di variabile 
+
+1.5 Le fasi di simulazione e codifica dell' algoritmo
 
 1.6 Schemi di flusso (Esempi) 
 
@@ -26,7 +28,9 @@ Esempio di programma di una Scuola Superiore Scienze Applicate al secondo Anno.
 ## 3. Dall' algoritmo strutturato al programma
 3.1 Generalità, equivalenza e ottimizzazione degli algoritmi
 
-3.2 Dalla teoria alla pratica 3.3 Gli schemi di composizione fondamentali
+3.2 Dalla teoria alla pratica 
+
+3.3 Gli schemi di composizione fondamentali
 
 3.4 I cicli postcondizionali e precondizionali
 

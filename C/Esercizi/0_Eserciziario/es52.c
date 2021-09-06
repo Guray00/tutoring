@@ -6,7 +6,6 @@ Conoscenza: Scanf, Printf, IF, For
 
 /*
 52. Scrivere un algoritmo che visualizza dieci volte la frase "Viva le vacanze!".
-
 */
 
 #include <stdio.h>

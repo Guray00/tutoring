@@ -18,3 +18,35 @@ intera tra x e y.
 11. Scrivere l'algoritmo che, date due stringhe, le visualizzi in sequenza (senza spazi intermedi) e
 comunichi la lunghezza della stringa risultante (solo per il corso di programmazione in Visual
 Basic).
+
+## Cicli
+51. Scrivere un algoritmo che visualizza il quadrato dei numeri naturali compresi tra 2 a 20.
+
+52. Scrivere un algoritmo che visualizza dieci volte la frase "Viva le vacanze!".
+
+56. Scrivere un algoritmo che visualizza tutti i numeri naturali inferiori al valore assoluto di un
+numero scelto dall'utente.
+
+57. Scrivere un algoritmo che visualizza in ordine crescente tutti i numeri naturali compresi tra due numeri scelti dall'utente (estremi inclusi).
+
+70. Scrivere un algoritmo che, presi in input due numeri interi N ed X (con N>0), visualizzi gli N numeri interi precedenti ad X in ordine crescente.
+
+71. Scrivere un algoritmo che, presi in input N valori interi (N > 0), calcoli la somma dei numeri positivi e la somma dei valori assoluti dei numeri negativi.
+
+72. Scrivere un algoritmo che, presi in input N valori interi (N > 0), calcoli la somma dei numerinegativi e la media dei numeri positivi.
+
+73. Scrivere un algoritmo che, dati due numeri naturali X e Y, sommi le radici quadrate dei numeri naturali compresi tra X e Y, estremi inclusi.
+
+74. Scrivere un algoritmo che, presi in input N valori interi (N > 0), calcoli quanti valori sono multipli di 3.
+
+75. Scrivere un algoritmo che, presi in input N valori interi (N > 0), calcoli quanti valori sono multipli di un numero scelto dall'utente.
+
+76. Scrivere un algoritmo che prenda in input dei valori numerici finché l'utente inserisce il valore 0 e calcolarne la media.
+
+77. Scrivere un algoritmo che prenda in input dei valori numerici finché l'utente inserisce un valore negativo e calcolare la somma delle radici quadrate.
+
+78. Scrivere un algoritmo che calcoli l'età media di una classe di 20 alunni.
+
+79. Scrivere un algoritmo che calcoli la media di N voti di un alunno.
+
+80. Scrivere un algoritmo che, presi in input il numero N (N > 0) di valori e il valore S di soglia, calcoli la media aritmetica di tutti i numeri presi in input che non superano 
