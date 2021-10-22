@@ -41,6 +41,7 @@ public class es19 {
 
 		// x        num1       x          x        num2
 		// 7 è > di   1    AND 7 è anche  7  < di   10
+		
     if (num3 >= num1 && num3 <= num2){
 			System.out.println("il valore e' interno all'intervallo");
 		}
