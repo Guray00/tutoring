@@ -3,8 +3,9 @@
 # a seconda del linguaggio di riferimento
 
 # =======================================================
-			MAIN="es01"
-			LOCATION="Test"
+			MAIN="es1"
+			LOCATION="../__LEZIONE__"
+#			LOCATION=""
 			LANGUAGE="Java"
 # =======================================================
 
