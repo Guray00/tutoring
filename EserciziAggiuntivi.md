@@ -10,7 +10,7 @@ Questo file nasce con lo scopo di realizzare un eserciziario basato sulle riches
 3. stampare a schermo (print) in un range(0, 5000) divisibli per 563 e 756
 
 ## FUNZIONI
-1. <u>**Calcola permietro e area:**</u> fare un programma che chiede in input il lato di un triangolo equilatero e calcolare il perimetro del triangolo tramite una funzione e stampare a schermo l'area
+1. <ins>**Calcola permietro e area:**</ins> fare un programma che chiede in input il lato di un triangolo equilatero e calcolare il perimetro del triangolo tramite una funzione e stampare a schermo l'area
 
 2. Scrivere un metodo chiamato isSum che, dati in input tre numeri a,
 b e c di tipo int, restituisca il valore true se e solo se uno dei tre
