@@ -3,10 +3,10 @@
 # a seconda del linguaggio di riferimento
 
 # =======================================================
-			MAIN="es1"
-			LOCATION="../__LEZIONE__"
-#			LOCATION=""
-			LANGUAGE="Java"
+			MAIN="helloworld"
+#			LOCATION="../__LEZIONE__"
+			LOCATION="HelloWorld"
+			LANGUAGE="C#"
 # =======================================================
 
 # JAVA CASE
@@ -27,6 +27,14 @@ then
 	OUT=${OUT/.c/$st}
 
   cd /home/runner/tutoring/$LANGUAGE/$LOCATION && gcc $MAIN -o $OUT && ./$OUT && rm $OUT
+
+elif [ $LANGUAGE = "C#" ]
+then
+	st=""
+	OUT=${MAIN/.cpp/$st}
+	OUT=${OUT/.c/$st}
+
+  cd /home/runner/tutoring/$LANGUAGE/$LOCATION && mcs *.cs && mono ./$MAIN.exe && rm $MAIN.exe
 
 
 elif [ $LANGUAGE = "C++" ]
