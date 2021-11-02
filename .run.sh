@@ -19,15 +19,16 @@ elif [ $LANGUAGE = "Python" ]
 then
 	cd /home/runner/tutoring/$LANGUAGE/$LOCATION && python3 ./$MAIN.py
 
-# C CASE - SPECIFY FILE EXTENSION 
+# C CASE
 elif [ $LANGUAGE = "C" ]
 then
-	st=""
-	OUT=${MAIN/.cpp/$st}
-	OUT=${OUT/.c/$st}
+	#st=""
+	#OUT=${MAIN/.cpp/$st}
+	#OUT=${OUT/.c/$st}
 
-  cd /home/runner/tutoring/$LANGUAGE/$LOCATION && gcc $MAIN -o $OUT && ./$OUT && rm $OUT
+  cd /home/runner/tutoring/$LANGUAGE/$LOCATION && gcc $MAIN.c -o $MAIN && ./$MAIN && rm $MAIN
 
+# C# CASE
 elif [ $LANGUAGE = "C#" ]
 then
 	st=""
@@ -39,9 +40,9 @@ then
 
 elif [ $LANGUAGE = "C++" ]
 then
-	st=""
-	OUT=${MAIN/.cpp/$st}
-	OUT=${OUT/.c/$st}
+	#st=""
+	#OUT=${MAIN/.cpp/$st}
+	#OUT=${OUT/.c/$st}
 
-  cd /home/runner/tutoring/$LANGUAGE/$LOCATION && g++ $MAIN.cpp -o $OUT && ./$OUT && rm $OUT && echo ""
+  cd /home/runner/tutoring/$LANGUAGE/$LOCATION && g++ $MAIN.cpp -o $MAIN && ./$MAIN && rm $MAIN && echo ""
 fi
