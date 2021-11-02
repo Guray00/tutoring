@@ -31,10 +31,6 @@ then
 # C# CASE
 elif [ $LANGUAGE = "C#" ]
 then
-	st=""
-	OUT=${MAIN/.cpp/$st}
-	OUT=${OUT/.c/$st}
-
   cd /home/runner/tutoring/$LANGUAGE/$LOCATION && mcs *.cs && mono ./$MAIN.exe && rm $MAIN.exe
 
 
