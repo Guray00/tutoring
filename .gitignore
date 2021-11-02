@@ -1,10 +1,14 @@
 #LEZIONE
 __LEZIONE__
 
+# C#
+.exe
+
 # aggiunte
 .idea
 Test
 Test/
+
 # Compiled class file
 *.class
 
