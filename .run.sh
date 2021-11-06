@@ -3,16 +3,17 @@
 # a seconda del linguaggio di riferimento
 
 # =======================================================
-			MAIN="helloworld"
-#			LOCATION="../__LEZIONE__"
-			LOCATION="HelloWorld"
-			LANGUAGE="C#"
+			MAIN="MainMenu"
+			LOCATION="../__LEZIONE__"
+#			LOCATION="HelloWorld"
+			LANGUAGE="Java"
 # =======================================================
 
 # JAVA CASE
 if [ $LANGUAGE = "Java" ]
 then
-	cd /home/runner/tutoring/$LANGUAGE/$LOCATION && javac ./$MAIN.java && java $MAIN && rm *.class
+	cd /home/runner/tutoring/$LANGUAGE/$LOCATION && javac *.java && java $MAIN
+	rm *.class
 
 # PYTHON CASE
 elif [ $LANGUAGE = "Python" ]
@@ -22,10 +23,6 @@ then
 # C CASE
 elif [ $LANGUAGE = "C" ]
 then
-	#st=""
-	#OUT=${MAIN/.cpp/$st}
-	#OUT=${OUT/.c/$st}
-
   cd /home/runner/tutoring/$LANGUAGE/$LOCATION && gcc $MAIN.c -o $MAIN && ./$MAIN && rm $MAIN
 
 # C# CASE
@@ -36,9 +33,5 @@ then
 
 elif [ $LANGUAGE = "C++" ]
 then
-	#st=""
-	#OUT=${MAIN/.cpp/$st}
-	#OUT=${OUT/.c/$st}
-
   cd /home/runner/tutoring/$LANGUAGE/$LOCATION && g++ $MAIN.cpp -o $MAIN && ./$MAIN && rm $MAIN && echo ""
 fi
