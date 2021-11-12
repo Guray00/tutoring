@@ -3,7 +3,7 @@
 # a seconda del linguaggio di riferimento
 
 # =======================================================
-			MAIN="MainMenu"
+			MAIN="lezione"
 			LOCATION="../__LEZIONE__"
 #			LOCATION="HelloWorld"
 			LANGUAGE="Java"

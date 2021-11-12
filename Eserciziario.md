@@ -24,8 +24,7 @@ Basic).
 
 52. Scrivere un algoritmo che visualizza dieci volte la frase "Viva le vacanze!".
 
-56. Scrivere un algoritmo che visualizza tutti i numeri naturali inferiori al valore assoluto di un
-numero scelto dall'utente.
+56. Scrivere un algoritmo che visualizza tutti i numeri naturali inferiori al valore assoluto di un numero scelto dall'utente.
 
 57. Scrivere un algoritmo che visualizza in ordine crescente tutti i numeri naturali compresi tra due numeri scelti dall'utente (estremi inclusi).
 
