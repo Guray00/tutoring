@@ -3,10 +3,10 @@
 # a seconda del linguaggio di riferimento
 
 # =======================================================
-			MAIN="lezione"
+			MAIN="esercizio"
 			LOCATION="../__LEZIONE__"
 #			LOCATION="HelloWorld"
-			LANGUAGE="Java"
+			LANGUAGE="C"
 # =======================================================
 
 # JAVA CASE
