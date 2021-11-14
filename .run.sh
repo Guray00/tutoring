@@ -3,10 +3,10 @@
 # a seconda del linguaggio di riferimento
 
 # =======================================================
-			MAIN="esercizio"
+			MAIN="index"
 			LOCATION="../__LEZIONE__"
 #			LOCATION="HelloWorld"
-			LANGUAGE="C"
+			LANGUAGE="WEB"
 # =======================================================
 
 # JAVA CASE
@@ -30,8 +30,13 @@ elif [ $LANGUAGE = "C#" ]
 then
   cd /home/runner/tutoring/$LANGUAGE/$LOCATION && mcs *.cs && mono ./$MAIN.exe && rm $MAIN.exe
 
-
+# C++ CASE
 elif [ $LANGUAGE = "C++" ]
 then
   cd /home/runner/tutoring/$LANGUAGE/$LOCATION && g++ $MAIN.cpp -o $MAIN && ./$MAIN && rm $MAIN && echo ""
+
+# WEB CASE
+elif [ $LANGUAGE = "WEB" ]
+then
+  cd /home/runner/tutoring/$LANGUAGE/$LOCATION && php -S 0.0.0.0:8000 -t .
 fi
