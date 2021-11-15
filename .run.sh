@@ -19,12 +19,19 @@ LANGUAGE=$(echo ${LANGUAGE,,})
 MODE=$(cat $INIT/runner.json | jq '.tutor_mode' | sed 's/"//g')
 MODE=$(echo ${MODE,,})
 
-if [ $MODE = "true" ]
+if [[ $MODE = "true" ]]
 then
 	LOCATION="../__LEZIONE__/"
 
-    if [ ! -f $INIT/__LEZIONE__/$MAIN.java ] && [ $LANGUAGE="java" ]; then
+    if [[ $LANGUAGE="java" ]] && [[ ! -f $INIT/__LEZIONE__/$MAIN.java ]]; then
         echo  -en 'public class '${MAIN}'{\n\n\tpublic static void main(String[] args){\n\n\t\tSystem.out.println("Hello World!");\n\n\t}\n}' > $INIT/__LEZIONE__/$MAIN.java
+
+    elif [[ $LANGUAGE="c" ]] && [[ ! -f $INIT/__LEZIONE__/$MAIN.c ]]; then
+        echo  -en '#include <stdio.h>\n#include <stdlib.h>\n\nint main(){\n\n\tprintf("Hello World!");\n\n}' > $INIT/__LEZIONE__/$MAIN.c
+    
+    elif [[ $LANGUAGE="python" ]] && [[ ! -f $INIT/__LEZIONE__/$MAIN.py ]]; then
+        echo  -en 'print("Hello World!")' > $INIT/__LEZIONE__/$MAIN.py
+    
     fi
 fi
 

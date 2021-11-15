@@ -3,7 +3,7 @@ import java.time.LocalDate;
 
 
 public class Movimento {
-  public double importo;
+    public double importo;
 	public LocalDate data;
 	public String tipologia;
 	
@@ -18,6 +18,5 @@ public class Movimento {
 	public void print(){
 		System.out.println("[ importo: "+ this.importo + ", data: " + this.data + ", tipologia: " + this.tipologia +" ]");
 	}
-
 
 }
