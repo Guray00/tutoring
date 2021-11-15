@@ -22,11 +22,13 @@ MODE=$(echo ${MODE,,})
 if [ $MODE = "true" ]
 then
 	LOCATION="../__LEZIONE__/"
+
+    if [ ! -f $INIT/__LEZIONE__/$MAIN.java ] && [ $LANGUAGE="java" ]; then
+        echo  -en 'public class '${MAIN}'{\n\n\tpublic static void main(String[] args){\n\n\t\tSystem.out.println("Hello World!");\n\n\t}\n}' > $INIT/__LEZIONE__/$MAIN.java
+    fi
 fi
 
-
 echo -e "\e[7m[Preparazione del file $MAIN in corso]\e[0m"
-
 
 preload () {
   clear
