@@ -39,7 +39,9 @@ fi
 echo -e "\e[7m[Preparazione del file $MAIN in corso]\e[0m"
 
 preload () {
-  clear
+    #if [[ "$LANGUAGE" != "c" ]]; then
+    clear
+    #fi
 	echo -e "\e[2m[Esecuzione del file $MAIN]\e[0m"
 	echo -e ""
 }
@@ -58,7 +60,7 @@ then
 # C CASE
 elif [ $LANGUAGE = "c" ]
 then
-  cd $INIT/"C"/$LOCATION && gcc $MAIN.c -o $MAIN && preload && ./$MAIN && rm $MAIN
+  cd $INIT/"C"/$LOCATION && gcc $MAIN.c -o $MAIN && preload && ./$MAIN && echo "" && rm $MAIN
 
 # C# CASE
 elif [ $LANGUAGE = "c#" ]
@@ -68,7 +70,7 @@ then
 # C++ CASE
 elif [ $LANGUAGE = "c++" ]
 then
-  cd $INIT/"C++"/$LOCATION && g++ $MAIN.cpp -o $MAIN && preload && ./$MAIN && rm $MAIN && echo ""
+  cd $INIT/"C++"/$LOCATION && preload && g++ $MAIN.cpp -o $MAIN && ./$MAIN && rm $MAIN && echo ""
 
 # WEB CASE
 elif [ $LANGUAGE = "web" ]
