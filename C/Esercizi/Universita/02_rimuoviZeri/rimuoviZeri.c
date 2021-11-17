@@ -64,7 +64,7 @@ int main(){
 
     // la funzione però non può ricevere un vettore 
     // perchè l'esercizio vuole che questa ne modifichi 
-    // completamente i valori
+    // completamente i valori (anche in termini di dimensione)
     int* A = (int*) malloc(sizeof(int)*dim);
 
     // inserisco i valori
@@ -75,5 +75,4 @@ int main(){
     int size = funzione(&A, 8);
     printArray(A, size);
 	return 0;
-
 }

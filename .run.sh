@@ -60,7 +60,7 @@ then
 # C CASE
 elif [ $LANGUAGE = "c" ]
 then
-  cd $INIT/"C"/$LOCATION && gcc $MAIN.c -o $MAIN && preload && ./$MAIN && echo "" && rm $MAIN
+  cd $INIT/"C"/$LOCATION && preload && gcc $MAIN.c -o $MAIN  && ./$MAIN && echo "" && rm $MAIN
 
 # C# CASE
 elif [ $LANGUAGE = "c#" ]
