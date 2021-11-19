@@ -27,3 +27,4 @@ la variazione del numero di elementi che vi
 sono contenuti ed è scritto espressamente che la memoria 
 va liberata, questo ci fa intuire la necessità di un vettore 
 dinamico.
+

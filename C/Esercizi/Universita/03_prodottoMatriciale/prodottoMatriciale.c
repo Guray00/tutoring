@@ -13,7 +13,7 @@ void printArray(int* v, int n){
 	printf(" ]\n");
 }
 
-
+// funzione di utility  per stampare le matrici
 void printMatrix(int* v, int n, int m){
 	printf("{\n");
 	for (int i = 0; i < n; i++){
@@ -66,3 +66,6 @@ int main(){
     printArray(X, 3);
 	return 0;
 }
+
+
+

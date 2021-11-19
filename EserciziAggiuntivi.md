@@ -10,7 +10,9 @@ Questo file nasce con lo scopo di realizzare un eserciziario basato sulle riches
 3. stampare a schermo (print) in un range(0, 5000) divisibli per 563 e 756
 
 ## FUNZIONI
-1. <ins>**Calcola permietro e area:**</ins> fare un programma che chiede in input il lato di un triangolo equilatero e calcolare il perimetro del triangolo tramite una funzione e stampare a schermo l'area
+1. <ins>**Calcola permietro e area:**</ins> fare un programma che 
+chiede in input il lato di un triangolo equilatero e calcolare il 
+perimetro del triangolo tramite una funzione e stampare a schermo l'area
 
 2. Scrivere un metodo chiamato isSum che, dati in input tre numeri a,
 b e c di tipo int, restituisca il valore true se e solo se uno dei tre
@@ -38,6 +40,24 @@ uguale a 6 o se la loro somma o la loro differenza sia uguale a 6.
 
 ## MATRICI
 1. **Trova nella matrice:** data una matrice, contare quante volte un numero inserito dall'utente compare
+
+
+## Array
+1. Memorizzare in un array di dieci posizioni i primi dieci 
+   numeri naturali.
+   
+2. Leggere e memorizzare in un array di 8 celle, 8 numeri reali, 
+   dopo averli memorizzati calcolarne la somma e la media.
+
+3. Leggere e memorizzare in un array sette numeri, dopo averli 
+   letti contare quante volte è stato memorizzato lo zero.
+
+4. Memorizzare in un array di 100 posti i 
+   primi cento numeri naturali in ordine inverso.
+
+5. Dopo aver letto e memorizzato 8 numeri in un array, 
+   calcolare la somma di quelli negativi e memorizzare 
+   zero al loro posto.
 
 ## Giochi Introduttivi 
 
