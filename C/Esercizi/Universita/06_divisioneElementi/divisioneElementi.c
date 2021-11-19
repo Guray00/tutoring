@@ -20,8 +20,8 @@ typedef unsigned int Boolean;
 
 void printArray(float* v, int n){
 	printf("[");
-	for (int i = 0; i < n; i++)
-		printf(" %f", v[i]);
+	for (int j = 0; j < n; j++)
+		printf(" %f", v[j]);
 	printf(" ]\n");
 }
 
@@ -50,7 +50,7 @@ Boolean funzione(float* V, int N, float** W){
 
 int main(){
     int N = 5;
-    float V[5] = {1, 5, 5, 6, 5};
+    float V[5] = {1, 2, 5, 6, 5};
     float *W;
 
     Boolean risposta = funzione(V, N, &W);
