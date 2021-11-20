@@ -9,9 +9,9 @@
 		<h1>Gioco del numero più alto</h1>
 
 		<form action="./gioca.php">
-      <label>Nome:</label>
-      <input type="text" name="nome">
-      <input type="submit" value="Invia">
+            <label>Nome:</label>
+            <input type="text" name="nome">
+            <input type="submit" value="Invia">
 		</form>
 		
 	</body>
