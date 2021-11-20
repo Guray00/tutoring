@@ -28,7 +28,7 @@ then
         echo  -en 'public class '${MAIN}'{\n\n\tpublic static void main(String[] args){\n\n\t\tSystem.out.println("Hello World!");\n\n\t}\n}' > $INIT/__LEZIONE__/$MAIN.java
 
     elif [[ "$LANGUAGE" == "c" ]] && [[ ! -f $INIT/__LEZIONE__/$MAIN.c ]]; then
-        echo  -en '#include <stdio.h>\n#include <stdlib.h>\n\nint main(){\n\n\tprintf("Hello World!");\n\treturn 0;\n\n}' > $INIT/__LEZIONE__/$MAIN.c
+        echo  -en '#include <stdio.h>\n#include <stdlib.h>\n\n// utility to print an array\nvoid printArray(int* v, int n){\n\tprintf("[");\n\tfor (int i = 0; i < n; i++)\n\t\tprintf(" %d", v[i]);\n\tprintf(" ]\\n");\n}\n\nint main(){\n\n\tprintf("Hello World!");\n\treturn 0;\n\n}' > $INIT/__LEZIONE__/$MAIN.c
     
     elif [[ "$LANGUAGE" == "python" ]] && [[ ! -f $INIT/__LEZIONE__/$MAIN.py ]]; then
         echo  -en 'print("Hello World!")' > $INIT/__LEZIONE__/$MAIN.py
