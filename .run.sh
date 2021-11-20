@@ -41,9 +41,7 @@ fi
 echo -e "\e[7m[Preparazione del file $MAIN in corso]\e[0m"
 
 preload () {
-    #if [[ "$LANGUAGE" != "c" ]]; then
     clear
-    #fi
 	echo -e "\e[2m[Esecuzione del file $MAIN]\e[0m"
 	echo -e ""
 }
