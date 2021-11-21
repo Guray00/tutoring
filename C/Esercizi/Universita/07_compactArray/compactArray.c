@@ -30,7 +30,6 @@ void funzione(int* A, int N, int* M){
     
     // imposto la prima posizione come "giusta"
     *M = 0;
-    int giusto = 0;
 
     // il - (*M) serve a non cadere in un loop infinito
     // in cui siamo sempre minori di N perchè decrementiamo
@@ -38,9 +37,9 @@ void funzione(int* A, int N, int* M){
     for (int i = 1; i < N - (*M); i++){
 
         // confrontiamo con quello diverso preso in esame
-        if(A[i] == A[giusto]){
+        if(A[i] == A[i-1]){
 
-            // - M per lo stesso motivo di prima
+            // - M per lo stesso motivo di prima, trasla
             for (int j=i; j<N-1-(*M); j++){
                 A[j] = A[j+1];         
             }
@@ -56,9 +55,6 @@ void funzione(int* A, int N, int* M){
         // se quello preso in esame è diverso da quello
         // che sto controllando allora da ora cerco il nuovo
         // elemento
-        else giusto=i;
-
-       
     }
 
     // aggiunge in fondo gli zeri
