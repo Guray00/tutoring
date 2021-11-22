@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+typedef unsigned int boolean;
+#define TRUE 1;
+#define FALSE 0;
 /*
 Scrivere la funzione C che riceve in ingresso un array 
 bidimensionale di valori interi A e le sue dimensioni (N
@@ -11,11 +13,39 @@ seguente:
   con i valori di A, attraversata per colonne, divisi per il minimo;
 - La funzione ritorna FALSE nel caso il minimo sia 0, TRUE altrimenti;
 - Restituisce tra i parametri formali l’array V.
+
+{ 1, 2, 3, 4, 
+  4, 5, 6, 7,
+  8, 9, 10, 11};
 */
 
-typedef unsigned int boolean;
-#define TRUE 1;
-#define FALSE 0;
+boolean funz(int *A, int N, int M, float **V){
+    int min=A[0];
+    *V=(float*)malloc(sizeof(float)*(N*M));
+    int contatore;
+
+    for(int i=0; i<N*M; i++){
+        if(A[i] < min)
+            min=A[i];
+        
+        if(A[i]==0)
+            return FALSE;
+    }
+    
+    for(int m=0; m<M; m++){
+      for(int n=0; n<N; n++){
+        (*V)[contatore]= (float)A[n*M+m]/(float)min;
+        contatore++;
+      }
+    }
+    
+    
+    return TRUE;
+    
+    //V[] = A[n*M+m];
+
+}
+
 
 // utility to print an array
 void printArray(float* v, int n){
@@ -25,39 +55,17 @@ void printArray(float* v, int n){
 	printf(" ]\n");
 }
 
-boolean funzione(int* A, int N, int M, float** V){
-    *V = (float*)malloc(sizeof(float)*(N*M));
-
-    if(A[0] == 0) return FALSE;
-
-    // trova il minimo
-    int min = A[0];
-    for (int i=1; i < N*M; i++){
-        if(A[i] == 0) return FALSE;
-
-        if (A[i] < min)
-            min = A[i];
-    }
-
-    for (int i=0; i < (N*M); i++){
-        (*V)[i] = ((float) A[i]/ (float) min);
-    }
-
-
-    return TRUE;
-}
 
 int main(){
 
-    int  A[][4] = { 1, 2, 3, 4, 
+    int  A[][4] = { 0, 1, 3, 4, 
                     4, 5, 6, 7,
                     8, 9, 10, 11};
 
     float* V;
-    boolean res = funzione(*A, 3, 4, &V);
+    boolean res = funz(*A, 3, 4, &V);
 
     if (res == 1)
         printArray(V, 12);
 	return 0;
-
 }
