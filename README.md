@@ -1,7 +1,9 @@
 # Tutoring
 Repository per condivisione di materiale utile al tutoring. 
 Questo viene settimanalmente aggiornato in base alle lezioni tentutesi.
-
+<br>
+Tutti i dettagli relativi alle ripetizioni possono essere
+consultati nella pagina [**FAQ**](https://github.com/Guray00/tutoring/blob/main/FAQ.md)
 ## Scaricare Materiale
 Oltre alla repository github, è possibile accedere a una cartella 
 online per scaricare e consultare rapidamente tutto il contenuto 

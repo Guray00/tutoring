@@ -3,6 +3,7 @@ __LEZIONE__
 runner.json
 # C#
 .exe
+.o
 
 # aggiunte
 .idea

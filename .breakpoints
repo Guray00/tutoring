@@ -1,11 +1,27 @@
 {
   "files": {
+    ".replit": [
+      {
+        "id": "b32f698d-81d2-478e-9a90-4faa0a888560",
+        "line": 3,
+        "version": 154,
+        "index": 39
+      }
+    ],
     "C/Esercizi/0_Eserciziario/es.c": [
       {
         "id": "2cddc07c-de65-4d79-b247-fe516666b406",
         "line": 1,
         "version": 1102,
         "index": 0
+      }
+    ],
+    "__LEZIONE__/MenuGestioneCd.java": [
+      {
+        "id": "1a219ee9-75d0-4dc1-8b09-34d4ea4c1214",
+        "line": 4,
+        "version": 1,
+        "index": 64
       }
     ]
   }
