@@ -36,6 +36,7 @@ then
     
     elif [[ "$LANGUAGE" == "python" ]] && [[ ! -f $INIT/__LEZIONE__/$MAIN.py ]]; then
         echo  -en 'print("Hello World!")' > $INIT/__LEZIONE__/$MAIN.py
+        
 
     elif [[ "$LANGUAGE" == "web" ]] && [[ ! -f $INIT/__LEZIONE__/index.php ]]; then
         echo  -en '<!DOCTYPE html>\n<html>\n\t<head>\n\t</head>\n\n\t<body>\n\t</body>\n</html>' > $INIT/__LEZIONE__/index.php

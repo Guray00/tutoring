@@ -60,3 +60,6 @@ Skuola.net purtroppo gestisce le commissioni relative ai tutor con una politica 
 ## 11. Si possono prenotare lezioni in presenza?
 
 Purtroppo dati gli impegni universitari non mi è possibile.
+
+## 12. Su skuola.net mi viene chiesto skype, perchè?
+E' una pratica standard di skuola.net, anche se non effettuo lezioni su quella piattaforma viene comunque richiesto agli studendi (purtroppo).
