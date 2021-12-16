@@ -23,7 +23,7 @@ Le lezioni vengono svolte sulla piattaforma **Google Meet** al seguente indirizz
 
 ## 3. Dove trovo il materiale?
 
-Tutto il materiale può essere trovato a questa pagina: https://github.com/Guray00/IngegneriaInformatica
+Tutto il materiale può essere trovato a questa pagina: https://github.com/Guray00/tutoring
 E' infatti per me molto importante che il materiale visto a lezione sia sempre fruibile da tutti gli studenti anche dopo le lezioni (anche a distanza di tempo!). Ho infatti una vasta raccolta che vado ad ampliare nel tempo e che vuole essere di supporto agli studenti, spesso quanto visto con alcuni può giovare a tutti gli altri! Questo perchè Il materiale presente non è relativo alla singola lezione svolta con lo studente, ma raccoglie tutti gli esercizi e tutto il materiale teorico visto nel corso di tutti i tutoring che svolgo.
 
 ## 4. Cosa è replit?
