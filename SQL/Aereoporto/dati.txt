@@ -1,0 +1,81 @@
+DROP DATABASE IF EXISTS EsercizioVolo;
+
+CREATE DATABASE EsercizioVolo;
+
+USE EsercizioVolo;
+
+CREATE TABLE CompagniaAerea(
+	idCA int NOT NULL AUTO_INCREMENT,
+    nomeCA varchar(45),
+    nazionalitaCA varchar(45),
+    PRIMARY KEY (idCA)
+);
+
+CREATE TABLE Aeroporto(
+	idA int NOT NULL AUTO_INCREMENT,
+    nomeA varchar(45),
+    cittaA varchar(45),
+    nazioneA varchar(45),
+    PRIMARY KEY (idA)
+);
+
+CREATE TABLE Volo(
+	idV int NOT NULL AUTO_INCREMENT,
+    passeggeriV int,
+    dataV date,
+    compagniaAereaV int,
+    trattaDiVoloV int,
+    PRIMARY KEY (idV)
+);
+
+CREATE TABLE TrattaDiVolo(
+	idTDV int NOT NULL AUTO_INCREMENT,
+    partenzaTDV int,
+    arrivoTDV int,
+    PRIMARY KEY (idTDV),
+    FOREIGN KEY (partenzaTDV) REFERENCES Aeroporto(idA),
+    FOREIGN KEY (arrivoTDV) REFERENCES Aeroporto(idA)
+);
+
+ALTER TABLE Volo
+ADD FOREIGN KEY (trattaDiVoloV) REFERENCES TrattaDiVolo(idTDV),
+ADD FOREIGN KEY (compagniaAereaV) REFERENCES CompagniaAerea(idCA);
+
+INSERT INTO CompagniaAerea(nomeCA, nazionalitaCA)
+VALUES 
+    ("Ryanair", "Irlanda"),
+    ("EasyJet", "Regno Unito"),
+    ("Lufthansa", "Germania"),
+	("Alitalia", "Italia");
+    
+INSERT INTO Aeroporto(nomeA, cittaA, nazioneA)
+VALUES
+	("Milano-Malpensa", "Milano", "Italia"),
+    ("Guglielo Marconi", "Bologna", "Italia"),
+    ("Frankfurt Airport", "Francoforte", "Germania"),
+    ("JFK", "New York", "Stati Uniti"),
+    ("Heathrow Airport", "Londra", "Inghilterra"),
+    ("Amerigo Vespucci", "Firenze", "Italia"),
+    ("Mykonos Airport JMK", "Mykonos", "Grecia");   
+    
+INSERT INTO TrattaDiVolo(partenzaTDV, arrivoTDV)
+VALUES
+	(3, 1),
+    (5, 2),
+    (7, 6),
+    (4, 2),
+    (3, 4),
+    (3, 5),
+    (7, 2);
+
+INSERT INTO Volo(passeggeriV, dataV, compagniaAereaV, trattaDiVoloV)
+VALUES
+	(155, "2017-04-21", 2, 6),
+    (300, "2019-01-11", 3, 7),
+    (200, "2018-12-05", 4, 1),
+    (120, "2012-01-07", 1, 2),
+    (170, "2017-05-15", 1, 3),
+    (430, "2013-02-12", 4, 4),
+    (420, "2017-10-17", 4, 5),
+    (190, "2019-09-21", 2, 6),
+    (60, "2020-07-22", 3, 7);
