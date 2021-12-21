@@ -21,12 +21,18 @@ Mi occupo di fornire assistenza in ambito informatico con particolare attenzione
 
 Le lezioni vengono svolte sulla piattaforma **Google Meet** al seguente indirizzo: https://meet.google.com/xuv-rwjc-qvo
 
-## 3. Dove trovo il materiale?
+## 3. Fornisci del materiale? Dove lo trovo?
+Una delle cose che mi stanno più a cuore è garantire agli studenti la possibilità di condividere tra di loro materiale, come spiegazione esercizi svolti e molto altro. Questo permette agli studenti di approfondire la materia in autonomia e vedere, in qualsiasi momento, quanto svolto a lezione insieme, in quanto tutto quello che viene fatto viene sempre rilasciato e sarà disponibile PER SEMPRE, anche se non verranno più prenotate le lezioni.
 
-Tutto il materiale può essere trovato a questa pagina: https://github.com/Guray00/tutoring
-E' infatti per me molto importante che il materiale visto a lezione sia sempre fruibile da tutti gli studenti anche dopo le lezioni (anche a distanza di tempo!). Ho infatti una vasta raccolta che vado ad ampliare nel tempo e che vuole essere di supporto agli studenti, spesso quanto visto con alcuni può giovare a tutti gli altri! Questo perchè Il materiale presente non è relativo alla singola lezione svolta con lo studente, ma raccoglie tutti gli esercizi e tutto il materiale teorico visto nel corso di tutti i tutoring che svolgo.
+Questa è perciò vasta raccolta che vado ad ampliare nel tempo e che vuole essere di supporto agli studenti, spesso quanto visto con alcuni può giovare a tutti gli altri! Questo perchè Il materiale presente non è relativo alla singola lezione svolta con lo studente, ma raccoglie tutti gli esercizi e tutto il materiale teorico visto nel corso di tutti i tutoring che svolgo.
 
-## 4. Cosa è replit?
+## 4. Dove trovo il materiale visto a lezione e/o fornito?
+Per semplificare le cose agli studenti, il materiale è sempre disponibile in multipla copia:
+- **github** (raccomandato): Sito principale in cui il materiale viene caricato e può essere revisionato. Tiene traccia delle date in cui faccio le modifiche per consentire agli studenti di vedere quando ho fatto l'ultima modifica. Link: https://github.com/Guray00/tutoring
+- **Drive** (più facile): E' un mio drive personale dove il materiale viene caricato in automatico entro il giorno seguente dalla lezione. Molto simile a google drive e perciò facile. Link: https://drive.mlampis.dev/index.php/s/Mw9pASkynwaYRR7
+- **Replit** (non consigliato): Il materiale svolto durante la lezione è ovviamente in copia anche su replit, non è però consigliato utilizzare questa piattaforma per la revisione a causa del pericolo di modificare i file. E' consigliato visionare i file da replit solo su mio invito.
+
+## 5. Cosa è replit?
 
 Replit è una piattaforma online ad uso **gratuito** che consente di lavorare a più utenti contemporaneamente; ciò è molto utile per le lezioni in quanto permette di comunicare direttamente sul file eventuali errori senza dover condividere lo schermo! Infatti la quasi totalità dei docenti informatici si limitano a condividere lo schermo con gli studenti e mostrare come fare le cose, invece in questo modo si instaura un vero e proprio dialogo tra studente e insegnante che permette di instaurare un clima di _"sfida"_ per la risoluzione del problema ma con la consapevolezza di non essere soli.
 
