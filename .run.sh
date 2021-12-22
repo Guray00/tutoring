@@ -75,7 +75,7 @@ then
 # C++ CASE
 elif [ $LANGUAGE = "c++" ]
 then
-  cd $INIT/"C++"/$LOCATION && g++ $MAIN.cpp -o $MAIN && preload && ./$MAIN && rm $MAIN && echo ""
+  cd $INIT/"C++"/$LOCATION && g++ *.cpp -o $MAIN && preload && ./$MAIN && rm $MAIN && echo ""
 
 # WEB CASE
 elif [ $LANGUAGE = "web" ]
