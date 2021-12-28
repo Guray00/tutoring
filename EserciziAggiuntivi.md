@@ -1,6 +1,8 @@
 # Eserciziario (in costruzione)
 Questo file nasce con lo scopo di realizzare un eserciziario basato sulle richesto degli studenti, al fine di aumentare il materiale a disposizione per potersi esercitare.
 
+## AND e OR
+1. genera 2 numeri casuali da 1 a 6 corrispondenti alle facce di due dati. il giocatore vince se la somma dei due dadi è 7 oppure 5.
 
 ## CICLI
 1. **Cerca i divisori:** Trova tutti i numeri tra 0 e un milione che sono divisibili per 563 e 756
