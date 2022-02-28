@@ -1,5 +1,0 @@
-
-mia;nonna;4355;7;5;
-alberto;angela;1212;45;7;
-barbaroffa;gionbattista;8741;-1;7;
-gilberto;michele;5438;13;10;

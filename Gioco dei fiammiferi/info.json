@@ -1,0 +1,9 @@
+{
+	"title":"Gioco dei fiammiferi",
+	"description":"Vince chi non leva i fiammiferi!",
+	"difficulty": "2",
+	"requirements": [],
+	"tags": ["loops"],
+	"notes": "Utile per ripassare i cicli", 
+	"argoment" : "Loops"
+}

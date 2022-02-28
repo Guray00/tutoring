@@ -1,0 +1,1 @@
+Il gioco si svolge in due persone, che a turno, inseriscono un valore numerico in input. Il gioco consiste nell'estrarre ad ogni turno dei fammiferi, chi li finisce perde!

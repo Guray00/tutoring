@@ -1,0 +1,9 @@
+{
+	"title":"Trova i secondi",
+	"description":"Dato in input un'orario, trasformarlo in secondi",
+	"difficulty": "1",
+	"requirements": [],
+	"tags": ["loops", "if"],
+	"notes": "Utile per cominciare", 
+	"argoment" : "Introduttivi"
+}
