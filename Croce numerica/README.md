@@ -1,0 +1,1 @@
+Bisogna creare una croce con lo stesso numero (dispari) di righe e colonne formata dal numero della riga corrispondente. 
