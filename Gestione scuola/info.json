@@ -1,0 +1,10 @@
+{
+	"title":"Gestione scuola",
+	"description":"Gestire l'inserimento di voti mediante lettura e scrittura file",
+	"id": "non serve in teoria",
+	"difficulty": 2,
+	"requirements": [],
+	"tags": ["loops", "if"],
+	"notes": "Utile per ripassare i file", 
+	"argoment" : "file"
+}

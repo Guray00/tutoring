@@ -1,0 +1,9 @@
+{
+	"title":"Sequenza con somma maggiore",
+	"description":"Trovare la sequenza con la somma dei valori maggiore",
+	"requirements": [],
+	"difficulty": 2,
+	"tags": ["loops", "for", "if"],
+	"notes": "Utile per ripassare struttura e uso del ciclo for", 
+	"argoment" : "Loops"
+}

@@ -1,0 +1,1 @@
+All'utente è chiesto di inserire in input un numero che determina quante sequenze devono essere confrontate. Quindi per ogni sequenza viene chiesto il numero dei valori presenti, dai quali si ricava la somma. Alla fine viene determinato e scritto il numero della sequenza la cui somma dei valori è maggiore.

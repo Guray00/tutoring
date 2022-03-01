@@ -1,0 +1,9 @@
+{
+	"title":"Da binario a decimale",
+	"description":"Convertire un array di valori binari in decimale",
+	"difficulty": "3",
+	"requirements": [],
+	"tags": ["loops", "if"],
+	"notes": "Utile per ripassare il binario", 
+	"argoment" : "Loops"
+}

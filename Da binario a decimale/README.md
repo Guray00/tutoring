@@ -1,0 +1,1 @@
+Data la codifica di un numero in binario memorizzata all'interno di un vettore, stampare a schermo il suo valore in decimale.

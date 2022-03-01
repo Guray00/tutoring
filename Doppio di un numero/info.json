@@ -1,9 +1,8 @@
 {
 	"title":"Calcolare il doppio di un numero",
 	"description":"Dato un numero in input, trovarne il doppio",
-	"id": "non serve in teoria",
-	"difficulty": "1",
 	"requirements": [],
+	"difficulty": 0,
 	"tags": ["loops", "if"],
 	"notes": "Utile per cominciare", 
 	"argoment" : "Introduttivi"
