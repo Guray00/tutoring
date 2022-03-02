@@ -1,13 +1,3 @@
-/********************************************
-LIVELLO: Facile
-Scuola: Liceo, Secondo Anno
-Conoscenza: Scanf, Printf
-*********************************************/
-
-/*
-1. Scrivere un algoritmo che calcoli il doppio di un numero fornito in input.
-*/
-
 #include <stdio.h>
 
 

@@ -15,7 +15,7 @@ int main(){
 
     // mostriamo a schermo il doppio del valore
     numero = numero*2;
-	cout<<"il numero e' "<<numero;
+	cout<<"il doppio del numero e' "<<numero;
 
 	return 0;
 }

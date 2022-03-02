@@ -1,0 +1,9 @@
+{
+	"title":"Somma parziale",
+	"description":"Somma in modo parziale il contenuto di un vettore",
+	"difficulty": 4,
+	"requirements": [],
+	"tags": ["loops", "if"],
+	"notes": "Utile per ripassare gli array", 
+	"argoment" : "Memoria dinamica"
+}

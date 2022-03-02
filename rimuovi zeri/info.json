@@ -1,0 +1,9 @@
+{
+	"title":"Rimuovi zeri",
+	"description":"Rimuovere gli zeri da un vettore",
+	"difficulty": 4,
+	"requirements": [],
+	"tags": ["loops", "if"],
+	"notes": "Utile per ripassare gli array", 
+	"argoment" : "Memoria dinamica"
+}
