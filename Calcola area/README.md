@@ -1,0 +1,1 @@
+Data la base e l'altezza di un rettangolo, calcolarne l'area e mostrarla a schermo
