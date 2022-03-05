@@ -1,0 +1,9 @@
+{
+"title":"Gestione di un treno",
+"description":"Automatizzare la gestione di un treno tramite liste",
+"difficulty": 3,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare le liste", 
+"argoment" : "Liste e pile"
+}
