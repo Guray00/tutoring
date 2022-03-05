@@ -1,0 +1,9 @@
+{
+"title":"E' primo",
+"description":"Controllare se un numero inserito è primo",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare l'operatore %", 
+"argoment" : ""
+}

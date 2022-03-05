@@ -1,0 +1,9 @@
+{
+"title":"D uniforme",
+"description":"Verifica se un vettore è d-uniforme",
+"difficulty": 4,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare la memoria dinamica", 
+"argoment" : "Vettori"
+}

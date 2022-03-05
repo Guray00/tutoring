@@ -9,14 +9,29 @@
 # tua sinistra. 
 # ======================================================
 
-
 clear
 
-read -p "Nome cartella: " cartella
-mkdir $cartella
+# costante colori
+RED='\033[0;31m'
+NC='\033[0m' # No Color
 
+# controllo sul numero di parametri
+if [ "$#" -gt 1 ]; then
+    printf "${RED}Devi mettere le virgolette!${NC}\n"
+    exit
+fi
 
-cat > $cartella/info.json <<- EOM
+# controllo se e' specificato il nome della cartella
+if [ $# -eq 0 ]
+  then
+    read -p "Nome cartella:" cartella
+  else  
+    cartella=$1
+fi
+
+mkdir "${cartella}" || exit
+
+cat > "$cartella/info.json" <<- EOM
 {
 	"title":"",
 	"description":"",
@@ -28,6 +43,6 @@ cat > $cartella/info.json <<- EOM
 }
 EOM
 
-cat > $cartella/README.md <<- EOM
+cat > "$cartella/README.md" <<- EOM
 Testo esercizio non ancora disponibile
 EOM
