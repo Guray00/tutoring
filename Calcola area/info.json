@@ -1,0 +1,9 @@
+{
+	"title":"Calcola area rettangolo",
+	"description":"Calcolare l'area del rettangolo dati in input base e altezza",
+	"difficulty": 0,
+	"requirements": [],
+	"tags": [],
+	"notes": "Utile per cominciare", 
+	"argoment" : "Introduttivi"
+}
