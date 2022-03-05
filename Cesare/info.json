@@ -1,0 +1,9 @@
+{
+	"title":"Cifrario di cesare",
+	"description":"Simulazione del noto cifrario di cesare",
+	"difficulty": 2,
+	"requirements": [],
+	"tags": [],
+	"notes": "Utile per ripassare i cifrari", 
+	"argoment" : "Introduttivi"
+}

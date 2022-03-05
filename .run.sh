@@ -22,7 +22,7 @@ MODE=$(echo ${MODE,,})
 
 if [[ "$MODE" == "true" ]]
 then
-	LOCATION="../__LEZIONE__/"
+	LOCATION="/__LEZIONE__/"
 
     if [[ "$LANGUAGE" == "java" ]] && [[ ! -f $INIT/__LEZIONE__/$MAIN.java ]]; then
         echo  -en 'public class '${MAIN}'{\n\n\tpublic static void main(String[] args){\n\n\t\tSystem.out.println("Hello World!");\n\n\t}\n}' > $INIT/__LEZIONE__/$MAIN.java
@@ -54,31 +54,31 @@ preload () {
 # JAVA CASE
 if [ $LANGUAGE = "java" ]
 then
-	cd $INIT/"Java"/$LOCATION && javac *.java && preload && java $MAIN
+	cd $INIT/$LOCATION && javac *.java && preload && java $MAIN
 	rm *.class
 
 # PYTHON CASE
 elif [ $LANGUAGE = "python" ]
 then
-	cd $INIT/"Python"/$LOCATION && preload && python3 ./$MAIN.py
+	cd $INIT/LOCATION && preload && python3 ./$MAIN.py
 
 # C CASE
 elif [ $LANGUAGE = "c" ]
 then
-  cd $INIT/"C"/$LOCATION && preload && gcc $MAIN.c -o $MAIN  && ./$MAIN && echo "" && rm $MAIN
+  cd $INIT/$LOCATION && preload && gcc $MAIN.c -o $MAIN  && ./$MAIN && echo "" && rm $MAIN
 
 # C# CASE
 elif [ $LANGUAGE = "c#" ]
 then
-  cd $INIT/"C#"/$LOCATION && mcs *.cs && preload && mono ./$MAIN.exe && rm $MAIN.exe
+  cd $INIT/$LOCATION && mcs *.cs && preload && mono ./$MAIN.exe && rm $MAIN.exe
 
 # C++ CASE
 elif [ $LANGUAGE = "c++" ]
 then
-  cd $INIT/"C++"/$LOCATION && g++ *.cpp -o $MAIN && preload && ./$MAIN && rm $MAIN && echo ""
+  cd $INIT/$LOCATION && g++ *.cpp -o $MAIN && preload && ./$MAIN && rm $MAIN && echo ""
 
 # WEB CASE
 elif [ $LANGUAGE = "web" ]
 then
-  cd /$INIT/"WEB"/$LOCATION && preload && php -S 0.0.0.0:8000 -t .
+  cd /$INIT/$LOCATION && preload && php -S 0.0.0.0:8000 -t .
 fi
