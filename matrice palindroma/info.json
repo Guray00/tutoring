@@ -1,7 +1,7 @@
 {
 "title":"matrice palindroma",
 "description":"Verificare se una data matrice è palindroma",
-"difficulty": 3,
+"difficulty": 4,
 "requirements": [],
 "tags": [],
 "notes": "Utile per ripassare le matrici", 
