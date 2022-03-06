@@ -60,7 +60,7 @@ then
 # PYTHON CASE
 elif [ $LANGUAGE = "python" ]
 then
-	cd $INIT/LOCATION && preload && python3 ./$MAIN.py
+	cd $INIT/$LOCATION && preload && python3 ./$MAIN.py
 
 # C CASE
 elif [ $LANGUAGE = "c" ]
