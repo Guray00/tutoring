@@ -1,7 +1,7 @@
 Realizzare un programma che simuli il funzionamento del cifrario di cesare.
 
 ## Meccanismo
-Nel cifrario di Cesare, ogni lettera viene sostituita con una situata in 3 posizione successive. Ad esempio:
+Nel cifrario di Cesare ogni lettera viene sostituita con quella situata in 3 posizione successive. Ad esempio:
 
 ```plaintext
 input:  ciao

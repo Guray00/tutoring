@@ -1,2 +1,8 @@
-Scrivere un algoritmo che calcoli il doppio di un numero fornito in input.
+Scrivere un algoritmo che, dato un numero fornito in ingresso, calcoli il doppio.
 
+### Esempio
+```plaintext
+Inserisci un numero: 4
+
+Il doppio del numero inserito è 8
+```
