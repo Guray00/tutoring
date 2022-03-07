@@ -5,5 +5,9 @@ La funzione restituisce TRUE nel caso in cui esista almeno un elemento uguale a 
 contrario.
 
 ## Esempio
-(Esempio: lista L = {3.2, 1.5, 6.7, 1.5, 2.0}, target = 1.5, lista di uscita L = {3.2, 6.7, 2.0, 1.5, 1.5})
+```plaintext
+lista L = {3, 1, 6, 1, 2} 
+target = 1
+lista di uscita L = {3, 6, 2, 1, 1})
+```
 

@@ -1,9 +1,9 @@
 {
 "title":"Muovi target",
-"description":"Muovere i target in coda",
+"description":"Muovere alcuni elementi target in coda a un array linked list",
 "difficulty": 5,
 "requirements": [],
 "tags": [],
-"notes": "Utile per ripassare array linked list", 
+"notes": "Utile per ripassare le array linked list", 
 "argoment" : "liste e pile"
 }
