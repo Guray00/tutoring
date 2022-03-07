@@ -1,0 +1,9 @@
+{
+"title":"Muovi target [array list]",
+"description":"Muovere i target in coda",
+"difficulty": 5,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare array linked list", 
+"argoment" : "liste e pile"
+}
