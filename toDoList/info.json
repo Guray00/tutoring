@@ -1,0 +1,9 @@
+{
+	"title":"To-Do List",
+	"description":"Realizzazione di una todo list",
+	"difficulty": 4,
+	"requirements": [],
+	"tags": [],
+	"notes": "Utile per ripassare le liste", 
+	"argoment" : "OOP"
+}
