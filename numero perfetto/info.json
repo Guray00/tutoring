@@ -1,0 +1,9 @@
+{
+"title":"Verificare se un numero è perfetto",
+"description":"Verificare se un numero è pari alla somma dei suoi divisori",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per cominciare", 
+"argoment" : "Introduttivi"
+}
