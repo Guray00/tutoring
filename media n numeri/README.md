@@ -1,0 +1,1 @@
+scrivere un algoritmo che consenta di calcolare la media dati n numeri inseriti dall'utente

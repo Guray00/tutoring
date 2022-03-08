@@ -1,0 +1,1 @@
+Dati n numeri calcolare la media dei positivi e dei negativi inseriti
