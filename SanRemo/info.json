@@ -1,0 +1,9 @@
+{
+	"title":"Sanremo",
+	"description":"Gestire i partecipanti di San Remo",
+	"difficulty": 3,
+	"requirements": [],
+	"tags": [],
+	"notes": "", 
+	"argoment" : "oop"
+}
