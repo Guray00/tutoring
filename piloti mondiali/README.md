@@ -1,4 +1,4 @@
-Scrivere un programma in linguaggio C++ che carichi i dati contenuti nel file
+Scrivere un programma in linguaggio che carichi i dati contenuti nel file
 VincitoriF1.txt e li memorizzi in un opportuno vettore di record. 
 
 Il file contiene la lista dei vincitori del mondiale piloti di F1 e su ogni riga è

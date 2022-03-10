@@ -1,4 +1,3 @@
-
 def calcolaArea(base, altezza):
   area = base*altezza
   return area
