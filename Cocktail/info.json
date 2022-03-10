@@ -1,0 +1,9 @@
+{
+	"title":"Cocktail Bar",
+	"description":"Gestire l'inserimento di Cocktail",
+	"difficulty": 3,
+	"requirements": [],
+	"tags": [],
+	"notes": "", 
+	"argoment" : "oop"
+}
