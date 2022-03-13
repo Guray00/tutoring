@@ -1,0 +1,9 @@
+{
+"title":"Inverti Array Linked List",
+"description":"Invertire il buffer contenuto in un array linked list",
+"difficulty": 4,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare le array linked list", 
+"argoment" : "memoria dinamica"
+}

@@ -1,0 +1,9 @@
+{
+"title":"Double linked list",
+"description":"creare una lista che punti anche all'elemento precedente",
+"difficulty": 4,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare le liste", 
+"argoment" : "liste e pile"
+}
