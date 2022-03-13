@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="marco"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-13 01:48:39 "/>
+        <attribute name="created" value="bWFyY287R1JBWS1MQVBUT1A7MjAyMi0wMy0xMzsiMDE6NDY6MjQgIjsyNTMx"/>
+        <attribute name="edited" value="bWFyY287R1JBWS1MQVBUT1A7MjAyMi0wMy0xMzsiMDE6NDg6MzkgIjsxOzI2NDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="base, altezza, area" type="Integer" array="False" size=""/>
+            <output expression="&quot;Inserisci la base&quot;" newline="True"/>
+            <input variable="base"/>
+            <output expression="&quot;Inserisci l'altezza&quot;" newline="True"/>
+            <input variable="altezza"/>
+            <assign variable="area" expression="base*altezza"/>
+            <output expression="&quot;L'area del rettangolo vale &quot; &amp;area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

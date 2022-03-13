@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="marco"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-13 03:03:06 "/>
+        <attribute name="created" value="bWFyY287R1JBWS1MQVBUT1A7MjAyMi0wMy0xMzsiMDI6NTk6NTQgIjsyNTM5"/>
+        <attribute name="edited" value="bWFyY287R1JBWS1MQVBUT1A7MjAyMi0wMy0xMzsiMDM6MDM6MDYgIjsxOzI2MzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="base, esponente, risultato, i" type="Integer" array="False" size=""/>
+            <output expression="&quot;Inserisci la base&quot;" newline="True"/>
+            <input variable="base"/>
+            <output expression="&quot;Inserisci l'esponente&quot;" newline="True"/>
+            <input variable="esponente"/>
+            <comment text="risultato vale 1 in modo da non alterare il valore&#13;&#10;"/>
+            <assign variable="risultato" expression="1"/>
+            <for variable="i" start="1" end="esponente" direction="inc" step="1">
+                <assign variable="risultato" expression="risultato*base"/>
+            </for>
+            <output expression="&quot;Il risultato e': &quot; &amp;risultato" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="marco"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-13 02:56:10 "/>
+        <attribute name="created" value="bWFyY287R1JBWS1MQVBUT1A7MjAyMi0wMy0xMzsiMDI6NTA6MzMgIjsyNTI3"/>
+        <attribute name="edited" value="bWFyY287R1JBWS1MQVBUT1A7MjAyMi0wMy0xMzsiMDI6NTY6MTAgIjsxOzI2MzY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, doppio" type="Integer" array="False" size=""/>
+            <output expression="&quot;Inserisci un numero&quot;" newline="True"/>
+            <input variable="numero"/>
+            <assign variable="doppio" expression="2*numero"/>
+            <output expression="&quot;Il doppio del numero e' &quot; &amp;doppio" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
