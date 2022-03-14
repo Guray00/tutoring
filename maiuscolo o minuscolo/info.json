@@ -1,0 +1,9 @@
+{
+"title":"Maiuscolo o minuscolo",
+"description":"Individuare se un carattere inserito è maiuscolo o minuscolo",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare la conversione di tipo", 
+"argoment" : "Introduttivi"
+}
