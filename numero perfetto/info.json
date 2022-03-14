@@ -1,9 +1,9 @@
 {
-"title":"Verificare se un numero è perfetto",
-"description":"Verificare se un numero è pari alla somma dei suoi divisori",
+"title":"Numero è perfetto",
+"description":"Verificare se la somma dei divisori di un numero è uguale al numero inserito",
 "difficulty": 1,
 "requirements": [],
 "tags": [],
-"notes": "Utile per cominciare", 
-"argoment" : "Introduttivi"
+"notes": "Utile per ripassare i cicli", 
+"argoment" : "loops"
 }
