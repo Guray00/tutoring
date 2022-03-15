@@ -1,21 +1,18 @@
+// versione con la funzione
+
 #include <stdio.h>
 #include <stdlib.h>
 
-/*
-
-*/
-
 
 void verifica(char c){
-  int n = (int) c; // convertiamo un carattere i un numero
 
   // è minuscola se è compresa tra 97 e 122
-  if( n >= 97 && n<=122){
+  if( c >= 'a' && c<='z'){
     printf("E' un carattere minuscolo");
   }
 
   // maiuscolo se è compreso tra 65 e 90 
-  else if (n >= 65 && n<= 90){
+  else if (c >= 'A' && c <= 'Z'){
     printf("E' un carattere maiuscolo");
   }
 
@@ -25,15 +22,13 @@ void verifica(char c){
 }
 
 
-
 int main(){
-  char c;
+	char c;
 
-  printf("Inserisci un carattere: ");
-  scanf("%c", &c);
+	printf("Inserisci un carattere: ");
+	scanf("%c", &c);
 
-  verifica(c);
-
+	verifica(c);
 	return 0;
 }
 

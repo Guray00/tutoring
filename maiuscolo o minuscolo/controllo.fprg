@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="marco"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-15 10:56:52 "/>
+        <attribute name="created" value="bWFyY287R1JBWS1MQVBUT1A7MjAyMi0wMy0xNTsiMTA6NDk6MzUgIjsyNTM4"/>
+        <attribute name="edited" value="bWFyY287R1JBWS1MQVBUT1A7MjAyMi0wMy0xNTsiMTA6NTY6NTIgIjsxOzI2NDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="c" type="String" array="False" size=""/>
+            <output expression="&quot;Inserisci un carattere&quot;" newline="True"/>
+            <input variable="c"/>
+            <if expression="c &gt;= &quot;a&quot; &amp;&amp; c&lt;=&quot;z&quot;">
+                <then>
+                    <output expression="&quot;Carattere minuscolo&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="c &gt;= &quot;A&quot; &amp;&amp; C&lt;=&quot;Z&quot;">
+                        <then>
+                            <output expression="&quot;Carattere maiuscolo&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Non &#232; un carattere&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
