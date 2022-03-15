@@ -1,10 +1,6 @@
 #include <iostream>
 using namespace std;
 
-/*
-
-*/
-
 // creo la classe
 class Rettangolo{
   public:
