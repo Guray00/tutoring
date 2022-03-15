@@ -1,0 +1,1 @@
+Calcolare l'acconto di imposta: se il saldo di imposta è negativo non si deve pagare nulla, se è positivo si deve versare il 98% dell'importo come acconto. Se l'acconto calcolato è inferiore a 50 euro non si versa nulla.

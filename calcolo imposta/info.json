@@ -1,0 +1,9 @@
+{
+"title":"Calcolo imposta",
+"description":"Calcolare imposta per un saldo",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare if ed else", 
+"argoment" : "Introduttivi"
+}
