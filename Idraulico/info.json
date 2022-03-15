@@ -1,0 +1,9 @@
+{
+"title":"Idraulico",
+"description":"calcolare la spesa complessiva da dare a un idraulico",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare if/else", 
+"argoment" : "Introduttivi"
+}

@@ -1,0 +1,9 @@
+{
+"title":"Calcolo rimborso",
+"description":"calcolare il rimborso per un abbonamento del treno e autobus",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare if/else", 
+"argoment" : "Introduttivi"
+}
