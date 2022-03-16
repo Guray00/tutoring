@@ -1,0 +1,9 @@
+{
+"title":"Scambia pari e dispari in un vettore",
+"description":"Scambiare gli elementi in posizione pari con quelli in posizione dispari",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare i vettori", 
+"argoment" : "vettori"
+}
