@@ -1,0 +1,9 @@
+{
+"title":"Conta vocali",
+"description":"Contare le vocali inserite a schermo",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare scanf('%f')", 
+"argoment" : "loops"
+}

@@ -1,0 +1,9 @@
+{
+"title":"Conta naturali",
+"description":"Verificare se un numero inserito è naturale",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare i numeri naturali", 
+"argoment" : "loops"
+}

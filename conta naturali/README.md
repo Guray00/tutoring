@@ -1,0 +1,1 @@
+Dati n numeri, contare quanti di questi sono naturali
