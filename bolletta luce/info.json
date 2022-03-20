@@ -1,0 +1,9 @@
+{
+"title":"Bolletta luce",
+"description":"Calcolare la bolletta della luce",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare else if", 
+"argoment" : "if"
+}

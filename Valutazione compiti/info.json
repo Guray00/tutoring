@@ -1,0 +1,9 @@
+{
+"title":"Valutazione compiti",
+"description":"Dare un grado data una media in percentuale a dei compiti",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare else if", 
+"argoment" : "if"
+}
