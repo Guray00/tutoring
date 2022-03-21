@@ -1,0 +1,9 @@
+{
+"title":"Somma (ricorsiva)",
+"description":"Calcolare la somma tra due numeri mediante la ricorsione",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per cominciare con le ricorsioni", 
+"argoment" : "ricorsione"
+}

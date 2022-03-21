@@ -1,0 +1,1 @@
+Implementare il calcolo del fattoriale adoperando una funzione ricorsiva.

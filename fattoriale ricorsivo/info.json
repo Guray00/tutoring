@@ -1,0 +1,9 @@
+{
+"title":"Fattoriale (ricorsivo)",
+"description":"Calcolare il fattoriale utilizzando una funzione ricorsiva",
+"difficulty": 0,
+"requirements": [],
+"tags": [],
+"notes": "Utile per iniziare con le funzioni ricorsive", 
+"argoment" : "ricorsione"
+}

@@ -1,0 +1,9 @@
+{
+"title":"Inverti (ricorsivo)",
+"description":"Stampare al contrario un numero utilizzando una funzione ricorsiva",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "Utile per migliorare con le funzioni ricorsive", 
+"argoment" : "ricorsione"
+}

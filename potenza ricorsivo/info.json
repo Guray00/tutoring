@@ -1,0 +1,9 @@
+{
+"title":"Calcolo della potenza (ricorsivo)",
+"description":"Calcolare la potenza utilizzando una funzione ricorsiva",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per iniziare con le funzioni ricorsive", 
+"argoment" : "ricorsione"
+}
