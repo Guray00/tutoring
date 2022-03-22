@@ -1,0 +1,1 @@
+Realizzare un programma che legge da input un voto (compreso tra 1 e 10) e ne stampa il significato (>8 significa ottimo, 8 distinto, 7 buono, 6 sufficiente, 5 insufficiente, <=4 gravemente insufficiente).

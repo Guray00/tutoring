@@ -1,0 +1,9 @@
+{
+"title":"Voto compito",
+"description":"Dato il valore numerico di un compito, restituisce la valutazione in parole",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare if", 
+"argoment" : "if"
+}

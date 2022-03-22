@@ -1,0 +1,9 @@
+{
+"title":"Da grado a compito",
+"description":"Convertire il grado alfabetico in valutazioni numeriche",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare l'if", 
+"argoment" : "if"
+}
