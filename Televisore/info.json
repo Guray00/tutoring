@@ -1,0 +1,9 @@
+{
+"title":"Televisore",
+"description":"Gestione di una televisione",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per iniziare con la OOP", 
+"argoment" : "oop"
+}
