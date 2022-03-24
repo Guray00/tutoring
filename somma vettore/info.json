@@ -1,0 +1,9 @@
+{
+"title":"Somma elementi vettore",
+"description":"Sommare gli elementi all'interno di un vettore",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per iniziare con i vettori", 
+"argoment" : "vettori"
+}
