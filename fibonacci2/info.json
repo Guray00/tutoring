@@ -1,0 +1,9 @@
+{
+"title":"Fibonacci 2",
+"description":"Verificare se un numero appartiene alla serie di Fibonacci",
+"difficulty": 3,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare la serie di fibonacci", 
+"argoment" : "ricorsione"
+}

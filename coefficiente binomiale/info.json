@@ -1,0 +1,9 @@
+{
+"title":"Coefficiente binomiale",
+"description":"Calcolare il coefficiente binomiale",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare il coefficiente binomiale", 
+"argoment" : "ricorsione"
+}

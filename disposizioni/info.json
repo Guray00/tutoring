@@ -1,0 +1,9 @@
+{
+"title":"Calcola disposizione",
+"description":"Calcola la disposizione semplice dato due numeri",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare le funzioni", 
+"argoment" : "ricorsione"
+}

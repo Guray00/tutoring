@@ -1,0 +1,1 @@
+Verificare se un numero n appartiene o meno alla successione di fibonacci

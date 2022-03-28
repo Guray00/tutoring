@@ -1,0 +1,9 @@
+{
+"title":"Fibonacci 1",
+"description":"Mostrare a schermo gli n elementi della serie di fibonacci",
+"difficulty": 3,
+"requirements": [],
+"tags": [],
+"notes": "Utile per studiare la serie di fibonacci", 
+"argoment" : "ricorsione"
+}
