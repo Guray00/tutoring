@@ -1,0 +1,9 @@
+{
+"title":"Saldo conto",
+"description":"Gestire il saldo di un conto",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare if", 
+"argoment" : "if"
+}
