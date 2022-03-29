@@ -1,0 +1,9 @@
+{
+"title":"Galleria D'arte",
+"description":"Creare una galleria d'arte",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare oop", 
+"argoment" : "oop"
+}
