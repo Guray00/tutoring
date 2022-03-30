@@ -1,9 +1,9 @@
 {
-"title":"",
-"description":"",
-"difficulty": ,
+"title":"Tabelline",
+"description":"Calcolare la tabellina di un numero",
+"difficulty": 0,
 "requirements": [],
 "tags": [],
-"notes": "", 
-"argoment" : ""
+"notes": "Utile per imparare il for", 
+"argoment" : "loops"
 }
