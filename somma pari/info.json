@@ -1,0 +1,9 @@
+{
+"title":"Somma pari (ricorsivo)",
+"description":"Sommare solo i numeri pari",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare la ricorsione", 
+"argoment" : "ricorsione"
+}

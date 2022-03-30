@@ -1,0 +1,1 @@
+Scrivere una funzione ricorsiva che dati in ingresso n interi restituisce la somma dei soli numeri pari

@@ -1,0 +1,9 @@
+{
+"title":"Divisori di 2",
+"description":"Trovare quanti numeri sono divisori di 2",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare la ricorsione", 
+"argoment" : "ricorsione"
+}

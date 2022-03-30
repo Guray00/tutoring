@@ -1,0 +1,9 @@
+{
+"title":"Numero cifre (ricorsivo)",
+"description":"Contare il numero di cifre all'interno di un numero",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare la ricorsione", 
+"argoment" : "ricorsione"
+}

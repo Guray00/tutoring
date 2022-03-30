@@ -1,0 +1,1 @@
+Scrivere una funzione ricorsiva che somma i numeri inseriti fino a quando sono pari, al primo dispari termina e stampa a schermo la somma
