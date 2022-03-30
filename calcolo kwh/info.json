@@ -1,0 +1,9 @@
+{
+"title":"Calcolo kwh",
+"description":"Calcolare il totale di spesa dati i kwh",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare l'if", 
+"argoment" : "if"
+}
