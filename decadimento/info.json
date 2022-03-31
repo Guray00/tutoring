@@ -1,0 +1,9 @@
+{
+"title":"Decadimento radioattivo",
+"description":"Calcolare il numero di anni necessari per il decadimento di un atomo",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare i cicli", 
+"argoment" : "loops"
+}

@@ -1,0 +1,9 @@
+{
+  "title":"Laminatoi",
+  "description":"Calcolare lo spessore finale di un semilavorato",
+  "difficulty": 2,
+  "requirements": [],
+  "tags": [],
+  "notes": "Utile per ripassare i cicli", 
+  "argoment" : "loops"
+}

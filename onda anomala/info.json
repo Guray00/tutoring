@@ -1,0 +1,9 @@
+{
+"title":"Onda anomala",
+"description":"calcolare quanto è alta un'onda quando arriva alla spiaggia",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare i cicli", 
+"argoment" : "loops"
+}
