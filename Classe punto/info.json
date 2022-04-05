@@ -1,0 +1,9 @@
+{
+"title":"Classe punto",
+"description":"Realizzare una classe con le proprietà di un punto cartesiano",
+"difficulty": 0,
+"requirements": [],
+"tags": [],
+"notes": "Utile per iniziare la OOP", 
+"argoment" : "oop"
+}
