@@ -1,0 +1,9 @@
+{
+"title":"Calcolo biglietto comitiva",
+"description":"Calcolare il prezzo di un biglietto per una comitiva",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "Utile per consolidare l'if", 
+"argoment" : "if"
+}

@@ -1,0 +1,9 @@
+{
+"title":"Stampa N numeri naturali",
+"description":"Stampare a schermo i primi n numeri naturali",
+"difficulty": 0,
+"requirements": [],
+"tags": [],
+"notes": "Utile per iniziare con i cicli", 
+"argoment" : "loops"
+}
