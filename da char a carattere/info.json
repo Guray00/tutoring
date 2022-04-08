@@ -1,0 +1,9 @@
+{
+"title":"Da char a int",
+"description":"Convertire un carattere nel suo valore ASCII",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare la conversione di tipo", 
+"argoment" : "introduttivi"
+}
