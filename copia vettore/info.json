@@ -1,0 +1,9 @@
+{
+"title":"Copia vettore",
+"description":"Copiare un vettore in un altro vettore",
+"difficulty": 0,
+"requirements": [],
+"tags": [],
+"notes": "Utile per iniziare con i vettori", 
+"argoment" : "vettori"
+}

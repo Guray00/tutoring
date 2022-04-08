@@ -1,0 +1,9 @@
+{
+"title":"Trova il massimo in un vettore",
+"description":"Trovare il valore massimo interno a un vettore",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per allenarsi con i vettori", 
+"argoment" : "vettori"
+}

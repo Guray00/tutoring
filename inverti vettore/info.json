@@ -1,0 +1,9 @@
+{
+"title":"Stampa vettore invertito",
+"description":"Mostrare a schermo il contenuto di un vettore al contrario",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per allenarsi con i vettori", 
+"argoment" : "vettori"
+}
