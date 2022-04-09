@@ -1,0 +1,9 @@
+{
+"title":"Quadrato di numeri casuali",
+"description":"Generare n numeri casuali da inserire in un vettore e mostrarne il quadrato",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare i random", 
+"argoment" : "vettori"
+}
