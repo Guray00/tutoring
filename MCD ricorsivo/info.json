@@ -1,0 +1,9 @@
+{
+"title":"Massimo Comune Divisore (ricorsivo)",
+"description":"Implementare una funzione ricorsiva per trovare l'mcd",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare mcd", 
+"argoment" : "ricorsione"
+}
