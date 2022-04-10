@@ -1,0 +1,9 @@
+{
+"title":"Stampa da 30 a 15",
+"description":"Stampare a schermo i numeri da 30 a 15",
+"difficulty": 0,
+"requirements": [],
+"tags": [],
+"notes": "Utile per iniziare con il for", 
+"argoment" : "loops"
+}

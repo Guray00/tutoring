@@ -1,0 +1,9 @@
+{
+"title":"Stampa da 1 a 20",
+"description":"Stampare a schermo i numeri compresi da 1 a 20",
+"difficulty": 0,
+"requirements": [],
+"tags": [],
+"notes": "Utile per iniziare con il for", 
+"argoment" : "loops"
+}

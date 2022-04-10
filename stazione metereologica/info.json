@@ -1,0 +1,9 @@
+{
+"title":"Stazione metereologica",
+"description":"Gestione di una stazione metereologica",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "Utile per allenarsi sui vettori", 
+"argoment" : "vettori"
+}

@@ -1,0 +1,9 @@
+{
+"title":"Stampa dispari da 3 a 21",
+"description":"Stampare i numeri dispari compresi tra 3 e 21",
+"difficulty": 0,
+"requirements": [],
+"tags": [],
+"notes": "Utile per iniziare con il for", 
+"argoment" : "loops"
+}
