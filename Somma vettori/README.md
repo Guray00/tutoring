@@ -1,1 +1,1 @@
-Testo esercizio non ancora disponibile
+Dati due array fare il prodotto degli elementi e assegnarli ad un terzo array. Successivamente sommare tutti gli elementi dell'array risultante.
