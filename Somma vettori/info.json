@@ -1,0 +1,9 @@
+{
+"title":"Somma vettori",
+"description":"Sommare il contenuto di due vettori salvando il risultato in un terzo",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare i vettori", 
+"argoment" : "vettori"
+}
