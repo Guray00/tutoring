@@ -1,0 +1,9 @@
+{
+"title":"Pescheria",
+"description":"Calcolare il prezzo di carpe e trote",
+"difficulty": 3,
+"requirements": [],
+"tags": [],
+"notes": "Utile per esercitarsi in preparazione", 
+"argoment" : "loops"
+}
