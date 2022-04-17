@@ -1,0 +1,9 @@
+{
+"title":"Cerca in un vettore",
+"description":"Cercare un valore inserito dall'utente in un vettore",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare la ricerca", 
+"argoment" : "vettori"
+}

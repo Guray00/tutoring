@@ -1,0 +1,9 @@
+{
+"title":"Somma estremi vettore",
+"description":"Sommare il primo e l'ultimo elemento del vettore",
+"difficulty": 0,
+"requirements": [],
+"tags": [],
+"notes": "Utile per iniziare con i vettori", 
+"argoment" : "vettori"
+}

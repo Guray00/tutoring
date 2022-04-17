@@ -1,0 +1,1 @@
+Dati N numeri contare quanti sono multipli di un valore A.

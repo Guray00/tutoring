@@ -1,0 +1,9 @@
+{
+"title":"Conta multipli"
+"description":"Contare quanti valori sono multipli rispetto a un numero inserito",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare l'operatore modulo", 
+"argoment" : "loops"
+}

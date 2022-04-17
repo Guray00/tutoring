@@ -1,0 +1,9 @@
+{
+"title":"Calcolo sconti articoli",
+"description":"Calcolare lo sconto su degli articoli",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per iniziare", 
+"argoment" : "loops"
+}

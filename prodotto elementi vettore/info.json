@@ -1,0 +1,9 @@
+{
+"title":"Prodotto elementi vettore",
+"description":"Calcolare il prodotto degli elementi di un vettore",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare come eseguire i prodotti", 
+"argoment" : "vettori"
+}

@@ -1,0 +1,1 @@
+Su un insieme di articoli di cui è dato il prezzo, viene applicata una percentuale X di sconto. Calcolare la somma degli sconti

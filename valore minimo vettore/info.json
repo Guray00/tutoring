@@ -1,0 +1,9 @@
+{
+"title":"Valore minimo vettore",
+"description":"Trovare il valore minimo in un vettore",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare la ricerca", 
+"argoment" : "vettori"
+}
