@@ -1,0 +1,9 @@
+{
+	"title":"Forno",
+	"description":"Automatizzare la gestione di un forno",
+	"difficulty": 2,
+	"requirements": [],
+	"tags": [],
+	"notes": "Utile per ripassare la OOP", 
+	"argoment" : "oop"
+}
