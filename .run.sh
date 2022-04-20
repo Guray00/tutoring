@@ -65,20 +65,17 @@ then
 # C CASE
 elif [ $LANGUAGE = "c" ]
 then
-  cd $INIT/$LOCATION && preload && gcc $MAIN.c -o $MAIN  && ./$MAIN && echo ""
-  rm $MAIN
+  cd $INIT/$LOCATION && preload && gcc $MAIN.c -o $MAIN  && ./$MAIN && echo "" && rm $MAIN
 
 # C# CASE
 elif [ $LANGUAGE = "c#" ]
 then
-  cd $INIT/$LOCATION && mcs *.cs && preload && mono ./$MAIN.exe
-  rm $MAIN.exe
+  cd $INIT/$LOCATION && mcs *.cs && preload && mono ./$MAIN.exe && rm $MAIN.exe
 
 # C++ CASE
 elif [ $LANGUAGE = "c++" ]
 then
-  cd $INIT/$LOCATION && g++ *.cpp -o $MAIN && preload && ./$MAIN && echo ""
-  rm $MAIN
+  cd $INIT/$LOCATION && g++ *.cpp -o $MAIN && preload && ./$MAIN && echo "" && rm $MAIN
 
 # WEB CASE
 elif [ $LANGUAGE = "web" ]
