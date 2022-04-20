@@ -1,0 +1,1 @@
+Scrivere una funzione che restituisca la differenza tra il valore massimo e il valore minimo di un vettore di N elementi. Deve poi visualizzare a schermo il risultato (dopo aver chiesto gli elementi del vettore)

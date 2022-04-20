@@ -1,0 +1,9 @@
+{
+"title":"Differenza tra massimo e minimo vettore",
+"description":"Calcolare la differenza tra il massimo e il minimo di un vettore",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare i vettori", 
+"argoment" : "vettori"
+}
