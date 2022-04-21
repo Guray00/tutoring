@@ -1,0 +1,9 @@
+{
+"title":"Verifica pari",
+"description":"Verificare se un numero è pari",
+"difficulty": 0,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare l'operatore modulo", 
+"argoment" : "if"
+}

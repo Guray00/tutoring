@@ -1,0 +1,1 @@
+Verificare se un numero inserito in input è pari
