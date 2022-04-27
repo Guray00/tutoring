@@ -1,3 +1,5 @@
+// variante con le funzioni
+
 #include <stdio.h>
 #include <stdlib.h>
 
