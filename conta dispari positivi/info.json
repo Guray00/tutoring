@@ -1,0 +1,9 @@
+{
+"title":"Conta dispari e positivi",
+"description":"Dati n numeri, contare quanti di questi sono dispari e positivi",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare come contare", 
+"argoment" : "loops"
+}

@@ -36,10 +36,10 @@ while IFS= read -r line; do
     # verifico se il file esiste
     if [ ! -f "$1/$filename" ]
     then
-        mv "$line" "$1/" && printf "${GREEN}[V]${NC} ${YELLOW}$filename${NC} moved successfully.\n"
+        mv "$line" "$1/" && printf "${GREEN}[V]${NC} ${YELLOW}$filename${NC} moved successfully.\n\n"
 
     else
-        printf "${RED}[X]${NC} ${YELLOW}$filename${NC} found. Not moved.\n"
+        printf "${RED}[X]${NC} ${YELLOW}$filename${NC} found. Not moved.\n\n"
     fi
 
   fi

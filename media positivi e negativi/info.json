@@ -1,9 +1,9 @@
 {
 "title":"Media di n numeri positivi/negativi",
 "description":"Effettuare la media di n numeri positivi/negativi",
-"difficulty": 0,
+"difficulty": 1,
 "requirements": [],
 "tags": [],
-"notes": "Utile per iniziare", 
+"notes": "Utile per ripassare la media", 
 "argoment" : "loops"
 }
