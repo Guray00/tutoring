@@ -1,0 +1,9 @@
+{
+"title":"Portamonete",
+"description":"Implementazione di un portamonete a oggetti",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare l'ereditarietà", 
+"argoment" : "oop"
+}

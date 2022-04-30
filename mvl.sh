@@ -23,7 +23,7 @@ if [ "$#" -ne 1 ]; then
 fi
 
 # elenco di file da spostare dalla lezione
-files=`find __LEZIONE__ -maxdepth 1 -type f \( -iname \*.cpp -o -iname \*.c -o -iname \*.py -o -iname \*.java -o -iname \*.cs -o -iname \*.php \)`
+files=`find __LEZIONE__ -maxdepth 1 -type f \( -iname \*.cpp -o -iname \*.c -o -iname \*.py -o -iname \*.java -o -iname \*.cs -o -iname \*.php -o -iname \*.h -o -iname \*.hpp \)`
 
 # per ogni file individuato
 while IFS= read -r line; do
