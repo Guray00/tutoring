@@ -1,0 +1,9 @@
+{
+"title":"Stampa primi n pari",
+"description":"Mostare a schermo i numeri pari minori di n",
+"difficulty": 0,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare operatore %", 
+"argoment" : "loops"
+}

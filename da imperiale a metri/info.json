@@ -1,0 +1,9 @@
+{
+"title":"Dal sistema imperiale al metro",
+"description":"Dato un valore e un'unità, convertire in metri",
+"difficulty": 0,
+"requirements": [],
+"tags": [],
+"notes": "utile per ripassare l'if/switch", 
+"argoment" : "if"
+}

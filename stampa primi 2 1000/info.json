@@ -1,0 +1,9 @@
+{
+"title":"Stampare i numeri primi da 2 a 1000",
+"description":"Stampare a schermo i numeri primi compresi tra 2 e 1000",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare l'operatore %", 
+"argoment" : "loops"
+}

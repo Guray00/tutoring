@@ -1,0 +1,9 @@
+{
+"title":"Stampa n pari minori di N decrescente",
+"description":"Stampare tutti i numeri pari minori di N in modo decrescente",
+"difficulty": 0,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare la stampa decrescente", 
+"argoment" : "loops"
+}

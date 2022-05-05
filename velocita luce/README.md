@@ -1,0 +1,1 @@
+scrivere una funzione che riceva in input una distanza in km e restituisca il tempo richiesto dalla luce per percorrere tale distanza in secondi considerando la velocità della luce pari a 299'792'458 km/s

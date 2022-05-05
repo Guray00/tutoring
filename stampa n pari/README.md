@@ -1,0 +1,1 @@
+Stampare i numeri pari minori di N.
