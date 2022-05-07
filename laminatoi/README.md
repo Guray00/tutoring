@@ -1,5 +1,5 @@
-In una acciaieria il semilavorato metallico grezzo viene prodotto con uno spessore di alcuni centimetri e viene successivamente lavorato passando per una serie di n laminatoi, ciascuno dei quali diminuisce lo spessore del 10%.
+In una acciaieria il semilavorato metallico grezzo viene prodotto con uno spessore di alcuni centimetri e viene successivamente lavorato passando per una serie di `n` laminatoi, ciascuno dei quali diminuisce lo spessore del 10%.
 
-A) Progettare un algoritmo per determinare lo spessore del laminato a partire dallo spessore del semilavorato grezzo e dal numero di la minatoi presenti nel processo di lavorazione.
+A) Progettare un algoritmo per determinare lo spessore del laminato a partire dallo spessore del semilavorato grezzo e dal numero di laminatoi presenti nel processo di lavorazione.
 
 B) Modificare l'algoritmo precedente in modo che determini il numero di laminatoi necessari nel processo di lavorazione per ottenere un laminato di spessore definito a partire dallo spessore del semilavorato.
