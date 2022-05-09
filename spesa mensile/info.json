@@ -1,0 +1,9 @@
+{
+"title":"Spesa mensile",
+"description":"Gestire la spesa mensile di un cliente",
+"difficulty": 3,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare", 
+"argoment": "loops"
+}
