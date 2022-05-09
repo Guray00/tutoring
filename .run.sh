@@ -34,7 +34,7 @@ then
         echo  -en '#include <iostream>\nusing namespace std;\n\n// utility to print an array\nvoid printArray(int* v, int n){\n\tcout<<"[ ";\n\tfor (int i = 0; i < n; i++)\n\t\tcout<<v[i]<<" ";\n\tcout<<"]\\n";\n}\n\nint main(){\n\n\tcout<<"Hello World!";\n\treturn 0;\n\n}' > $INIT/__LEZIONE__/$MAIN.cpp
     
     
-    elif [[ "$LANGUAGE" == "python" ]] && [[ ! -f $INIT/__LEZIONE__/$MAIN.py ]]; then
+    elif [[ "$LANGUAGE" == "python" || "$LANGUAGE" == "py" ]] && [[ ! -f $INIT/__LEZIONE__/$MAIN.py ]]; then
         echo  -en 'print("Hello World!")' > $INIT/__LEZIONE__/$MAIN.py
         
 
@@ -58,7 +58,7 @@ then
 	rm *.class
 
 # PYTHON CASE
-elif [ $LANGUAGE = "python" ]
+elif [[ $LANGUAGE = "python" || $LANGUAGE = "py" ]]
 then
 	cd $INIT/$LOCATION && preload && python3 ./$MAIN.py
 

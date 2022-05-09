@@ -1,0 +1,9 @@
+{
+"title":"Stampa multipli minori di n",
+"description":"Stampare a schermo i multipli di A minori di N",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per iniziare con i cicli", 
+"argoment": "loops"
+}

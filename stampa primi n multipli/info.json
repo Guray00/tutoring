@@ -1,0 +1,9 @@
+{
+"title":"Stampa i primi N multipli",
+"description":"Stampare a schermo i primi N multipli di un numero",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per iniziare con i cicli", 
+"argoment": "loops"
+}

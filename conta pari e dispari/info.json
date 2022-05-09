@@ -1,0 +1,9 @@
+{
+"title":"Conta pari e dispari",
+"description":"Contare quanti numeri pari e dispari vengono inseriti",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare il conteggio", 
+"argoment": "loops"
+}
