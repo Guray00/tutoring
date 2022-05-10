@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="radaelli"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-10 07:57:37 "/>
+        <attribute name="created" value="cmFkYWVsbGk7TDJDMDE7MjAyMi0wNS0wNTsiMTE6MTc6MjcgIjsyMzEw"/>
+        <attribute name="edited" value="cmFkYWVsbGk7TDJDMDE7MjAyMi0wNS0wNTsiMTI6NTI6MTkgIjsxOzI0MTk="/>
+        <attribute name="edited" value="bWFyY287R1JBWS1MQVBUT1A7MjAyMi0wNS0xMDsiMDc6NTc6MzcgIjsxOzI2NTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numVoci" type="Integer" array="False" size=""/>
+            <declare name="descrizioneVoci" type="String" array="True" size="10"/>
+            <declare name="importoVoci" type="String" array="True" size="10"/>
+            <declare name="importoMensile" type="Real" array="False" size=""/>
+            <comment text="messaggio iniziale &#13;&#10;richiesta numero voci&#13;&#10;descrizione/categoria&#13;&#10;richiesta importo mensile"/>
+            <output expression="&quot;Programma per pianficare le spese mensili&quot;" newline="True"/>
+            <output expression="&quot;Quante voci vuoi gestire?(max10)&quot;" newline="True"/>
+            <input variable="numVoci"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="0" end="numVoci-1" direction="inc" step="1">
+                <output expression="&quot;Inserire &quot;&amp; (i+1)&amp;&quot;^ voce spesa: &quot;" newline="True"/>
+                <input variable="descrizioneVoci[i]"/>
+            </for>
+            <output expression="&quot;Inserire importo mensile a disposizione in &#8364;:&quot;" newline="True"/>
+            <input variable="importoMensile"/>
+            <comment text="gestione"/>
+            <call expression="Gestore(numVoci, descrizioneVoci,importoVoci, importoMensile)"/>
+        </body>
+    </function>
+    <function name="Gestore" type="None" variable="">
+        <parameters>
+            <parameter name="nVoci" type="Real" array="False"/>
+            <parameter name="descrVoci" type="String" array="False"/>
+            <parameter name="impVoci" type="Real" array="False"/>
+            <parameter name="imporTot" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="scelta" type="Integer" array="False" size=""/>
+            <do expression="scelta!=3">
+                <comment text="visualizzare men&#249; &#13;&#10;chiedere e ricevere scelta"/>
+                <if expression="scelta==1">
+                    <then>
+                        <comment text="visualizza&#13;&#10;&#13;&#10;&#13;&#10;"/>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="scelta==2">
+                    <then/>
+                    <else/>
+                </if>
+            </do>
+        </body>
+    </function>
+</flowgorithm>
