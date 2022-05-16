@@ -1,0 +1,9 @@
+{
+"title":"Numeri interi",
+"description":"Valutare se N numeri inseriti dall'utente sono interi",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare il conteggio", 
+"argoment": "loops"
+}
