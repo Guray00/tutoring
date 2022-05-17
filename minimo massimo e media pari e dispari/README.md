@@ -1,0 +1,1 @@
+4. Dati n numeri compresi tra -100 e 500, trovare il minimo, il massimo e la media dei valori pari e il minimo, il massimo e la media dei valori dispari.

@@ -1,0 +1,1 @@
+Stampare i primi N multipli di un numero.

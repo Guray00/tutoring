@@ -1,0 +1,9 @@
+{
+"title":"Trovare min,max,media e %",
+"description":"Trovare il minimo, massimo e media di n numeri con relative percentuali di valori positivi e negativi",
+"difficulty": 3,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare la percentuale", 
+"argoment": "loops"
+}

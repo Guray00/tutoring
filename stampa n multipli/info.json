@@ -1,0 +1,9 @@
+{
+"title":"Stampa n multipli",
+"description":"Stampare n multipli di un numero fornito in input",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare l'operatore %", 
+"argoment": "loops"
+}

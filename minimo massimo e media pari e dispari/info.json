@@ -1,0 +1,9 @@
+{
+"title":"Min, max e media di numeri pari e dispari",
+"description":"Calcolare il minimo il massimo e la media di numeri pari e dispari",
+"difficulty": 3,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare l'operatore %", 
+"argoment": "loops"
+}

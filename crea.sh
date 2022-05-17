@@ -9,7 +9,6 @@
 # tua sinistra. 
 # ======================================================
 
-clear
 
 # costante colori
 RED='\033[0;31m'
@@ -37,7 +36,7 @@ read -r -p "$(printf ${YELLOW}Descrizione:${NC}) " description
 read -r -p "$(printf ${YELLOW}Difficoltà:${NC}) " difficulty
 read -r -p "$(printf ${YELLOW}Note:${NC}) " notes
 read -r -p "$(printf ${YELLOW}Argomento:${NC}) " argoment
-
+printf "\n"
 
 cat > "$cartella/info.json" <<- EOM
 {
