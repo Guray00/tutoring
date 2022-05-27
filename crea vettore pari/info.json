@@ -1,0 +1,9 @@
+{
+"title":"Crea vettore pari",
+"description":"Dato un vettore di partenza, crearne uno contenente i soli elementi pari",
+"difficulty": 3,
+"requirements": [],
+"tags": [],
+"notes": "Utile per allenarsi sul passaggio per riferimento", 
+"argoment": "vettori"
+}

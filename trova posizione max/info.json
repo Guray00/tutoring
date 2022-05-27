@@ -1,0 +1,9 @@
+{
+"title":"Trova posizione massimo vettore",
+"description":"Trovare il valore massimo e restituirne la posizione",
+"difficulty": 3,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare il vettore", 
+"argoment": "vettori"
+}

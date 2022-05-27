@@ -30,7 +30,7 @@ then
     elif [[ "$LANGUAGE" == "c" ]] && [[ ! -f $INIT/__LEZIONE__/$MAIN.c ]]; then
         echo  -en '#include <stdio.h>\n#include <stdlib.h>\n\n// utility to print an array\nvoid printArray(int* v, int n){\n\tprintf("[");\n\tfor (int i = 0; i < n; i++)\n\t\tprintf(" %d", v[i]);\n\tprintf(" ]\\n");\n}\n\nint main(){\n\n\tprintf("Hello World!");\n\treturn 0;\n\n}' > $INIT/__LEZIONE__/$MAIN.c
     
-    elif [[ "$LANGUAGE" == "c++" ]] && [[ ! -f $INIT/__LEZIONE__/$MAIN.cpp ]]; then
+    elif [[ "$LANGUAGE" == "c++" || "$LANGUAGE" == "cpp" ]] && [[ ! -f $INIT/__LEZIONE__/$MAIN.cpp ]]; then
         echo  -en '#include <iostream>\nusing namespace std;\n\n// utility to print an array\nvoid printArray(int* v, int n){\n\tcout<<"[ ";\n\tfor (int i = 0; i < n; i++)\n\t\tcout<<v[i]<<" ";\n\tcout<<"]\\n";\n}\n\nint main(){\n\n\tcout<<"Hello World!";\n\treturn 0;\n\n}' > $INIT/__LEZIONE__/$MAIN.cpp
     
     
@@ -73,7 +73,7 @@ then
   cd $INIT/$LOCATION && mcs *.cs && preload && mono ./$MAIN.exe && rm $MAIN.exe
 
 # C++ CASE
-elif [ $LANGUAGE = "c++" ]
+elif [[ $LANGUAGE = "c++" || $LANGUAGE = "cpp" ]]
 then
   cd $INIT/$LOCATION && g++ *.cpp -o $MAIN && preload && ./$MAIN && echo "" && rm $MAIN
 
