@@ -1,0 +1,9 @@
+{
+"title":"Somma numeri positivi",
+"description":"Sommare i numeri fino a quando sono inseriti valori positivi",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassarel la somma", 
+"argoment": "loops"
+}

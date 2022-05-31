@@ -1,0 +1,9 @@
+{
+"title":"Serie senza ripetizioni",
+"description":"Contare quanti numeri sono stati inseriti senza numeri consecutivi",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare il while", 
+"argoment": "loops"
+}
