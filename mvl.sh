@@ -2,7 +2,7 @@
 
 # ======================================================
 #       QUESTO SCRIPT NON DEVE ESSERE MODIFICATO
-
+#
 # Se stai visualizzando questo file, non sei nella 
 # cartella giusta. Per andare nei file della __LEZIONE__
 # trovi tutto nella prima cartella nel menu alla 
