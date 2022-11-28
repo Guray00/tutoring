@@ -1,0 +1,9 @@
+{
+"title":"Creazione casa",
+"description":"Creazione di case mediante le strutture.",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per iniziare con le struct", 
+"argoment": "struct"
+}

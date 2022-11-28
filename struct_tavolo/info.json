@@ -1,0 +1,9 @@
+{
+"title":"Tavoli su misura",
+"description":"Alcuni artigiani hanno bisogno di nuovi tavoli su misura dei propri clienti, realizza un programma per crearli!",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per iniziare con le struct", 
+"argoment": "struct"
+}

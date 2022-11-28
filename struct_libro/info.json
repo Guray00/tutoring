@@ -1,0 +1,9 @@
+{
+"title":"Creazione libro",
+"description":"Creazine di un libro tramite le strutture",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per iniziare con le strutture", 
+"argoment": "struct"
+}
