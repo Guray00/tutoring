@@ -1,0 +1,9 @@
+{
+"title":"Creazione prodotto",
+"description":"Creazione di un prodotto.",
+"difficulty": 0,
+"requirements": [],
+"tags": [],
+"notes": "Utile per iniziare con le struct", 
+"argoment": "struct"
+}

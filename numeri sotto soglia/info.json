@@ -1,9 +1,9 @@
 {
-"title":"Somma numeri maggiori di 10",
-"description":"Chiedere di inserire numeri fino a quando sono minori di 10 e fare la somma",
-"difficulty": 1,
-"requirements": [],
-"tags": [],
-"notes": "Utile per ripassare la somma", 
-"argoment" : "loops"
+  "title":"Somma numeri maggiori di 10",
+  "description":"Chiedere di inserire numeri fino a quando sono minori di 10 e fare la somma",
+  "difficulty": 1,
+  "requirements": [],
+  "tags": [],
+  "notes": "Utile per ripassare la somma", 
+  "argoment" : "loops"
 }
