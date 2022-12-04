@@ -16,6 +16,7 @@ Inserire il giorno di scadenza: 2011
 Inserire il mese di scadenza: 11
 Inserire l'anno di scadenza: 11
 Inserire la quantità di prodotto: 8 
+
 Il prodotto Fluati ha le seguenti caratteristiche: 
 - nome: Fluati
 - marca: MulinoBianco

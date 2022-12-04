@@ -1,26 +1,34 @@
 #include <stdio.h>
-#include <stdlib.h>
-
 
 int main(){
-
-  int n, i;
-  int somma = 0;
-  printf("Inserisci il numero:\n");
+  // n(int): numero inserito dall'utente;
+  // sum (int): somma dei numeri divisori;
+  // sum parte da zero per fare le somme
+  int n, sum=0, i;
+  printf("Inserisci un numero: ");
   scanf("%d", &n);
-
-  for(i=1; i <= n-1; i=i+1){
-    if(n%i == 0){
-      somma = somma + i;
-    } 
+  
+  // scorro i numeri da 2 a n per cercare i divosori:
+  for(i=1; i<n; i++){
+    
+    // il numero che sto scorrendo, è un divisorre per n?
+    if(n%i==0){
+        // sum += divisore;
+        sum+=i;
+    }
   }
-
-  if(somma == n){
-    printf("Il numero e' perfetto");
-  } else{
-    printf("Il numero non e' perfetto");
+  
+  // se il numero è perfetto:
+  if(sum==n){
+    // stampo: "Il numero e' perfetto"
+    printf("Il numero inserito e' perfetto");
   }
-	
+  
+  // altrimenti:
+  else {
+    // stampo: "Il numero non e' perfetto"
+    printf("Il numero inserito non e' perfetto");
+  }
+  
 	return 0;
-
 }

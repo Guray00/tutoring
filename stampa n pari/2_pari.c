@@ -3,15 +3,24 @@
 
 
 int main(){
-  int N;
 
-  printf("inserire il valore di N: ");
-  scanf("%d", &N);
+  // input di un numero n
+  int n;
+  printf("Inserisci un numero: ");
+  scanf("%d", &n);
 
-  for (int i = 0; i<N; i = i+2)
-    {
-      printf("%d ", i);
+  // per ogni N con N > 0:
+
+  // (inizializzazione; condizione; passo)
+  for(;n > 0;n-- ){   
+    
+    // if (N e' pari):
+    if(n%2 == 0){
+      
+      // stampo 
+      printf("%d ", n);
     }
-	return 0;
-
+  }
+  
+  return 0;
 }
