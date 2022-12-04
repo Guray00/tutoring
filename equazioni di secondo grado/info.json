@@ -1,0 +1,9 @@
+{
+"title":"Equazioni di secondo grado",
+"description":"Scrivere un programma che sia in grado di risolvere un'equazione di secondo grado",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare lo switch e le funzioni", 
+"argoment": "loops"
+}
