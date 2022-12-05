@@ -1,50 +1,35 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
-
-// garage => 3
-
-// g => 0
-
-// facciamo una funzione che restituisce 
-//   0 => se non è una vocale
-//   1 => se è una vocali
-int contaVocali(char c){
-  // a e i o u
-  if(c == 'a' || c=='e' || c=='i' || c=='o'|| c=='u')
-  {
-    return 1;
-  }
-  else
-  {
-    return 0;
-  }
-}
-
+// Il programma chiede di inserire una parola
+// e calcola il numero di vocali presenti nella parola.
 int main(){
-  int N, i, ris, cont;
-  char tmp;
 
+  // Dichiariamo le variabili che useremo nel programma
+  int N, i, cont;
+  char c;
+
+  // Inizializziamo la variabile contatore a 0
   cont = 0;
-  
-  printf("Quante lettere ci sono?");
+
+  // Chiediamo all'utente quante lettere ci sono nella parola
+  printf("Quante lettere ci sono? ");
   scanf("%d", &N);
 
-  /*
-  https://stackoverflow.com/questions/13542055/how-to-do-scanf-for-single-char-in-c
-  */
-
-  printf("Inserisci la parola:");
+  // Chiediamo all'utente di inserire la parola
+  printf("Inserisci la parola: ");
   for(i = 0; i <= N; i++){
-    scanf("%c", &tmp);
-    ris = contaVocali(tmp);
-    cont = cont + ris;
-  }
-  
+    // Prendiamo in input ogni singola lettera
+    scanf("%c", &c);
 
+    // Se la lettera è una vocale, incrementiamo il contatore di 1
+    if(c == 'a' || c=='e' || c=='i' || c=='o' || c=='u'){
+      cont = cont + 1;
+    }
+  }
+
+  // Stampiamo il risultato finale, ovvero il numero di vocali presenti nella parola
   printf("Il numero di vocali e': %d", cont);
-  
-  
+
   return 0;
 }
