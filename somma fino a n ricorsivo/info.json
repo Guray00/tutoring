@@ -1,0 +1,9 @@
+{
+"title":"Somma in numeri fino a N (ricorsivo)",
+"description":"Sommare i numeri da 0 a N in modo ricorsivo.",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "Utile per iniziare", 
+"argoment": "ricorsione"
+}

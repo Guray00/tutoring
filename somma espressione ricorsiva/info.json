@@ -1,0 +1,9 @@
+{
+"title":"Somma espressione (ricorsiva)",
+"description":"Eseguire in modo ricorsivo la somma (a-i/a) per i=1..n",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare la ricorsione", 
+"argoment": "ricorsione"
+}
