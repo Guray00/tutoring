@@ -1,14 +1,30 @@
-grado = input("Inserisci il grado: ")
+# chiediamo di inserire un voto
+voto = input("Inserisci un voto: ")
 
-if grado == "A" or grado == 'a':
-    print("il voto è ottimo")
-elif grado == "B" or grado == 'b':
-    print("il voto è buono")
-elif grado == "C" or grado == 'c':
-    print("il voto è sufficiente")
-elif grado == "D" or grado == 'd':
-    print("il voto è insufficiente")
-elif grado == "E" or grado == 'e':
-    print("il voto è gravemente insufficiente")
+# Trasformiamo sempre in maiuscolo la lettera
+# per riconoscere anche le minuscole
+voto = voto.upper()
+
+# se il voto è "A":
+if voto=="A":
+  # stampo "ottimo"
+  print("ottimo")
+
+# se il voto è "B":
+elif voto == "B":
+  # stampo "buono"
+  print("buono")
+
+elif voto == "C":
+  print("sufficiente") 
+  
+elif voto=="D":
+  print("insufficiente")
+
+elif voto=="E":
+  print("gravemente insufficiente")
+
+# in tutti gli altri casi non è un voto valido
 else:
-    print("il voto è non valido")
+  print("Non hai inserito un voto valido")
+  
