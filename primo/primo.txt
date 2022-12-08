@@ -1,0 +1,13 @@
+Inizializzare una variabile "controllo" a "false"
+Chiedere all'utente di inserire un numero "n"
+
+Iterare da 2 a metà del valore di "n" (escluso)
+   Se "n" è divisibile per il numero corrente dell'iterazione
+      Impostare "controllo" a "true"
+      Interrompere l'iterazione
+
+Se "controllo" è "true"
+   Stampare a schermo "n non è un numero primo"
+
+Altrimenti
+   Stampare a schermo "n è un numero primo

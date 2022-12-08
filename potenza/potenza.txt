@@ -1,0 +1,15 @@
+Inizializzare una variabile "base" a "0"
+Inizializzare una variabile "esponente" a "0"
+Inizializzare una variabile "risultato" a "1"
+
+INIZIO
+
+Chiedere all'utente di inserire un numero "base"
+Chiedere all'utente di inserire un numero "esponente"
+
+Iterare da "0" a "esponente" (escluso)
+   Assegnare "risultato" il risultato della moltiplicazione di "risultato" per "base"
+
+Stampare a schermo "il risultato è: risultato"
+
+FINE

@@ -1,0 +1,27 @@
+Inizializzare due variabili "a" e "b" a "0"
+Inizializzare una variabile "min" a "0"
+Inizializzare una variabile "MCD" a "2"
+Inizializzare una variabile "controllo" a "false"
+
+INIZIO
+
+Chiedere all'utente di inserire un numero "a"
+Chiedere all'utente di inserire un numero "b"
+
+Se "a" è minore o uguale a "b"
+   Assegnare "min" il valore di "a"
+Altrimenti
+   Assegnare "min" il valore di "b"
+
+Iterare finché "MCD" è minore o uguale a "min"
+   Se "b" è divisibile per "MCD" e "a" è divisibile per "MCD"
+      Impostare "controllo" a "true"
+      Interrompere l'iterazione
+   Incrementare "MCD" di 1
+
+Se "controllo" è "false"
+   Assegnare "MCD" il valore di "1"
+
+Stampare a schermo "il massimo comune divisore tra a e b è MCD"
+
+FINE

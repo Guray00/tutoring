@@ -1,0 +1,26 @@
+Inizializzare una variabile "k" a "0"
+Inizializzare una variabile "h" a "0"
+Inizializzare una variabile "h1" a "0"
+Inizializzare una variabile "h2" a "0"
+Inizializzare una variabile "i" a "0"
+Inizializzare una variabile "conta" a "0"
+
+INIZIO
+
+Chiedere all'utente di inserire un numero "h"
+Chiedere all'utente di inserire un numero "k"
+
+Assegnare "h1" il valore di "h"
+Assegnare "h2" il valore di "h"
+
+Iterare da "0" a "k" (escluso)
+  Assegnare "h1" il risultato della divisione di "h1" per "2"
+
+Iterare finché "h2" è diverso da "0"
+  Assegnare "h2" il risultato della divisione di "h2" per "2"
+  Incrementare "conta" di "1"
+
+Stampare a schermo "L'altezza finale dell'onda e': h1"
+Stampare a schermo "L'altezza si azzera dopo: conta km"
+
+FINE
