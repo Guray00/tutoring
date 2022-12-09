@@ -1,0 +1,9 @@
+{
+"title":"Triplo",
+"description":"Caricare il triplo di un numero usando i puntatori",
+"difficulty": 0,
+"requirements": [],
+"tags": [],
+"notes": "Utile per iniziare", 
+"argoment": "puntatori"
+}

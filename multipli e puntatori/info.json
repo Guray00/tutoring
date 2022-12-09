@@ -1,0 +1,9 @@
+{
+"title":"Multipli e puntatori",
+"description":"Dato un numero passato mediante un puntatore, riconoscere se è un multiplo di 2 o 3",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare l'operatore modulo", 
+"argoment": "puntatori"
+}

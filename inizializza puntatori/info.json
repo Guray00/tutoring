@@ -1,0 +1,9 @@
+{
+"title":"Inizializza puntatori",
+"description":"Porre, tramite una funzione, a NULL un puntatore",
+"difficulty": 0,
+"requirements": [],
+"tags": [],
+"notes": "Utile per iniziare", 
+"argoment": "puntatori"
+}
