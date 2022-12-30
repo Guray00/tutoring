@@ -1,0 +1,9 @@
+{
+"title":"Is Digit?",
+"description":"Scrivere un algoritmo che verifichi se un carattere inserito è una cifra",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "Utile per allenarsi con le funzioni", 
+"argoment": "if"
+}
