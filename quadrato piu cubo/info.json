@@ -1,0 +1,9 @@
+{
+"title":"Quadrato + Cubo",
+"description":"Trovare il numero cdato dalla somma di un quadrato e di un cubo",
+"difficulty": 3,
+"requirements": [],
+"tags": [],
+"notes": "Esercizio utile per prepararsi prima di un compito all'utilizzo dei cicli", 
+"argoment": "loops"
+}
