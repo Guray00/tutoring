@@ -1,0 +1,9 @@
+{
+"title":"Somma elementi casuali",
+"description":"Generare casualmente un vettore e sommare gliche rispettano alcune condizioni",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare i numeri casuali", 
+"argoment": "vettori"
+}

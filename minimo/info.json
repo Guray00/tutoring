@@ -1,0 +1,9 @@
+{
+"title":"Minimo tra due numeri",
+"description":"Calcolare il minimo tra due numeri",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare l'if", 
+"argoment": "if"
+}

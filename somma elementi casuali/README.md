@@ -1,0 +1,1 @@
+Dato un vettore di n elementi, con n non superiore a 25, caricato con numeri casuali compresi tra -50 e +20 sommare tutti gli elementi il cui prodotto tra il valore dell'elemento del vettore ed il suo indice sia multiplo di un valore K generato casualmente e compreso a -5 e 15.

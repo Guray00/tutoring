@@ -1,0 +1,9 @@
+{
+"title":"Distanza tra due punti",
+"description":"Scrivere una funzione che calcoli la distanza tra due punti",
+"difficulty": 3,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare le funzioni", 
+"argoment": "if"
+}

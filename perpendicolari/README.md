@@ -1,0 +1,1 @@
+Scrivere una funzione che riceva in ingresso i coefficienti angolari m1 e m2 di due rette espresse nella forma y = mx + q, valuti la loro perpendicolarità e restituisca il valore 1 se le rette sono perpendicolari oppure 0 se le rette non sono perpendicolari. Mostrare infine a schermo l'esito.

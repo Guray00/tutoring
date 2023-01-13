@@ -1,0 +1,1 @@
+Scrivere una funzione che riceva in ingresso le coordinate x, y di due punti del piano cartesiano e restituisca la loro distanza. Scrivere successivamente un programma che richieda in input le coordinate di un punto A e ne visualizzi la distanza dal punto B (inserito dall'utente) utilizzando la funzione indicata.

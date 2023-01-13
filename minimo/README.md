@@ -1,0 +1,1 @@
+Scrivere una funzione che, ricevuti in ingresso due numeri interi, restituisca il valore minimo. Utilizzare la funzione per visualizzare il minimo di ciascuna delle seguenti coppie di valori
