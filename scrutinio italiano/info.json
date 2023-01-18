@@ -1,0 +1,9 @@
+{
+"title":"Scrutinio di Italiano",
+"description":"Un docente di italiano vuole calcolare la media dei voti che ha attribuito allo scrutinio di una classe",
+"difficulty": 3,
+"requirements": [],
+"tags": [],
+"notes": "Utile prima del compito", 
+"argoment": "vettori"
+}

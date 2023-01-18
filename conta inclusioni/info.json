@@ -1,0 +1,9 @@
+{
+"title":"Conta inclusioni",
+"description":"dati due vettori v e b di n elementi ciascuno, dire quante volte è contenuto in b ogni elemento di v",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare i vettori", 
+"argoment": "vettori"
+}

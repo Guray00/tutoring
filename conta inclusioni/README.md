@@ -1,0 +1,1 @@
+dati due vettori v e b di n elementi ciascuno, dire quante volte è contenuto in b ogni elemento di v

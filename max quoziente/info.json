@@ -1,0 +1,9 @@
+{
+"title":"Quoziente massimo",
+"description":"Calcolare il quoziente massimo tra la media degli elementi e l'elemento stesso",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "vettori"
+}

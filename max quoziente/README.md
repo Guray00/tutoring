@@ -1,0 +1,1 @@
+Dato un vettore V di N elementi, calcolare e stampare il più grande tra i quozienti ottenuti dividendo la media degli elementi del vettore per ciascun elemento del vettore stesso

@@ -1,0 +1,1 @@
+Un docente di italiano vuole calcolare la media dei voti che ha attribuito allo scrutinio di una classe, distinguendo la media dei voti sufficienti e quella dei voti insufficienti.
