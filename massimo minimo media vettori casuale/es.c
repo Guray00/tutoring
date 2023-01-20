@@ -1,7 +1,3 @@
-/*
-12. Dato un vettore di n elementi, con n non superiore a 25, caricato con numeri casuali compresi tra -50 e +20 visualizzare i valori minimo, massimo e medio.
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
