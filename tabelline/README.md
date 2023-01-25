@@ -1,6 +1,6 @@
-Dato una numero mostrato a schermo, mostrarne la tabellina.
+Dato un numero inserito dall'utente, stampare a schermo la tabellina da 1 a 10.
 
-#### Esempio:
+## Esempio:
 ```plaintext
 Quale tabellina vorrestri mostrare? 5
 5 * 1   =  5

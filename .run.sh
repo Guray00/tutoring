@@ -28,10 +28,10 @@ then
         echo  -en 'public class '${MAIN}'{\n\n\tpublic static void main(String[] args){\n\n\t\tSystem.out.println("Hello World!");\n\n\t}\n}' > $INIT/__LEZIONE__/$MAIN.java
 
     elif [[ "$LANGUAGE" == "c" ]] && [[ ! -f $INIT/__LEZIONE__/$MAIN.c ]]; then
-        echo  -en '#include <stdio.h>\n#include <stdlib.h>\n\n// utility to print an array\nvoid printArray(int* v, int n){\n\tprintf("[");\n\tfor (int i = 0; i < n; i++)\n\t\tprintf(" %d", v[i]);\n\tprintf(" ]\\n");\n}\n\nint main(){\n\n\tprintf("Hello World!");\n\treturn 0;\n\n}' > $INIT/__LEZIONE__/$MAIN.c
+        echo  -en '#include <stdio.h>\n#include <stdlib.h>\n\nint main(){\n\n\tprintf("Hello World!");\n\treturn 0;\n\n}' > $INIT/__LEZIONE__/$MAIN.c
     
     elif [[ "$LANGUAGE" == "c++" || "$LANGUAGE" == "cpp" ]] && [[ ! -f $INIT/__LEZIONE__/$MAIN.cpp ]]; then
-        echo  -en '#include <iostream>\nusing namespace std;\n\n// utility to print an array\nvoid printArray(int* v, int n){\n\tcout<<"[ ";\n\tfor (int i = 0; i < n; i++)\n\t\tcout<<v[i]<<" ";\n\tcout<<"]\\n";\n}\n\nint main(){\n\n\tcout<<"Hello World!";\n\treturn 0;\n\n}' > $INIT/__LEZIONE__/$MAIN.cpp
+        echo  -en '#include <iostream>\nusing namespace std;\n\nint main(){\n\n\tcout<<"Hello World!";\n\treturn 0;\n\n}' > $INIT/__LEZIONE__/$MAIN.cpp
     
     
     elif [[ "$LANGUAGE" == "python" || "$LANGUAGE" == "py" ]] && [[ ! -f $INIT/__LEZIONE__/$MAIN.py ]]; then

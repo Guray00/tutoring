@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Massimo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-01-25 04:25:39 "/>
+        <attribute name="created" value="TWFzc2ltbztERVNLVE9QLUU3QzgwTVQ7MjAyMy0wMS0yNTsiMDM6NDQ6MTQgIjsyOTU0"/>
+        <attribute name="edited" value="TWFzc2ltbztERVNLVE9QLUU3QzgwTVQ7MjAyMy0wMS0yNTsiMDQ6MjU6MzkgIjsxOzMwNjk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="COM, PRS" type="Integer" array="False" size=""/>
+            <declare name="PRT" type="Real" array="False" size=""/>
+            <output expression="&quot;inserisci un numero di persone&quot;" newline="True"/>
+            <input variable="COM"/>
+            <output expression="&quot;inserisci prezzo&quot;" newline="True"/>
+            <input variable="PRS"/>
+            <if expression="COM&lt;10">
+                <then>
+                    <assign variable="PRT" expression="COM*PRS"/>
+                </then>
+                <else>
+                    <if expression="COM&lt;15">
+                        <then>
+                            <assign variable="PRT" expression="COM*PRS-(COM*PRS/100*5)"/>
+                        </then>
+                        <else>
+                            <assign variable="PRT" expression="COM*PRS-(COM*PRS/100*7)"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;Il prezzo totale &#232;&quot; &amp;PRT" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

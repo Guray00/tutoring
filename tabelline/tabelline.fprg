@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Massimo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-01-25 04:49:17 "/>
+        <attribute name="created" value="TWFzc2ltbztERVNLVE9QLUU3QzgwTVQ7MjAyMy0wMS0yNTsiMDQ6Mjg6NDUgIjsyOTYx"/>
+        <attribute name="edited" value="TWFzc2ltbztERVNLVE9QLUU3QzgwTVQ7MjAyMy0wMS0yNTsiMDQ6NDk6MTcgIjsxOzMwNzE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N, C, B" type="Integer" array="False" size=""/>
+            <output expression="&quot;Inserisci un valore&quot;" newline="True"/>
+            <input variable="N"/>
+            <for variable="C" start="1" end="10" direction="inc" step="1">
+                <assign variable="B" expression="N*C"/>
+                <output expression="B" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
