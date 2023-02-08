@@ -1,0 +1,9 @@
+{
+"title":"Pari e Dispari, Doppio e Triplo",
+"description":"Se il numero inserito è pari, calcola il doppio altrimenti il triplo",
+"difficulty": 0,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare l'operatore modulo", 
+"argoment": "if"
+}

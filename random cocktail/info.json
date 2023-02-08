@@ -1,0 +1,9 @@
+{
+"title":"Random Cocktail",
+"description":"Eseguire una serie di operazioni su un vettore dcontenente il grado alcolico dei cocktails",
+"difficulty": 3,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare", 
+"argoment": "vettori"
+}
