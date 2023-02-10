@@ -1,4 +1,4 @@
-Su un insieme di articoli di cui è dato il prezzo, viene applicata una percentuale X di sconto. 
+Su un insieme di articoli di cui è dato il prezzo, viene richiesto per ciascuno la percentuale di sconto da applicare. 
 
 Calcolare la somma degli sconti.
 

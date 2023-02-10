@@ -1,0 +1,1 @@
+calcolare la somma di 10 numeri casuali compresi tra 20 e 50 inclusi.

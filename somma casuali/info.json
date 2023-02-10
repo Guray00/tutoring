@@ -1,0 +1,9 @@
+{
+"title":"Somma di numeri casuali (ciclo)",
+"description":"Calcolare la somma di 10 numeri estratti casualmente",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "utile per ripassare i numeri casuali", 
+"argoment": "loops"
+}
