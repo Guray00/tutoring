@@ -1,0 +1,9 @@
+{
+"title":"Combinazioni password",
+"description":"Calcolare il numero di combinazioni per una password dati il numero di simboli e la lunghezza dell'alfabeto",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "loops"
+}

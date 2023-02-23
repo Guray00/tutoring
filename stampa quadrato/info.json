@@ -1,0 +1,9 @@
+{
+"title":"Stampa quadrato di asterischi",
+"description":"Stampare un quadrato con degli asterischi a schermo",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "loops"
+}

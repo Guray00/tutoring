@@ -1,7 +1,7 @@
 #LEZIONE
 __LEZIONE__
 runner.json
-
+.cache
 # C#
 .exe
 .o
