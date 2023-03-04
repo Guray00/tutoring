@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Massimo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-04 07:17:51 "/>
+        <attribute name="created" value="TWFzc2ltbztERVNLVE9QLUU3QzgwTVQ7MjAyMy0wMi0yNzsiMDQ6MDc6MDAgIjsyOTUy"/>
+        <attribute name="edited" value="TWFzc2ltbztERVNLVE9QLUU3QzgwTVQ7MjAyMy0wMy0wNDsiMDc6MTc6NTEgIjs1OzMwNzA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N, TEM, MINP, MIND, MAXP, MAXD, SP, SD, MEDP, MEDD" type="Integer" array="False" size=""/>
+            <declare name="C, CP, CD" type="Integer" array="False" size=""/>
+            <assign variable="C" expression="0"/>
+            <assign variable="SP" expression="0"/>
+            <assign variable="SD" expression="0"/>
+            <assign variable="CP" expression="0"/>
+            <assign variable="CD" expression="0"/>
+            <output expression="&quot;inserisci N&quot;" newline="True"/>
+            <input variable="N"/>
+            <assign variable="MAXP" expression="-100"/>
+            <assign variable="MAXD" expression="-100"/>
+            <assign variable="MINP" expression="500"/>
+            <assign variable="MIND" expression="500"/>
+            <while expression="C&lt;N">
+                <output expression="&quot;inserisci un  numero&quot;" newline="True"/>
+                <input variable="TEM"/>
+                <if expression="TEM&gt;-100 and TEM&lt;500">
+                    <then>
+                        <assign variable="C" expression="C+1"/>
+                        <if expression="TEM%2==0">
+                            <then>
+                                <assign variable="SP" expression="SP+TEM"/>
+                                <assign variable="CP" expression="CP+1"/>
+                                <if expression="TEM&gt;MAXP">
+                                    <then>
+                                        <assign variable="MAXP" expression="TEM"/>
+                                    </then>
+                                    <else/>
+                                </if>
+                                <if expression="TEM&lt;MINP">
+                                    <then>
+                                        <assign variable="MINP" expression="TEM"/>
+                                    </then>
+                                    <else/>
+                                </if>
+                            </then>
+                            <else>
+                                <assign variable="SD" expression="SD+TEM"/>
+                                <assign variable="CD" expression="CD+1"/>
+                                <if expression="TEM&gt;MAXD">
+                                    <then>
+                                        <assign variable="MAXD" expression="TEM"/>
+                                    </then>
+                                    <else/>
+                                </if>
+                                <if expression="TEM&lt;MIND">
+                                    <then>
+                                        <assign variable="MIND" expression="TEM"/>
+                                    </then>
+                                    <else/>
+                                </if>
+                            </else>
+                        </if>
+                    </then>
+                    <else>
+                        <output expression="&quot;il numero inserito non &#232; tra -100 e 500&quot;" newline="True"/>
+                    </else>
+                </if>
+            </while>
+            <if expression="CP&gt;0">
+                <then>
+                    <assign variable="MEDP" expression="SP/CP"/>
+                    <output expression="&quot;MEDP&quot; &amp;MEDP" newline="True"/>
+                    <output expression="&quot;MAXP&quot; &amp;MAXP" newline="True"/>
+                    <output expression="&quot;MINP&quot; &amp;MINP" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="CD&gt;0">
+                <then>
+                    <assign variable="MEDD" expression="SD/CD"/>
+                    <output expression="&quot;MEDD&quot; &amp;MEDD" newline="True"/>
+                    <output expression="&quot;MAXD&quot; &amp;MAXD" newline="True"/>
+                    <output expression="&quot;MIND&quot; &amp;MIND" newline="True"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Massimo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-04 08:07:20 "/>
+        <attribute name="created" value="TWFzc2ltbztERVNLVE9QLUU3QzgwTVQ7MjAyMy0wMy0wNDsiMDc6NDM6MjMgIjsyOTU2"/>
+        <attribute name="edited" value="TWFzc2ltbztERVNLVE9QLUU3QzgwTVQ7MjAyMy0wMy0wNDsiMDg6MDc6MjAgIjsxOzMwNjI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N, TEM" type="Integer" array="False" size=""/>
+            <declare name="C" type="Integer" array="False" size=""/>
+            <assign variable="C" expression="0"/>
+            <declare name="D" type="Integer" array="False" size=""/>
+            <assign variable="D" expression="0"/>
+            <output expression="&quot;inserisci N&quot;" newline="True"/>
+            <do expression="N&lt;=0">
+                <input variable="N"/>
+            </do>
+            <for variable="C" start="0" end="N-1" direction="inc" step="1">
+                <output expression="&quot;inserisci un numero&quot;" newline="True"/>
+                <input variable="TEM"/>
+                <if expression="TEM&gt;0 and TEM%2!=0">
+                    <then>
+                        <assign variable="D" expression="D+1"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;D vale &quot; &amp;D" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
