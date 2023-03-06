@@ -1,8 +1,17 @@
-Scrivere un programma che valuti qual è il valore massimo di un vettore e mostri a schermo la posizione all'interno del vettore. 
+Scrivere un programma che trovi il valore massimo all'interno di un vettore inserito dall'utente di `n` elementi. 
 
-extra:
-Usare una funzione
+Mostrare a schermo il vettore, il massimo e la relativa posizione.
 
-#### Esempio:
-v = {1, 2, 5, 4}
-=> Il max e' in posizione 2
+extra: Usare una funzione
+
+## Esempio
+
+```text
+Inserire la dimensione del vettore: 3
+Inserisci un numero: 1
+Inserisci un numero: 5
+INserisci un numero: 2
+
+[1, 5, 2]
+Il massimo vale 5 ed e' in posizione 1
+```

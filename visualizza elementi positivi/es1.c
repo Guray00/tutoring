@@ -1,8 +1,3 @@
-
--/*
-Dato un vettore di n elementi, con n non superiore a 25, caricato con numeri interi compresi tra -50 e +20, visualizzare gli elementi con abbiano come valore un numero positivo.
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 #define MAXN 25
