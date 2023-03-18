@@ -1,0 +1,9 @@
+{
+"title":"Trova un valore in un vettore",
+"description":"Trovare un valore in un vettore composto da elementi casuali compresi tra k1 e k2, scelti anche questi casualmente",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare i numeri casuali", 
+"argoment": "vettori"
+}

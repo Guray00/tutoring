@@ -1,0 +1,1 @@
+dato un vettore di n elementi causuali compresi tra -50 e +20, con n generato casualmente, contare gli elementi compresi tra k1 e k2 generati casualmente.
