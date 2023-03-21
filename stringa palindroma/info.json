@@ -1,0 +1,9 @@
+{
+"title":"Stringa palindroma",
+"description":"Verificare se una stringa inserita è palindroma",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "strings"
+}

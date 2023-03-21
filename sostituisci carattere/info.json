@@ -1,0 +1,9 @@
+{
+"title":"Sostituisci carattere",
+"description":"Sostituire un carattere presente in una stringa",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "strings"
+}
