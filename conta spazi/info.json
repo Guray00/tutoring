@@ -1,0 +1,9 @@
+{
+"title":"Conta spazi",
+"description":"Contare il numero di spazi presenti in una stringa",
+"difficulty": 0,
+"requirements": [],
+"tags": [],
+"notes": "Utile per iniziare con le stringhe", 
+"argoment": "strings"
+}

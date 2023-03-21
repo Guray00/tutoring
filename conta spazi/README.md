@@ -1,0 +1,1 @@
+Scrivere un programma che consenta di contare il numero di spazi presenti in una stringa inserita dall'utente.
