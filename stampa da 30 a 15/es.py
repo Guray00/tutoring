@@ -1,4 +1,2 @@
-
-for numero in range(0, 16):
-  print(30 - numero)
-
+for i in range(30, 14, -1):
+  print(i, end=" ")
