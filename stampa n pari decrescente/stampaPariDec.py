@@ -1,10 +1,9 @@
-n = int(input("Quanto vale n? "))
-y = list(range(1, n+1))
+# prendo in input il numero inserito dall'utente
+N = int(input("inserisci un numero: "))
 
-#rimuovo i numeri dispari
-for i in y:
-    if i % 2 != 0:
-        y.remove(i)
-#inverto la lista
-y.reverse()
-print(*y)
+for i in range(N, 0, -1):
+
+  # se il numero è pari
+  if i%2 == 0:
+    print(i)
+  
