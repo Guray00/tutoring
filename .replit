@@ -15,10 +15,3 @@ pattern = "**/{*.less,*.scss,*.css}"
 [languages.css.languageServer]
 start = "vscode-css-language-server --stdio"
 
-[languages.html]
-pattern = "**/*.html"
-
-[languages.html.languageServer]
-start = "vscode-html-language-server --stdio"
-[languages.html.languageServer.initializationOptions]
-provideFormatter = true

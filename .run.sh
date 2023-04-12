@@ -38,8 +38,8 @@ then
         echo  -en 'print("Hello World!")' > $INIT/__LEZIONE__/$MAIN.py
         
 
-    elif [[ "$LANGUAGE" == "web" ]] && [[ ! -f $INIT/__LEZIONE__/index.php ]]; then
-        echo  -en '<!DOCTYPE html>\n<html>\n\t<head>\n\t</head>\n\n\t<body>\n\t</body>\n</html>' > $INIT/__LEZIONE__/index.php
+#    elif [[ "$LANGUAGE" == "web" ]] && [[ ! -f $INIT/__LEZIONE__/index.php ]]; then
+#        echo  -en '<!DOCTYPE html>\n<html>\n\t<head>\n\t</head>\n\n\t<body>\n\t</body>\n</html>' > $INIT/__LEZIONE__/index.php
     fi
 fi
 
@@ -78,7 +78,7 @@ then
   cd $INIT/$LOCATION && g++ *.cpp -o $MAIN && preload && ./$MAIN && echo "" && rm $MAIN
 
 # WEB CASE
-elif [ $LANGUAGE = "web" ]
-then
-  cd /$INIT/$LOCATION && preload && php -S 0.0.0.0:8000 -t .
+# elif [ $LANGUAGE = "web" ]
+# then
+#  cd /$INIT/$LOCATION && preload && php -S 0.0.0.0:8000 -t .
 fi
