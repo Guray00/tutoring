@@ -1,0 +1,9 @@
+{
+"title":"Anagrafe Comunale",
+"description":"Gestire l'anagrafe di un comune con i dati di cittadini inseriti dall'utente",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "struct"
+}

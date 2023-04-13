@@ -1,0 +1,9 @@
+{
+"title":"Cartoleria",
+"description":"Creare un programma per gestire una cartoleria",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "struct"
+}

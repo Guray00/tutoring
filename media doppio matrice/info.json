@@ -1,0 +1,9 @@
+{
+"title":"Media doppio Matrice",
+"description":"Media dei numeri divisibili per un numero N oppure minore di K",
+"difficulty": 3,
+"requirements": [],
+"tags": [],
+"notes": "Matrici", 
+"argoment": "vettori"
+}

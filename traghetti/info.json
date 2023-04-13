@@ -1,0 +1,9 @@
+{
+"title":"Traghetti",
+"description":"Scrivere un programma per la gestione dei traghetti",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "struct"
+}
