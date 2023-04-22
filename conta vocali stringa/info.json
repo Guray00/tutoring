@@ -1,0 +1,9 @@
+{
+"title":"Conta vocali in una frase",
+"description":"Contare le vocali di una frase di più parole",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "strings"
+}
