@@ -1,0 +1,9 @@
+{
+"title":"Videoteca",
+"description":"Gestire una videoteca attraverso una apposita struttura dati",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "struct"
+}
