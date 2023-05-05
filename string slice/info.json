@@ -1,0 +1,9 @@
+{
+"title":"String Slice",
+"description":"Presa una stringa in input e due valori interi, taglia la stringa entro i margini.",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "strings"
+}
