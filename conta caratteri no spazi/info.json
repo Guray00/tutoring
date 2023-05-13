@@ -1,0 +1,9 @@
+{
+"title":"Conta caratteri senza spazi",
+"description":"Contare il numero di caratteri, esclusi gli spazi, presenti in una frase inserita dall'utente",
+"difficulty": 0,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "strings"
+}

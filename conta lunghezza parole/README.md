@@ -1,0 +1,1 @@
+Scrivere un programma che mostri a schermo la lunghezza di ogni parola compresa all'interno di una stringa (che dunque comprende gli spazi).

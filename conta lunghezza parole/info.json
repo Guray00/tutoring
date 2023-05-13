@@ -1,0 +1,9 @@
+{
+"title":"Conta lunghezza parole",
+"description":"Contare la lunghezza delle parole inserite dall'utente",
+"difficulty": 3,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "strings"
+}

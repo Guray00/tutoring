@@ -1,0 +1,9 @@
+{
+"title":"Conta parola",
+"description":"Contare il numero di parole comprese in una stringa",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "strings"
+}

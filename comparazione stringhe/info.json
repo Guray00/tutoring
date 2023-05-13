@@ -1,0 +1,9 @@
+{
+"title":"Comparazione stringhe",
+"description":"Scrivere un programma che verifica se due stringhe inserite dall'utente sono uguali o meno",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "Non è possibile utilizzare funzioni di libreria per la verifica", 
+"argoment": "strings"
+}
