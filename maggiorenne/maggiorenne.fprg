@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="sangu"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-30 08:04:08 "/>
+        <attribute name="created" value="c2FuZ3U7TEFQVE9QLTBKQjJJS1U2OzIwMjMtMDUtMzA7IjA3OjUxOjQ4ICI7Mjc3MQ=="/>
+        <attribute name="edited" value="c2FuZ3U7TEFQVE9QLTBKQjJJS1U2OzIwMjMtMDUtMzA7IjA4OjA0OjA4ICI7MjsyODc1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="eta" type="Integer" array="False" size=""/>
+            <output expression="&quot;Scrivi l'et&#224;: &quot;" newline="True"/>
+            <input variable="eta"/>
+            <while expression="eta &lt; 0">
+                <output expression="&quot;L'et&#224; &#232; invalida. Scrivi di nuovo: &quot;" newline="True"/>
+                <input variable="eta"/>
+            </while>
+            <if expression="eta &gt;= 18">
+                <then>
+                    <output expression="&quot;Sei maggiorenne.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Sei minorenne.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

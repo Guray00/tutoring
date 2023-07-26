@@ -1,0 +1,9 @@
+{
+"title":"Archivio Fatture",
+"description":"Scrivere un programma che consenta di gestire un archivio di fatture relative a diversi clienti",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per ripassare la gestione di una lista o vettore", 
+"argoment": "oop"
+}

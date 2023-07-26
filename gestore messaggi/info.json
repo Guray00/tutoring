@@ -1,0 +1,9 @@
+{
+"title":"Gestore Messaggi",
+"description":"Gestione di una lista di messaggi",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per iniziare con la programmazione a oggetti", 
+"argoment": "oop"
+}
