@@ -1,31 +1,38 @@
-#include <iostream>
-using namespace std;
+#include <stdio.h>
+#include <stdlib.h>
 
 int main(){
-  // Inizializzare una variabile "fattore_primo" a "1"
-  int fattore_primo = 1;
+  int n, i, j, fp;
   
-  // Chiedere all'utente di inserire un numero "n"
-  cout << "Inserisci un numero: ";
-  int n;
-  cin >> n;
-  
-  // Iterare da 2 a metà del valore di "n" (escluso)
-  for (int i = 2; i <= n / 2; i++){
-    // Se "n" è divisibile per il numero corrente dell'iterazione
-    if (n % i == 0){
-      // Assegnare "n" il risultato della divisione di "n" per il numero corrente dell'iterazione
-      n = n / i;
-      // Se "n" è un numero primo
-      if (n == 2 || (n > 2 && n % 2 != 0)){
-        // Assegnare "fattore_primo" il valore di "n"
-        fattore_primo = n;
+  printf("Inserisci un numero n: ");
+  scanf("%d", &n);
+
+  for(i=1; i<n; i++){
+
+    // se i è un divisore
+    if(n%i==0){
+
+      int primo=1;
+      // verificare se il numero i è anche primo
+      for(j=2; j<i; j++){
+        if(i%j==0){
+          primo = 0;
+          break;
+        }
       }
+
+      // adesso dobbiamo verificare se effettivamente è primo
+      if(primo == 1){
+        // in questo caso abbiamo trovato che i è sia un 
+        // numero primo, sia un divore di n
+        fp = i;
+      }
+      
     }
+
   }
   
-  // Stampare a schermo "fattore_primo"
-  cout << "Il più grande fattore primo di " << n << " è " << fattore_primo << endl;
+  printf("Il fattore primo più grande di %d e' %d\n", n, fp);
   
   return 0;
 }

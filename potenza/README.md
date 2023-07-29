@@ -1,7 +1,10 @@
-Scrivere un programma che consenta di calcolare, mediante unicamente moltiplicazioni la potenza di un numero noti la base e l'esponente.
+Scrivere un programma che preso in input dall'utente una base e un esponente consenta di calcolare la potenza di un numero, unicamente utilizzando le moltiplicazioni (senza librerie esterne).
 
-####esempio:
-Inserisci la base: 3
+## Esempio
+
+```plaintext
+Inserisci la base: 3 
 Inserisci l'esponente: 2
 
 La potenza risultante e': 9
+```
