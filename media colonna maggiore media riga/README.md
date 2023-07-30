@@ -1,0 +1,1 @@
+Data una matrice M di dimensione N*K, e una matrice B di dimensione N*K,calcolare e stampare la quantita di elementi di ciascuna colonna della matrice M che risultano maggiori della media degli elementi della corrispondente riga di B.

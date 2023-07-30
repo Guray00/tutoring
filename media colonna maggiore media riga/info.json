@@ -1,0 +1,9 @@
+{
+"title":"Media colonna maggiore della media di una riga",
+"description":"Stampare gli elementi per cui la media di una riga supera la media di una colonna",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "matrix"
+}

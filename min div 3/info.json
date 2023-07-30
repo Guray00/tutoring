@@ -1,0 +1,9 @@
+{
+"title":"Righe min elemento divisibile per 3",
+"description":"Trovare le righe per cui il minimo elemento è divisibile per 3",
+"difficulty": 0,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "matrix"
+}
