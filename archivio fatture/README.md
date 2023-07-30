@@ -18,5 +18,7 @@ l'applicazione deve mettere a disposizione le seguenti operazioni:
 - registrazione di una nuova fattura
 - elenco di tutte le fatture registrate
 - calcolo del totale fatture
-- lista delle fatture di un determinato cliente
+- lista delle fatture di un determinato cliente sftuttando il polimorfismo per implementare il recupero sia tramite classe Cliente che tramite il codice.
 - elenco dei clienti
+
+Nota: può essere utile implementare l'esercizio realizzando, ove necessario, le relative funzioni toString e equals con override.
