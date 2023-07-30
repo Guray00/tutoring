@@ -1,0 +1,1 @@
+Data una matrice M di dimensione N*K e un vettore V di dimensione N , stampare quale è la riga che ha la media degli elementi pari e divisibili per il corrispondente elemento di V più grande.

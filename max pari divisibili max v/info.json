@@ -1,0 +1,9 @@
+{
+"title":"Max media pari divisibili per max V",
+"description":"Trovare la riga con la media degli elementi pari e divisibili per il massimo valore di V",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "matrix"
+}
