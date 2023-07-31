@@ -47,11 +47,4 @@ public class Camera {
     public boolean isOccupata() {
         return occupata;
     }
-
-    /*
-    * Camera
-    * --> Numero: Int
-    * --> Tipologia: String
-    * --> Occupata: Bool*
-    */
 }

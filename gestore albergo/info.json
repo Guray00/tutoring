@@ -1,7 +1,7 @@
 {
 	"title":"Gestione di un albergo",
 	"description":"Gestire la prenotazione delle camere",
-	"difficulty": 3,
+	"difficulty": 1,
 	"requirements": [],
 	"tags": ["loops", "if"],
 	"notes": "Utile per cominciare", 
