@@ -1,0 +1,9 @@
+{
+"title":"Gestione Prodotti",
+"description":"Realizzare un sistema di gestione di prodotti di vario tipo",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "Introduzione delle classi derivate", 
+"argoment": "oop"
+}

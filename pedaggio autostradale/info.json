@@ -1,0 +1,9 @@
+{
+"title":"Pedaggio autostradale",
+"description":"Calcola il prezzo di un pedaggio autostradale in base al percorso scelto",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "oop"
+}
