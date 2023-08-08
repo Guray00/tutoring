@@ -1,5 +1,7 @@
 Scrivere un programma che chiede input di inserire 5 elementi, li meorizza in un vettore e poi li copia in un secondo vettore. Stampare alla fine a schermo il contenuto di entrambi i vettori.
 
+**Aggiunta**: e se volessimo che fossero salvati in ordine inverso?
+
 ## Esempio
 ```text
 Inserisci 5 numeri: 1 2 3 4 5

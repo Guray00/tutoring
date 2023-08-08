@@ -1,11 +1,10 @@
-Scrivere un programma che, presi in input **n** valori e inseriti in un vettore, chiedere in seguito all'utente di inserire un ulteriore numero **k**.
+Scrivere un programma che, presi in input n valori e inseriti in un vettore, chieda successivamente all'utente di inserire un valore **k**.
 
-Verificare se il numero **k** è presente all'interno del vettore e stampare la risposta a schermo.
-
+Verificare se il numero **k** è presente all'interno del vettore e stampare il numero di volte in cui questo compare.
 
 ## Esempio
 
-```
+```plaintext
 Quanti numeri vuoi inserire nel vettore? 5
 Inserire un numero: 7
 Inserire un numero: 1

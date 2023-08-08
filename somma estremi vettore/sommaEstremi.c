@@ -1,30 +1,31 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
 int main(){
-  int dim;
-  int val;
-  
 
-  printf("Inserisci la dimensione del vettore: ");
-  scanf("%d", &dim);
+  int V[100], n, i, risultato;
 
-  int v[dim];
-  for (int i = 0; i < dim; i++){
-    printf("Inserisci il valore: ");
-    scanf("%d", &val);
-    v[i] = val;
+  // inseriamo la dimensione del vettore e veerifichiamo
+  // che rispetti tutti i requisiti
+  do{
+    printf("Inserisci la dimensione del vettore: ");
+    scanf("%d", &n);
 
-    /*
-     0 1 2 3 v[i] => v[0...3]
-    */
+    if(n > 100 || n%2 != 0){
+      printf("Hai sbagliato! La dimensione deve essere < 100 e pari.\n\n");
+    }
+   
+  } while(n>100 || n%2 != 0);
+
+  // carichiamo il vettore  
+  for(i=0; i<n; i++){
+    printf("Inserisci il numero %d-iesimo: ", i);
+    scanf("%d", &V[i]);
   }
 
-  int risultato = v[0] + v[dim-1];
-  printf("La somma degli estremi vale: %d", risultato);
+  // 4 elementi => 0..3
+  risultato = V[0] + V[n-1];
+  printf("La somma tra %d + %d vale %d", V[0], V[n-1], risultato);
 
-	
 	return 0;
-
 }

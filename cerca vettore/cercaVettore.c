@@ -1,46 +1,35 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*
-
-*/
-
 int main(){
-  int n;
-  int appoggio;
-  int valore;
-  
-  printf("Dimmi quanti n vuoi inserire? ");
+  int n, i, V[100], k, nvolte=0;
+
+  // inserimento dimensione
+  printf("Quanti numeri vuoi inserire: ");
   scanf("%d", &n);
 
-  int v[n];
-
-  for (int i = 0; i < n; i++){
-    printf("Dimmi un numero: ");
-    scanf("%d", &appoggio);
-    v[i] = appoggio;
+  // riempiamo il vettore
+  for(i=0; i<n; i++){
+    scanf("%d", &V[i]);
   }
 
-  printf("Inserisci il valore da cercare: ");
-  scanf("%d", &valore);
+  // inseriamo il valore da cercare
+  printf("Inserisci il numero k che vuoi cercare: ");
+  scanf("%d", &k);
 
-
-  int trovato = 0; // all'inizio dico che non l'ho trovato
-  
-  for (int i = 0; i < n; i++){
-    if(valore == v[i]){
-      trovato = 1;
+  // cerco l'elemento
+  for(i=0; i<n; i++){
+    if(k == V[i]){
+      nvolte=nvolte+1;
     }
   }
-
-  if(trovato == 1){
-    printf("\nHo trovato il valore");
+  
+  if(nvolte>0){
+    printf("Il numero compare %d volte nel vettore", nvolte);
   }
-    
-  else {
-    printf("\nNon l'ho trovato");
+  else{
+    printf("Mi dispiace, il numero %d non è presente", k);
   }
   
 	return 0;
-
 }
