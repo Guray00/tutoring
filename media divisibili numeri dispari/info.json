@@ -1,0 +1,9 @@
+{
+"title":"Media divisibili per numeri dispari",
+"description":"Trovare la media ddei numeri divisibili per la quantità di numeri dispari",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "vettori"
+}

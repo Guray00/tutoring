@@ -1,44 +1,38 @@
+/*
+Scrivere un programma faccia inserire all'utente i coefficienti angolari m1 e m2 (solo loro) di due rette espresse nella forma y = mx + q.
+
+Valutare la loro perpendicolarità e mostrare a schermo il risultato.
+
+**Nota**: due rette sono dette perpendicolari quando il prodotto tra i due coefficienti angolari è pari a -1.
+
+**bonus1**: realizzare il programma con una funzione.
+
+**bonus2**: restituire se le due rette sono parallele.
+
+## Esempio
+
+```plaintext
+inserisci i due coefficienti angolari: 2 3
+Le due rette non sono perpendicolari
+```
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
-int _perpendicolari_(int, int);
-
 int main(){
+  float m1, m2;
 
-  int m1, m2, perp;
+  // prendiamo in input i valori
+  printf("inserisci i due coefficienti angolari: ");
+  scanf("%f %f",&m1, &m2);
 
-  printf("inserire il primo coefficiente angolare: ");
-  scanf("%d", &m1);
-
-  printf("inserire il secondo coefficiente angolare: ");
-  scanf("%d", &m2);
-
-  perp = _perpendicolari_(m1, m2);
-
-  // se le rette sono perpendicolari
-  if(perp == 1){
-    printf("le rette sono perpendicolari");
+  if(m1*m2 == -1){
+    printf("le due rette sono perpendicolari");
   }
-
-  // se le rette non sono perpendicolari
-  else{
-    printf("le rette non sono perpendicolari");
-  }
-
-	 
-  return 0;
-}
-
-int _perpendicolari_(int m1, int m2)
-{
-  // verifichiamo se le due rette sono perpendicolari
-  if(m1*m2 == -1)
-  {
-    return 1;
+	else {
+    printf("Le due rette non sono perpendicolari");
   }
   
-  else
-  {
-    return 0;
-  }
+  return 0;
 }
