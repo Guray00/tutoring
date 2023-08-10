@@ -1,0 +1,9 @@
+{
+"title":"Contare elementi riga minori di x",
+"description":"Contare il numero di elementi per ogni riga minori di un valore x inserito.",
+"difficulty": 0,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "matrix"
+}

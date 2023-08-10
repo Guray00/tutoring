@@ -1,0 +1,9 @@
+{
+"title":"Somma e prodotto condizionati di un vettore",
+"description":"Calcolare la somma degli elementi dispari e il prodotto dei valori minori di un K",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "vettori"
+}

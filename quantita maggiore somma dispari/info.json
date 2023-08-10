@@ -1,0 +1,9 @@
+{
+"title":"Quantità di valori maggiori della somma dei dispari",
+"description":"Calcolare la somma dei valori dispari e contare quanti valori sono maggiori di tale valore.",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "vettori"
+}
