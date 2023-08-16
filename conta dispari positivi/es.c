@@ -6,7 +6,6 @@ int main(){
   int n, num, conta=0;
   printf("Quanti numeri vuoi inserire? ");
   scanf("%d", &n);
-
   
   // per ogni numero fino ad arrivare ad a n (e poi aggiornamo n)
   for(; n>0; n--){

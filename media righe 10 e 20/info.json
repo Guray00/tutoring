@@ -1,0 +1,9 @@
+{
+"title":"Media righe tra 10 e 20",
+"description":"Trovare la media di ogni riga, mostrarla e dire quante sono comprese tra 10 e 20",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "matrix"
+}

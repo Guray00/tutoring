@@ -1,0 +1,9 @@
+{
+"title":"Riga max condizionata",
+"description":"Trovare la riga con la media massima di valori divisibili per X e pari",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "matrix"
+}

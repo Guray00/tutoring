@@ -1,0 +1,9 @@
+{
+"title":"Scacchiera matrice",
+"description":"Sostituire nella matrice i valori 1 e 2 a scacchiera",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "matrix"
+}

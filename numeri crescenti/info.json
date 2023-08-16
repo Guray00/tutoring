@@ -1,7 +1,7 @@
 {
 "title":"Numeri crescenti",
 "description":"Inserire numeri fino a quanto sono crescenti e contarli",
-"difficulty": 1,
+"difficulty": 2,
 "requirements": [],
 "tags": [],
 "notes": "Utile per ripassare il while", 

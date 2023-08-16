@@ -1,0 +1,1 @@
+Data una matrice M di N*K di elementi positivi, trovare la media delle righe e in quante e quali righe è maggiore di 10 e minore di 20
