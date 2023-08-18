@@ -1,1 +1,0 @@
-Data in input una stringa, determinare la parola che contiene più vocali.

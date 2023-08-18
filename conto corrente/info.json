@@ -1,0 +1,9 @@
+{
+"title":"Conto corrente",
+"description":"Simulare mediante la programmazione a oggetti il funzionamento di un conto corrente",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "oop"
+}

@@ -1,7 +1,7 @@
 {
-"title":"Conta vocali in una frase",
+"title":"Max vocali in stringa",
 "description":"Contare le vocali di una frase di più parole",
-"difficulty": 1,
+"difficulty": 2,
 "requirements": [],
 "tags": [],
 "notes": "", 
