@@ -1,0 +1,9 @@
+{
+"title":"Conta caratteri minuscoli (vettore)",
+"description":"Contare il numero di caratteri minuscoli inseriti dall'utente in un vettore",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "vettori"
+}

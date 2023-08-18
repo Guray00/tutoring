@@ -1,0 +1,9 @@
+{
+"title":"Arrotondamento",
+"description":"Scrivere un programma che preso un valore in input lo arrotonda in modo corretto",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "if"
+}

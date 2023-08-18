@@ -1,0 +1,9 @@
+{
+"title":"Conta numeri",
+"description":"Inseriti n caratteri, contare quanti di questi sono numeri",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "loops"
+}
