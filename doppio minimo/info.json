@@ -1,0 +1,9 @@
+{
+"title":"Doppio minimo",
+"description":"Trovare i due numeri minimi in una sequenza",
+"difficulty": 3,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "loops"
+}
