@@ -1,0 +1,9 @@
+{
+"title":"Max e min diagonale",
+"description":"Trovare il massimo e il minimo della diagonale principale di una matrice",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "matrix"
+}

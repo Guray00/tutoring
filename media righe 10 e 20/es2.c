@@ -1,93 +1,84 @@
 #include <stdio.h>
-#define N 3
-#define K 3
-
-
-void caricamento(int M[][K]){
-	int i,j;
+ 
+// funzione che consente di caricare i valori in una matrice
+void caricaMatrice(int M[][100], int N, int K){
+  int i, j;
   
-	for(i=0;i<N;i++){
-		for(j=0;j<K;j++){
-			do{
-			  printf("inserire elemento (%d,%d): ",i,j);
-				scanf("%d", &M[i][j]);
-
-        // controllo sul fatto che deve essere positivo
-				if(M[i][j]<=0){
-					printf("errore, inserisci un valore positivo!\n");
-				}
-        
-      } while (M[i][j]<=0);
-		}
-	}
+  for(i=0; i<N; i++){
+    for(j=0; j<K; j++){
+      printf("Inserisci il valore [%d][%d]: ", i, j);
+      scanf("%d", &M[i][j]);
+    }
+  }
 }
 
-float media_righe(int M [][K], int R){
-	int j;
-	float somma=0, media;
-
-  // scorro le colonne
-	for (j=0; j<K; j++){
-		somma = somma + M[R][j];
-	}
-
-	media=somma/K;
-	return media;
-}
-
-
-// funzione che stampa la riga R-esima
-void stampa_riga(int M[][K], int R){
+// calcola la media di una riga R della matrice
+float calcoloMedia(int M[][100], int K, int R){
   int j;
+  float media=0;
+  
+  for(j=0; j<K; j++){
+    media= media + M[R][j];
+  }
 
-  // scorro le righe
-  printf("Riga numero %d: ", R);
-  for (j = 0; j < K; j++){
+  media = media / K;
+  return media;
+}
+
+// stampa una riga specifica della matrice
+void stampaRiga(int M[][100], int K, int R){
+  int j;
+  for(j=0; j<K; j++){
     printf("%d ", M[R][j]);
   }
-
+  
+  // vado a capo per evitare problemi di visualizzazione
   printf("\n");
 }
 
-int conta_righe(int M [][K]){
-	int i,c=0;
 
-  // per ogni riga
-	for(i=0;i<N;i++){
+// funzione che stampa una matrice
+void stampaMatrice(int M[][100], int N, int K){
+  int i, j;
 
-    // troviamo la media per la riga i-esimo
-    int media = media_righe(M, i);
-
-    // se rispetta la condizione
-		if(media > 10 && media < 20){
-      stampa_riga(M, i);
-			c++;
-		}
-	}		
-  
-	return c;
-}
-
-int main (){
-
-  // creo la matrice
-	int M[N][K], i;
-
-  // carica la matrice
-	caricamento(M);
-
-
-  for (i = 0; i < N; i++){
-	 printf("media righe = %f\n", media_righe(M,i));
+  printf("\n");
+  for(i=0; i<N; i++){
+    for(j=0; j<K; j++){
+      printf("%d ", M[i][j] );
+    }
+    printf("\n");
   }
-  printf("\n");
+}
+
+int main(){
+
+  int M[100][100], N, K, i, cont=0;
+  float media;
+
+  printf("Inserisci il numero di righe: ");
+  scanf("%d", &N);
   
-  // stampa le righe
-  int conta = conta_righe(M);
+  printf("Inserisci il numero di colonne: ");
+  scanf("%d", &K);
+
+  caricaMatrice(M, N, K);
+  stampaMatrice(M, N, K);
   printf("\n");
+
+  // scorriamo le righe
+  for(i=0; i<N; i++){
+    // per ogni riga calcolo la media
+    media = calcoloMedia(M, K, i);
+    
+    // se la media è compresa
+    if(media<20 && media>10){
+      printf("[riga %d: %.2f] ", i, media);
+      stampaRiga(M, K, i);
+      cont++;
+    }
   
-	printf ("Rispettano la condizione %d righe\n", conta);
-	
+  }
+
+  printf("\nIn totale le righe sono %d\n", cont);
 	return 0;
-	
 }

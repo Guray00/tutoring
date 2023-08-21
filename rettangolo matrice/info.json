@@ -1,0 +1,9 @@
+{
+"title":"Rettangolo matrice",
+"description":"Sostituire con 1 i valori ai bordi di una matrice e stamparla.",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "matrix"
+}
