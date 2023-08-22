@@ -1,0 +1,9 @@
+{
+"title":"Asterischi e media",
+"description":"Stampare la media dei valori inseriti e un numero di asterischi pari al loro valore",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "vettori"
+}

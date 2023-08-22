@@ -6,5 +6,18 @@ Un agenzia di viaggi applica la seguente politica di sconti per le comitive:
 
 Scrivere un programma che, dato il numero di persone della comitiva e il prezzo per singola persona, calcoli l'importo da pagare e il prezzo medio per persona.
 
-#### Esempio
-Per es. se la comitiva e' composta da 20 persone e il prezzo del biglietto è di 10 euro, l'importo da pagare e' sarà di: 20*10 - (20*10*0.7)
+## Esempio
+
+```plaintext
+Quanti persone ci sono? 5
+Quale è il prezzo a persona: 10
+
+Il prezzo è di 50 euro
+```
+
+```plaintext
+Quanti persone ci sono? 20
+Quale è il prezzo a persona: 10
+
+Il prezzo è di 186 euro
+```
