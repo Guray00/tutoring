@@ -1,4 +1,6 @@
-Dati un vettore V di 10 elementi inseriti dall'utente, calcolare la quantità di elementi di V che risultano più grandi della somma degli elementi dispari e stampare infine a schermo il risultato.
+Dato un vettore V di 10 elementi inseriti dall'utente, calcolare la quantità di elementi di V che risultano più grandi della somma degli elementi di valore dispari. 
+
+Stampare infine a schermo il risultato.
 
 ## Esempio 
 
