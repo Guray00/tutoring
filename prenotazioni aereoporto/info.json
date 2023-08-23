@@ -1,9 +1,9 @@
 {
 "title":"Prenotazioni aereoporto",
 "description":"Realizzare un sistema di prenotazione per un aereoporto",
-"difficulty": 1,
+"difficulty": 2,
 "requirements": [],
 "tags": [],
-"notes": "", 
+"notes": "Utile per esercitarsi con i Menu", 
 "argoment": "matrix"
 }
