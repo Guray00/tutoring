@@ -1,0 +1,9 @@
+{
+"title":"Triangoli ereditari",
+"description":"Realizzare una classe triangolo da cui si deriva TriangoloIsoscele da cui a sua volta è derivato TriangoloEquilatero",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Introduzione del concetto di ereditarie�tà", 
+"argoment": "oop"
+}
