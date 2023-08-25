@@ -1,83 +1,96 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
 
-#define N 2
-#define K 3
+#define RIGHE 5
+#define COLONNE 5
 
-// CARICAMENTO MATRICE
-void caricamento (int M[][K]){
-	int i,j;
-	float media;
-    
-	for(i=0;i<N;i++){
-		for(j=0;j<K;j++){
-			printf("inserire elemento (%d,%d): ",i,j);
-			scanf("%d", &M[i][j]);
-		}
-	}    
-}
-
-
-float mediacond(int M[][K]){
-	int i,j, c=0;
-	float somma=0, media;
-	 for(i=0;i<N;i++){
-	 	for(j=0;j<K;j++){
-	 		/*if( condizione){
-               // somma degli elementi che rispettano la condizione
-               somma = somma+M[i][j]; 
-               c++;
-               }*/
-			} 				
-       }	
-media = somma/c;
-return media;
-}
-
-// funzione che restituisce la migliore partita di un giocatore
-int miglior_partita(int M[][K], int R){
-  int max = 0;
-  int j;
-
-  // troviamo il massimo
-  for (j=0; j < K; j++){
-    if (M[R][j] > M[R][max]){
-      max = j;
+// funzione che carica dei valori nella matrice
+void caricaMatrice(int M[][COLONNE]){
+  int i, j;
+  
+  for(i=0; i<RIGHE; i++){
+    for(j=0; j<COLONNE; j++){
+      printf("Inserisci il valore [%d][%d] della matrice: ", i, j);
+      scanf("%d", &M[i][j]);
     }
+  }
+}
+
+// funzione che dato un giocatore ti dice il max punteggio
+int maxPunteggio(int M[][COLONNE], int R){
+  int i, j;
+
+  // prendiamo il primo valore come massimo per evitare
+  // che ci siano casi in cui lo zero non sia presente
+  int max=M[R][0];
+  
+  for(j=0; j<COLONNE; j++){
+   if(M[R][j] > max){
+     max = M[R][j];
+   }
   }
   
   return max;
 }
 
-int giocatore_piu_scarso(int M[][K], int C){
-
-  int min = 0;
-  int j;
+// funzione che restituisce l'indice del minimo
+int posGiocatoreScarso(int M[][COLONNE],int C){
+  int i, pos = 0;
   
-  for (j = 0; j < N; j++){
-    if (M[j][C] < M[min][C]){
-      min = j;
+  for(i=0; i<RIGHE; i++){
+    if(M[i][C] < M[pos][C]){
+      pos = i;
+    }
+  }
+  
+  return pos;
+}
+
+// funzione che restituisce la media di un giocatore
+float mediaGiocatore(int M[][COLONNE],int R){
+  int j;
+  float  media = 0;
+  
+  for(j=0; j<COLONNE; j++){
+    media = media + M[R][j];
+  }
+  media = media / COLONNE;
+  return media;
+}
+
+int main(){
+
+  int M[RIGHE][COLONNE], i, max, min, j, posmedia;
+  float media, mediamax = 0;
+  
+  // chiediamo di inserire i valori nel vettore
+  caricaMatrice(M);
+  printf("\n");
+
+  // stampare per ogni giocatore il massimo
+  for(i=0; i<RIGHE; i++){
+    max = maxPunteggio(M, i);
+    printf("Il punteggio massimo del giocatore %d e' %d\n", i, max);
+  }
+
+  printf("\n");
+
+  for(j = 0; j < COLONNE; j++){
+    min = posGiocatoreScarso(M, j);
+    printf("Parita %d -> giocatore %d è il peggiore (%d)\n", j, min, M[min][j]);
+  }
+
+  mediamax = 0; // mediaGiocatore(M, 0);
+  for(i = 0; i < RIGHE; i++){
+    // calcolo la media del giocatore che guardo
+    media = mediaGiocatore(M, i);
+    if(media > mediamax){
+     mediamax = media;
+     posmedia = i;
     }
   }
 
-  return min;
-}
-
-int main (){
- 	int M[N][K], i;
-
-  // carichiamo i valori
- 	caricamento(M);
-  printf("\nGiocatori:\n");
-
-  // scorriamo i giocatori
- 	for (i = 0; i < N; i++){
-    printf("Giocatore %d, miglior partita: %d\n", i, miglior_partita(M, i));  
-  }
-
-  printf("\nPartite:\n");
-  for (i = 0; i < K; i++){
-    printf("Partita %d, più scarso: %d\n", i, giocatore_piu_scarso(M, i));  
-  }
+  printf("\nMassima media: %.2f del giocatore %d\n", mediamax, posmedia);
   
-  return  0;
+	return 0;
 }
