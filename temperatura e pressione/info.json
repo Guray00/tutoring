@@ -1,0 +1,9 @@
+{
+"title":"Temperatura e pressione",
+"description":"Simulare un rilevatore di sensori di temperatura e pressione su cui vengono eseguite un gruppo di operazioni di analisi.",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "vettori"
+}

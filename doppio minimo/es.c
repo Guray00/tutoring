@@ -2,42 +2,33 @@
 #include <stdlib.h>
 
 int main(){
-  int n, min, min2, cont = 0;
+  int n, min, min2;
+  printf("Inserisci la sequenza: ");
+
+  // se è la prima volta che vedo un valore, questo è il mio minimo
+  // ci salviamo il minimo fuori dal ciclo 
+  // per avere un riferimento di partenza
+  scanf("%d", &n);
+  min  = n; // min contiene il minore assoluto
+  min2 = n;
   
-  // non so quanti numeri dovrò inserire
-  do{
-    printf("inserisci un numero: ");
+  while(n != 0){
     scanf("%d", &n);
 
-    // se ho messo lo zero, vai avanti
-    if(n == 0){
-      // interrompe il ciclo
-      break;
-    }   
-
-    // se è la prima volta che inserisco il numero,
-    // allora devo inizializzare i valori di min e min2
-    // per renderli significativi
-    if(cont == 0){
-      min = n;
-      min2 = n;
+    // se metto lo zero, non proseguo
+    if (n==0){ break;}
       
-      // evitiamo di rientrare
-      cont++;
-    }
-    
-    // se n è più piccolo di entrambi
-    if(n<min && n < min2){
-      min2 = min;
+    if(n<min){
+      min2=min;
       min=n;
     }
 
-    // se è solo più piccolo di min2
-    else if (n < min2){
-      min2 = n;
+    // è ridondante mettere la seconda condizione!
+    // se siamo arrivati qua significa che era già vera
+    else if(n<min2 && n>= min){
+      min2=n;
     }
-    
-  } while(n!=0);
+  } 
 
   printf("i due minimi sono: %d %d", min, min2);
   
