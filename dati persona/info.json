@@ -1,0 +1,9 @@
+{
+"title":"Dati persona",
+"description":"stampare i dati di una persona inseriti a schermo",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "Utile per gestire lo \n dopo un int", 
+"argoment": "strings"
+}

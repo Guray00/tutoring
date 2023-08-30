@@ -1,0 +1,9 @@
+{
+"title":"Copia minori",
+"description":"Copiare in un secondo vettore i valori minori di x, con  inserito dall'utente",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "vettori"
+}

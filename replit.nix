@@ -1,6 +1,7 @@
 { pkgs }: {
 	deps = [
-		pkgs.python310
+		pkgs.cccc
+  pkgs.python310
     pkgs.nano
     pkgs.jq.bin
     pkgs.clang_12

@@ -1,7 +1,20 @@
-orario = input("Inserisci rispettivamente ore, minuti e secondi: ").split(" ")
+# facciamo inserire le ore
+ore = int(input("inserisci le ore: "))
 
-ore = int(orario[0])*60*60
-minuti = int(orario[1])*60
-secondi = ore + minuti + int(orario[2])
+# facciamo inserire le minuti
+min = int(input("inserire i minuti: "))
 
-print("Orario in secondi:", secondi)
+# facciamo inserire le secondi
+sec = int(input("inserire i secondi: "))
+
+# converto le ore
+ore = ore* 60*60
+
+# converto i minuti
+min= min*60
+
+# calcolo il totale
+totale= ore+ min+ sec
+
+# mostro a schermo il totale
+print("il totale vale "+ str(totale))
