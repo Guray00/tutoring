@@ -1,8 +1,18 @@
-# chiediamo all'utente di inserire il numero
-numero = int(input("Inserisci un numero: "))
+# inserisco un numero 
+n = int(input("inserisco un numero: "))
 
-if numero%2 == 0:
-  print(numero*2)
+# se il numero è divisibile per 2
+if n%2 == 0:
+  # calcolo il doppio
+  n = n*2
+  
+  # lo mostro a schermo
+  print("il doppio vale " + str(n))
 
-else:
-  print(numero*3)
+# in tutti gli altri casi... 
+else: 
+  # calcolo il triplo
+  n= n*3
+
+  # lo mostro a schermo
+  print("il triplo vale "+str(n))
