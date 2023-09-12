@@ -1,18 +1,28 @@
-articoli = int(input("quanti articoli vuoi inserire? "))
-somma = 0
+n = int(input("numero di articoli: "))
 
-# per ogni articolo (quindi da 0 ad articoli)
-for i in range(0 , articoli):
-  # chiedere il costo
-  costo = float(input("inserisci il costo dell'articolo: "))
+while n<= 0:
+  print("inserisci un numero valido")
+  n = int(input("numero di articoli: "))
+  
+totale = 0
 
-  # chiedere lo sconto
-  percentuale = float(input("inserisci sconto applicato: "))
+# per ogni articolo
+for i in range(n):
 
-  # sconto del singolo articolo
-  sconto = costo * percentuale / 100
+  # inseriamo le informazioni
+  prezzo = int(input("inserire il prezzo: "))
+  while prezzo <= 0:
+    print("Hai sbagliato!")
+    prezzo=int(input("Inserisci il prezzo: "))
+  
+  sconto= int(input("inserire lo sconto: "))
+  while sconto<0 or sconto>100:
+    print("Hai sbagliato!")
+    sconto= int(input("inserire lo sconto: "))
+  
+  # calcoliamo lo sconto
+  s= prezzo*sconto/100
+  totale= s+totale
 
-  # sommato gli sconti per ottenere il totale
-  somma = somma + sconto
-
-print("Lo sconto totale è di "+ str(somma) + " euro")
+# stampare a schermo il totale degli sconti
+print("lo sconto totale "+ str(totale))

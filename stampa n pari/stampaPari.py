@@ -1,8 +1,7 @@
-n = int(input("Quanto vale n? "))
-y = list(range(1, n+1))
+n = int(input("inserisci un numero: "))
 
-#rimuovo i numeri dispari
-for i in y:
-    if i % 2 != 0:
-        y.remove(i)
-print(*y)
+# scorriamo i numeri da n a 0
+for i in range(n,0,-1):
+  
+  if i%2 == 0:
+    print(i, end=" ")

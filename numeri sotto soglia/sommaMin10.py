@@ -1,8 +1,9 @@
-count = 0
-while True:
-    x = int(input("Inserisci un numero: "))
-    if x < 10:
-        count += x
-    if x >= 10:
-        break
-print("La somma dei numeri minori di 10 è", count)
+n= int(input("inserire un numero: "))
+somma= 0
+while n>10 :
+  if  n> 10:
+    somma= somma+n 
+    
+  n= int(input("inserire un numero: "))
+  
+print("la somma dei numeri è "+ str(somma))
