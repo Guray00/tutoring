@@ -1,0 +1,9 @@
+{
+"title":"Divisibile per 5",
+"description":"Inserire un numero a schermo e verificare se è diivisibile per 5",
+"difficulty": 0,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "if"
+}

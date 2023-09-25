@@ -1,0 +1,9 @@
+{
+"title":"Tipologia triangoli",
+"description":"Determinare il tipo di triangolo inseriti i suoi 3 lati",
+"difficulty": 0,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "if"
+}
