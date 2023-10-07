@@ -1,4 +1,4 @@
-Data in input una stringa, determinare la parola che contiene più vocali.
+Data in input una stringa (contenente anche spazi), determinare la parola che contiene più vocali.
 
 **nota**: è suggerito l'utilizzo di una funzione per controllare se una lettera è una vocale.
 

@@ -53,6 +53,11 @@ int main(){
 
     // mandiamo avanti la lettera
     i++;
+  } 
+  
+  if (conta>massimo) {
+    // se è maggiore dell'attuale massimo, sostituisco
+    massimo = conta;
   }
 
   cout<<"La parola che ha più vocali contiene "<<massimo<<" vocali";
