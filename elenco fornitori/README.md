@@ -1,0 +1,3 @@
+All'interno di una tabella sono memorizzate le informazioni di un elenco di prodotti, ciascuno dei quali è dotato di un codice fornitore e un importo dovuto relative ai vari fornitori di una ditta. 
+
+Le informazioni sono memorizzate in ordine di codice, con possibilità di ripetizione. Realizza un algoritmo che consenta, per ogni fornitore, di conoscere l'importo medio e, alla fine, il fornitore caratterizzato da importo medio più alto e più basso.

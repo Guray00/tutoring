@@ -1,0 +1,9 @@
+{
+"title":"Elenco fornitori",
+"description":"Mostrare il prezzo medio di un elenco di fornitori con i relativi prodotti",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "struct"
+}
