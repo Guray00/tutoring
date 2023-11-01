@@ -1,0 +1,9 @@
+{
+"title":"Invasione alghe",
+"description":"Verificare l'andamento di una popolazione di alghe",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "loops"
+}

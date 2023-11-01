@@ -1,5 +1,6 @@
 { pkgs }: {
 	deps = [
+   pkgs.htop
 		pkgs.cccc
   pkgs.python310
     pkgs.nano
