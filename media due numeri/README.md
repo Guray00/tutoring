@@ -1,4 +1,9 @@
-Scrivi un programma che legge due numeri e, se sono diversi, ne visualizza il valore medio, se sono uguali il numero stesso. 
+Scrivere un programma che prende in ingresso due numeri e si comporti nel seguente modo:
+
+- se sono diversi ne visualizza il valore medio
+- se sono uguali il numero stesso.
+
+## Esempio
 
 ```plaintext
 inserisci il primo numero: 4
