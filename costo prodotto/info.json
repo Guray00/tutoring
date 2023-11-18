@@ -1,0 +1,9 @@
+{
+"title":"Costo Prodotto",
+"description":"Calcolare lo stato in cui il prodotto ha il prezzo minore",
+"difficulty": 4,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "data manipulation"
+}

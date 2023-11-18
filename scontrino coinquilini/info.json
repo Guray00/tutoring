@@ -1,0 +1,9 @@
+{
+"title":"Scontrino coinquilini",
+"description":"Calcolare alcune informazioni relativa alla spesa fatta tra due coinquilini, dei quali solo uno va a fare la spesa.",
+"difficulty": 4,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "data manipulation"
+}
