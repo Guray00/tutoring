@@ -1,0 +1,9 @@
+{
+"title":"Tirare dadi",
+"description":"Scrivere un programma per tirare dei dadi e contare quante volte esce 6",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "utile per ripassare i numeri casuali", 
+"argoment": "loops"
+}

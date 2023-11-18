@@ -1,0 +1,9 @@
+{
+"title":"Trova divisori",
+"description":"Trovare tutti i divisori di un numero inserito dall'utente",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "loops"
+}
