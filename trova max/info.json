@@ -1,0 +1,9 @@
+{
+"title":"Trovare il massimo",
+"description":"Scrivere un programma che trovi il numero maggiore tra una serie di valori inseriti",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "loops"
+}

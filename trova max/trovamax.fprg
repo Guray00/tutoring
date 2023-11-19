@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="marco"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-19 06:14:49 "/>
+        <attribute name="created" value="bWFyY287TUFURUJPT0s7MjAyMy0xMS0xOTsiMDU6NDE6MzMgIjsyMzE0"/>
+        <attribute name="edited" value="bWFyY287TUFURUJPT0s7MjAyMy0xMS0xOTsiMDY6MTQ6NDkgIjsxOzI0MzA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="inserire un valore n reale e chiedere n numeri, trovare il max"/>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="numero" type="Real" array="False" size=""/>
+            <declare name="max" type="Real" array="False" size=""/>
+            <output expression="&quot;Quanti numeri vuoi inserire? &quot;" newline="True"/>
+            <input variable="n"/>
+            <assign variable="i" expression="0"/>
+            <while expression="i &lt; n">
+                <output expression="&quot;Inserisci un numero: &quot;" newline="True"/>
+                <input variable="numero"/>
+                <if expression="i == 0">
+                    <then>
+                        <assign variable="max" expression="numero"/>
+                    </then>
+                    <else>
+                        <if expression="numero &gt; max">
+                            <then>
+                                <assign variable="max" expression="numero"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </else>
+                </if>
+                <assign variable="i" expression="i+1"/>
+            </while>
+            <output expression="&quot;Il numero massimo vale &quot; &amp;max" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
