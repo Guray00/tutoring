@@ -1,0 +1,1 @@
+Una programma che riceve un array (dinamico o non) di numeri reali e la sua dimensione e restituisce il numero di valori con parte intera divisibile per 6 presenti nell'array (esempio 12.45 è un valore corretto, 5.6 non lo è).

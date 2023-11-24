@@ -1,0 +1,9 @@
+{
+"title":"Sempre negativo",
+"description":"Scrivere un programma che verifica se dopo il primo valore negativo seguono solo valori negativi nel vettore",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "vettori"
+}

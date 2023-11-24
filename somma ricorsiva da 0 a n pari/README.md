@@ -1,0 +1,1 @@
+Una funzione ricorsiva "sommaPari" che riceve un valore intero sicuramente positivo e restituisce la somma di tutti i valori pari compresi tra 0 e il numero ricevuto. (esempio sommaPari di 10 sarà uguale a 2+4+6+8+10=30)

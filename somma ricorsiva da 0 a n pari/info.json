@@ -1,0 +1,9 @@
+{
+"title":"Somma ricorsiva da 0 a n pari",
+"description":"Sommare ricorsivamente solamente i numeri pari da 0 a n con n necessariamente positivo",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "ricorsione"
+}

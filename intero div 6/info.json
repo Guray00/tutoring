@@ -1,0 +1,9 @@
+{
+"title":"Parte intera divisibile per 6",
+"description":"Scrivere un programma che restituisca il numero di valori la cui parte intera sia divisibile per 6 in un vettore di elementi reali",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "vettori"
+}
