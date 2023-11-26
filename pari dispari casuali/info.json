@@ -1,0 +1,9 @@
+{
+"title":"Pari e dispari casuali",
+"description":"Generare n numeri e contare quanti di questi sono pari o dispari",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "loops"
+}

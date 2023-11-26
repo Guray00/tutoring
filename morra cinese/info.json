@@ -1,0 +1,9 @@
+{
+"title":"Morra cinese",
+"description":"implementare il gioco della morra cinese contro il computer",
+"difficulty": 3,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "loops"
+}
