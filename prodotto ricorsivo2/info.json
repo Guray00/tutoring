@@ -1,0 +1,9 @@
+{
+"title":"Prodotto ricorsivo",
+"description":"Calcolare il prodotto tra due numeri in modo ricorsivo",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "ricorsione", 
+"argoment": "ricorsione"
+}

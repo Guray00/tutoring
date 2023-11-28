@@ -1,0 +1,9 @@
+{
+"title":"Somma naturali (ricorsivo)",
+"description":"Sommare i numeri da 1 a n in modo ricorsivo",
+"difficulty": 0,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "ricorsione"
+}
