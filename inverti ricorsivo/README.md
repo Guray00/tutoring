@@ -1,1 +1,8 @@
 scrivere un programma che legga un numero intero positivo e ne stampi le cifre al contrario utilizzando una funzione ricorsiva
+
+## Esempio
+
+```plaintext
+Inserisci un numero: 1234
+4321
+```
