@@ -1,0 +1,9 @@
+{
+"title":"Perimetro triangolo scaleno",
+"description":"Calcolare il perimetro di un triangolo scaleno la cui altezza cade a tre quarti",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "loops"
+}

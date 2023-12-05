@@ -1,0 +1,9 @@
+{
+"title":"Compresi tra -4 e 4",
+"description":"Contare quanti numeri inseriti sono compresi tra -4 e 4",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "loops"
+}

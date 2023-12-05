@@ -1,0 +1,9 @@
+{
+"title":"Prodotto di quadrati",
+"description":"Calcolare il prodotto di quadrati inseriti dall'utente",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "loops"
+}

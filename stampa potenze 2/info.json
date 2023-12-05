@@ -1,0 +1,9 @@
+{
+"title":"Stampa potenze di 2",
+"description":"Inserire un valore x tra 0 e 10 e stampa la relativa potenza di 2",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "loops"
+}
