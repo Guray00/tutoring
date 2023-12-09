@@ -1,0 +1,9 @@
+{
+"title":"Vettore decrescente alternato",
+"description":"Scrivere un algoritmo che riempa im modo casuale un vettore con termini pari in posizione pari e dispari in posizione dispari.",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "vettori"
+}
