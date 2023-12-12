@@ -10,15 +10,15 @@ Scrivere un programma che, mediante l'utilizzo di funzioni e/o procedure:
 ```plaintext
 Inserisci il numero di righe: 3
 Inserisci il numero di colonne: 3
-Inserisci il [0][0] elemento della matrice: 1
-Inserisci il [0][1] elemento della matrice: 2
-Inserisci il [0][2] elemento della matrice: 3
-Inserisci il [1][0] elemento della matrice: 4
-Inserisci il [1][1] elemento della matrice: 5
-Inserisci il [1][2] elemento della matrice: 6
-Inserisci il [2][0] elemento della matrice: 7
-Inserisci il [2][1] elemento della matrice: 8
-Inserisci il [2][2] elemento della matrice: 9
+Inserisci l'elemento [0][0]: 1
+Inserisci l'elemento [0][1]: 2
+Inserisci l'elemento [0][2]: 3
+Inserisci l'elemento [1][0]: 4
+Inserisci l'elemento [1][1]: 5
+Inserisci l'elemento [1][2]: 6
+Inserisci l'elemento [2][0]: 7
+Inserisci l'elemento [2][1]: 8
+Inserisci l'elemento [2][2]: 9
 
 1 2 3 
 4 5 6 
