@@ -1,5 +1,4 @@
-Scrivere un programma che chieda di inserire numeri finchè sono inseriti numeri maggiori di 10.
- Alla fine deve mostrare a schermo la somma dei numeri inseriti
+Scrivere un programma che chieda di inserire valori quando questi sono maggiori di 10. Quando viene inserito un valore minore, il programma si interrompe e stampa a schermo la somma dei valori maggiori 10.
 
  ## Esempio 
 
