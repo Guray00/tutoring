@@ -1,0 +1,9 @@
+{
+"title":"Distributore biglietti",
+"description":"Scrivere un programma per la gestione di un distributore automatico di biglietti.",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "oop"
+}
