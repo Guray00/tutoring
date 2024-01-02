@@ -1,34 +1,45 @@
-#include <cstring>
 #include <iostream>
+#include <string>
 using namespace std;
 
-#define N 100
-
 int main(){
-  int l=0, i, conta=0;
-  char stringa[N];
-
-  // chiedo di inserire una frase in input
-  cout<<"Inserire una frase: ";
-  cin.getline(stringa, N);
+  string str;
+  int conta = 0;
   
-  // parte da 1 se non c'è uno spazio come primo carattere
-  if (stringa[0] != ' ') {
-    conta=1;
-  }
+  cout<<"inserisci una stringa: ";
+  getline(cin, str);
+ 
+  // all'inizio do per scontato che cercando una nuova parola
+  bool incorso = false;
   
-  // calcolo la lunghezza della stringa
-  l=strlen(stringa);
+  /*
+  se la parola in corso:
+    -> se becco un carattere chissene, continuo
+    -> se becco uno spazio la parola non è più in corso
 
-
-  for (i=0; i<l-1; i++) {
-    // la && serve per controllare che effettivamente la parola cominci
-    // e risolve il problema dei molteplici spazi
-    if (stringa[i]==' ' && && stringa[i+1] != ' ' && stringa[i+1] != '\0' && stringa[i+1] != '\n') {
-      conta=conta+1;
+  se la parola non in corso:
+    -> se becco un carattere la metto in corso
+    -> altrimenti continuo
+  */
+  
+  for(int i = 0; i < str.length(); i++){
+    // se la parola è in corso
+    if(incorso == true){
+      // se trovo uno spazio
+      if(str[i] == ' '){
+        // segno che ho finito di cercare  
+        incorso = false;
+      }
+    } else { // se la parola non è in corso
+      // se trovo un carattere (qualcosa != da ' ') rinizio
+      if(str[i] != ' '){
+        incorso = true;
+        conta++;
+      }
     }
   }
-  
-  cout<<"Le parole sono "<<conta<<endl;
+
+  cout << "Sono state inserite "<< conta << " parole"<<endl;
+
 	return 0;
 }

@@ -1,32 +1,27 @@
 #include <iostream>
-#include <cstring>
+#include <string>
 using namespace std;
 
-#define N 100
-
 int main(){
+  string str;
+  int conta = 0;
   
-  int conta=0, i, I; 
-
-  // definiamo la stringa da prendere in input
-  char stringa[N];
+  // chiedere di inserire una stringa
+  cout<<"inserisci una stringa: ";
   
-  cout<<"Inserire una stringa: ";
+  // salvare la stringa
+  getline(cin, str);
 
-  // prendiamo in input una frase
-  cin.getline(stringa, N);
-
-  // contiamo il numero di caratteri
-  I = strlen(stringa);
-  
-  for (i=0; i<I; i++) {
-    // escludiamo gli spazi dal conteggio dei caratteri
-    if (stringa[i] != ' ') {
-      conta=conta+1;
+  // --- contare i caratteri che non sono spazio nella stringa ---
+  for(int i = 0; i < str.length(); i++){
+    // se non è un carattere
+    if(str[i] != ' '){
+      // devo contare
+      conta = conta + 1;
     }
   }
   
-  cout<<"I caratteri sono "<<conta<<endl;
-
+  cout << "Sono presenti " << conta << " carattreri"<<endl;
+	
 	return 0;
 }

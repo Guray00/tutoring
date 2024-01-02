@@ -11,6 +11,12 @@ di una persona e li stampi in un messaggio. Verficiare che giorno e anno abbiano
 ## Esempio
 
 ```plaintext
+Inserisci il nome: Mario
+Inserisci il cognome: Rossi
+Inserisci giorno di nascita: 20
+Inserisci mese di nascita: maggio
+Inserisci anno di nascita: 2006
+
 Riepilogo dei tuoi dati
 Nome: Mario
 Cognome: Rossi
