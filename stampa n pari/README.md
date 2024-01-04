@@ -1,4 +1,4 @@
-Stampare i numeri pari minori di un certo N inserito dall'utente, 
+Scrivere un programma che consenta di stampare i numeri pari minori di un certo N inserito dall'utente, 
 in ordine decrescente.
 
 

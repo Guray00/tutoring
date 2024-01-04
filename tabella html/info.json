@@ -1,0 +1,9 @@
+{
+"title":"Da tabella a html",
+"description":"Leggere un file in input di una tabella e trasformarla in un file html",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "file"
+}
