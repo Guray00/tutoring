@@ -1,0 +1,9 @@
+{
+"title":"Temperature stanze",
+"description":"Scrivere un algoritmo per il calcolo della media di temperatura, minimo e massimo di ogni stanza",
+"difficulty": 4,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "data manipulation"
+}
