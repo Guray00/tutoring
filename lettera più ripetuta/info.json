@@ -1,0 +1,9 @@
+{
+"title":"Lettera più ripetuta",
+"description":"Scrivere un programma che trova la lettera più ripetuta",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "strings"
+}

@@ -1,6 +1,6 @@
 # Profilo di temperatura di un edificio
 
-All'interno di un edificio, sono stati installati una serie di sensori ambientali di temperatura, i quali periodicamente comunicano un valore di temperatura ad un sistema centrale. Il sistema interpola i dati provenienti dai sensori e produce un file (***temperature.txt***) con la mappa 2D (vista dall'alto) delle temperature presenti nell'edifico in un certo istante. Dato che l'area monitorata non è perfettamente rettangolare, la mappa è una griglia di valori di dimensione *RxC*, in cui il carattere '-' indica le zone escluse.
+All'interno di un edificio, sono stati installati una serie di sensori ambientali di temperatura, i quali periodicamente comunicano un valore di temperatura ad un sistema centrale. Il sistema interpola i dati provenienti dai sensori e produce un file (***temperature.txt***) con la mappa 2D (vista dall'alto) delle temperature presenti nell'edifico in un certo istante. Datoche l'area monitorata non è perfettamente rettangolare, la mappa è una griglia di valori di dimensione *RxC*, in cui il carattere '-' indica le zone escluse.
 
 Un secondo file (***mappa.txt***) riporta, per ogni locazione della griglia, un **carattere** che identifica il **codice della stanza** a cui quella locazione appartiene, oppure il **carattere '-'** se quella locazione è esclusa. Notare che questo file è composto dallo stesso numero di locazioni del primo.
 

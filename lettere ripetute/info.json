@@ -1,0 +1,9 @@
+{
+"title":"Lettere ripetute",
+"description":"Scrivere un programma che dica se in una stringa ci sono lettere che si ripetono",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "strings"
+}
