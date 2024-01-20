@@ -1,0 +1,9 @@
+{
+"title":"Stipendio Dipendenti",
+"description":"Calcolare lo stipendio dati alcuni dipendenti di livelli differenti",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "oop"
+}
