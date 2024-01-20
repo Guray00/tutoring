@@ -1,0 +1,9 @@
+{
+"title":"Statistiche calciatori",
+"description":"Calcolare alcune statistiche relative ai calciatori di alcune squadre di calcio",
+"difficulty": 4,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "data manipulation"
+}

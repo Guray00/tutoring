@@ -1,0 +1,9 @@
+{
+"title":"Media in posizione dispari",
+"description":"Trovare la media degli elementi in posizione dispari di un vettore",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "vettori"
+}

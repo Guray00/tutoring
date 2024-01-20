@@ -1,0 +1,9 @@
+{
+"title":"Statistiche stazioni meteo",
+"description":"Calcolare alcune statistiche generali su alcuni file relative a delle stazioni meteo",
+"difficulty": 4,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "data manipulation"
+}
