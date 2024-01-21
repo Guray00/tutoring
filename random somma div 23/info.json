@@ -1,0 +1,9 @@
+{
+"title":"Somma casuali divisibili per 23",
+"description":"Scrivere un programma per contare il numero di iterazioni necessarie per trovare una somma di valori divisibile per 23",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "random", 
+"argoment": "loops"
+}

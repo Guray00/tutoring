@@ -1,0 +1,9 @@
+{
+"title":"Somma a coppie",
+"description":"Calcolare la somma di un vettore a coppie e individuare il massimo",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "vettori"
+}
