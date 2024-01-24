@@ -1,0 +1,9 @@
+{
+"title":"Tempesta",
+"description":"Gestire la transizione di una tempesta su una mappa fornita come matrice",
+"difficulty": 4,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "data manipulation"
+}
