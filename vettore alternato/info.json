@@ -1,0 +1,9 @@
+{
+"title":"Vettore alternato",
+"description":"Inserire in modo alternato gli elementi presi da due liste all'interno di una terza lista",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "vettori"
+}
