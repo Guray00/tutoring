@@ -1,0 +1,9 @@
+{
+"title":"Battaglia navale",
+"description":"Simulare il funzionamento della battaglia navale leggendo da un file le mosse e gli schemi",
+"difficulty": 4,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "data manipulation"
+}
