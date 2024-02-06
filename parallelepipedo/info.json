@@ -1,0 +1,9 @@
+{
+"title":"Parallelepipedo",
+"description":"Implementare la classe parallelepipedo come derivata di rettangolo",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "utilizzo di ereditarietà", 
+"argoment": "oop"
+}
