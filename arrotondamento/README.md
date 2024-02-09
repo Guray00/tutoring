@@ -1,4 +1,4 @@
-Scrivere un algoritmo che prende un valore in input, arrotondarlo per ecesso o per difetto in base al valore.
+Scrivere un algoritmo che prende un valore in input, arrotondarlo per eccesso o per difetto in base al valore.
 
 Esempio
 
