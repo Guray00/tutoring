@@ -1,0 +1,9 @@
+{
+"title":"Pari diagonale principale",
+"description":"Contare quanti elementi sono pari sopra e sotto la diagonale principale",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "matrix"
+}
