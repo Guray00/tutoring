@@ -1,0 +1,9 @@
+{
+"title":"Quadrato indici vettore",
+"description":"Inizializzare un vettore con gli elementi pari al quadrato del proprio indice",
+"difficulty": 1,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "vettori"
+}
