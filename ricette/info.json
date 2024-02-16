@@ -1,0 +1,9 @@
+{
+"title":"Ricette e ingredienti",
+"description":"Gestione della creazione di ricette recuperando gli ingredienti da un file",
+"difficulty": 4,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "data manipulation"
+}

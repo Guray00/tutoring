@@ -1,0 +1,9 @@
+{
+"title":"Mappe Laser",
+"description":"Trovare il massimo in una mappa con un range fornito",
+"difficulty": 5,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "data manipulation"
+}
