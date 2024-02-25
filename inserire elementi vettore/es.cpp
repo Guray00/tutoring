@@ -27,7 +27,9 @@ int main(){
   }
 
   for (int i = 0; i < n; i++){
-    cout<<v[i]<<" ";
+    // mostro a schermo l'elemento
+    cout<<v[i]<<" "; 
+    //           ^ serve per mettere lo spazio tra gli elementi
   }
 
   

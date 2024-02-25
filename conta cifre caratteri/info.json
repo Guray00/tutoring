@@ -1,0 +1,9 @@
+{
+"title":"Conta cifre e caratteri",
+"description":"Contare il numero di cifre e caratteri inseriti continuamente nel testo",
+"difficulty": 0,
+"requirements": [],
+"tags": [],
+"notes": "Utile per iniziare con le stringhe", 
+"argoment": "strings"
+}

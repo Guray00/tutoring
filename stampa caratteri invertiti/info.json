@@ -1,0 +1,9 @@
+{
+"title":"Stampa caratteri invertiti",
+"description":"Stampare i caratteri maiuscoli in minuscoli e viceversa",
+"difficulty": 0,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "strings"
+}
