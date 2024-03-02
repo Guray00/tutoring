@@ -1,0 +1,9 @@
+{
+"title":"Conversione binario",
+"description":"Convertire un numero in binario e salvare la traduzione in un vettore",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "vettori"
+}
