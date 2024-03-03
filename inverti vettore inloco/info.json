@@ -1,0 +1,9 @@
+{
+"title":"Inverti vettore",
+"description":"invertire in loco la posizione del vettore",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "vettori"
+}
