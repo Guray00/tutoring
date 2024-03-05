@@ -1,0 +1,9 @@
+{
+"title":"Posizione alfabeto",
+"description":"dato un carattere in ingresso individuare la sua posizione nell'alfabeto",
+"difficulty": 0,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "strings"
+}

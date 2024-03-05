@@ -1,0 +1,1 @@
+Leggere due caratteri e, se sono entrambi cifre, stampare il valore della somma delle due cifre. Dal codice ASCII devo passare al numero e fare la somma

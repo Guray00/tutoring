@@ -1,0 +1,9 @@
+{
+"title":"Somma caratteri cifre",
+"description":"Sommare due cifre inserite come caratteri",
+"difficulty": 0,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "strings"
+}
