@@ -1,0 +1,9 @@
+{
+"title":"Media fino a zero",
+"description":"Calcola la media di numeri casuali fino alla generazione dello zero",
+"difficulty": 2,
+"requirements": [],
+"tags": [],
+"notes": "", 
+"argoment": "loops"
+}
